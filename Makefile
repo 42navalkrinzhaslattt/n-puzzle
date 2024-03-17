@@ -10,7 +10,7 @@ INC_DIR = include
 
 CC		= cc
 
-CFLAGS	= -Wall -Werror -Wextra -g
+CFLAGS	= -Wall -Werror -Wextra
 
 RM	= rm -f
 
@@ -20,7 +20,7 @@ RM	= rm -f
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -g3 -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -O3 -g -o $(NAME)
 
 clean:
 	$(RM) $(OBJ)

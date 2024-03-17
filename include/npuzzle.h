@@ -8,40 +8,36 @@
 # define INV_FD_FLAG 2
 # define INV_INPUT_FLAG 3
 
+#define UP 1
+#define DOWN 2
+#define LEFT 4
+#define RIGHT 8
+
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 
-//int	table_size;
-
-typedef struct s_state
-{
-	int	*arr;
-	int	empty;
-}	t_state;
+int		table_size;
 
 typedef struct s_queue
 {
 	struct s_queue	*next;
 	struct s_queue	*prev;
-	int				prev_oper;
-	t_state			*state;
+	int				prev_oper;//everything can be changed to char
 	int				heuristic;
+	int				empty_x;
+	int				empty_y;
+	int				depth;
+	int				**arr;
 }	t_queue;
 
-typedef struct s_data
-{
-	int		table_size;
-}	t_data;
+int	get_inversions(int **arr);
+int	get_manhattan_distance(int **arr, int y, int x);
+int	get_manhattan_arr(int **arr);
 
-int	get_inversions(t_state *state, int size);
-int	get_manhattan_distance(t_state *state, int index, int size);
-int	get_manhattan_state(t_state *state, int size);
-
-void	print_state(t_state *state, int size);
-t_state	*parse_input(char *filename, t_data *data);
-int		get_inversions(t_state *state, int size);
+void	print_arr(int **arr);
+void	parse_input(char *filename, t_queue *root);
 
 #endif

@@ -1,42 +1,48 @@
 #include "npuzzle.h"
 
-int	get_inversions(t_state *state, int size)
+int	get_inversions(int **arr)
 {
-	int	*arr;
-	int	arr_size;
 	int	res;
 
 	res = 0;
-	arr = state->arr;
-	arr_size = size * size;
-	for (int i = 0; i < arr_size; i++)
+	for (int i1 = 0; i1 < table_size; i1++)
 	{
-		for (int j = i + 1; j < arr_size; j++)
+		for (int j1 = 0; j1 < table_size; j1++)
 		{
-			if (arr[i] > arr[j])
-				++res;
+			for (int j3 = j1 + 1; j3 < table_size; j3++)
+			{
+				if (arr[i1][j1] > arr[i1][j3])
+					++res;
+			}
+			for (int i2 = i1 + 1; i2 < table_size; i2++)
+			{
+				for (int j2 = 0; j2 < table_size; j2++)
+				{
+					if (arr[i1][j1] > arr[i2][j2])
+						++res;
+				}
+			}
 		}
 	}
 	return (res);
 }
 
-int	get_manhattan_distance(t_state *state, int index, int size)
+int	get_manhattan_distance(int **arr, int y, int x)
 {
-	return (abs((state->arr[index] - 1) / size - index / size) + abs((state->arr[index] - 1) % size - index % size));
+	return (abs((arr[y][x] - 1) / table_size -  y) + abs((arr[y][x] - 1) % table_size -  x));
 }
 
-int	get_manhattan_state(t_state *state, int size)
+int	get_manhattan_arr(int **arr)
 {
-	int	*arr;
 	int	res;
-	int	arr_size;
 
 	res = 0;
-	arr = state->arr;
-	arr_size = size * size;
-	for (int i = 0; i < arr_size; i++)
+	for (int i = 0; i < table_size; i++)
 	{
-		res += get_manhattan_distance(state, i, size);
+		for (int j = 0; j < table_size; j++)
+		{
+			res += get_manhattan_distance(arr, i, j);
+		}
 	}
 	return (res);
 }
