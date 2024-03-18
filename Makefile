@@ -1,6 +1,6 @@
 NAME	= npuzzle
 
-SRC		= main.c utils.c heuristics.c hashtable.c
+SRC		= main.c utils.c heuristics.c hashtable.c heap.c
 
 SRC_DIR	= src/
 

@@ -1,6 +1,6 @@
 #include "npuzzle.h"
 
-int	get_inversions(int **arr)
+int	get_inversion_arr(int **arr)
 {
 	int	res;
 
@@ -26,6 +26,53 @@ int	get_inversions(int **arr)
 	}
 	return (res);
 }
+
+int	change_inversion(int **arr, int empty_x, int empty_y, int swap_x, int swap_y)
+{
+	int empty_res = 0;
+	int swap_res = 0;
+
+	if (empty_y < swap_y)
+		empty_res += table_size;
+	else
+		empty_res -= table_size;
+	if (empty_y < swap_y)
+	{
+		for (int i = empty_x + 1; i < table_size; i++)
+		{
+			if (arr[empty_y][i] > arr[swap_y][swap_x])
+				++swap_res;
+			else
+				--swap_res;
+		}
+		for (int i = 0; i < swap_x; i++)
+		{
+			if (arr[swap_y][i] > arr[swap_y][swap_x])
+				++swap_res;
+			else
+				--swap_res;
+		}
+	}
+	else
+	{
+		for (int i = swap_x + 1; i < table_size; i++)
+		{
+			if (arr[swap_y][i] < arr[swap_y][swap_x])
+				++swap_res;
+			else
+				--swap_res;
+		}
+		for (int i = 0; i < empty_x; i++)
+		{
+			if (arr[empty_y][i] < arr[swap_y][swap_x])
+				++swap_res;
+			else
+				--swap_res;
+		}
+	}
+	return (empty_res + swap_res);
+}
+
 
 int	get_manhattan_distance(int **arr, int y, int x)
 {
