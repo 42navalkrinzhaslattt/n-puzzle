@@ -14,7 +14,8 @@
 #define RIGHT 8
 
 #define DEPTH_LIMIT 50
-#define HEAP_SIZE 1000
+#define HEAP_LIMIT_3 17000
+#define HEAP_LIMIT_4 30000000
 
 #include <unistd.h>
 #include <fcntl.h>
@@ -50,7 +51,7 @@ void	parse_input(char *filename, t_queue *root);
 
 //heap.c
 void	free_arr(int **arr);
-void	exit_search(t_queue	*end, t_queue *root, int heap_size);
+void	exit_search(t_queue	**heap, t_queue *root, int heap_size);
 t_heap	*copy_state(t_heap *old, int operation);
 void	change_state(t_heap *new, int operation);
 void	insert_node(t_heap **heap, t_heap *new, int heap_size);

@@ -25,13 +25,16 @@ void	parse_input(char *filename, t_queue *data)
 	if ((fd = open(filename, O_RDONLY)) == -1)
 		exit((write(2, INV_FD_MSG, 22), INV_FD_FLAG));
 	buf[read(fd, buf, 999)] = 0;
-	table_size = atoi(buf);
+	ptr = buf;
+	if (buf[0] < '0' || buf[0] > '9')
+		ptr = strchr(buf, '\n') + 1;
+	table_size = atoi(ptr);
 	arr = malloc(table_size * sizeof(int**));
 	for (int i = 0; i < table_size; i++)
 	{
 		arr[i] = malloc(table_size * sizeof(int));
 	}
-	ptr = strchr(buf, '\n') + 1;
+	ptr = strchr(ptr, '\n') + 1;
 	for (int i = 0; i < table_size; i++)
 	{
 		for (int j = 0; j < table_size; j++)
@@ -44,8 +47,10 @@ void	parse_input(char *filename, t_queue *data)
 			}
 			else
 				arr[i][j] = atoi(ptr);
-			if (j != table_size - 1)
-				ptr = strchr(ptr, ' ') + 1;
+			while (*ptr && *ptr >= '0' && *ptr <= '9')
+				ptr++;
+			while (*ptr && *ptr == ' ')
+				ptr++;
 		}
 		ptr = strchr(ptr, '\n') + 1;
 	}

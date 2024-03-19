@@ -24,7 +24,7 @@ int	main(int ac, char **av)
 	root->depth = 0;
 	parse_input(av[1], root);
 	root->heuristic = get_manhattan_arr(root->arr);
-	if ((get_inversion_arr(root->arr) + get_manhattan_distance(root->arr, root->empty_y, root->empty_x)) % 2 == 1)//can be optimized to O(n log n);
+	if ((get_inversion_arr(root->arr) + get_manhattan_distance(root->arr, root->empty_y, root->empty_x)) % 2 == 1)
 		exit((write(2, INV_INPUT_MSG, 21), INV_INPUT_FLAG));
 	search_path(root);
 }

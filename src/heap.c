@@ -9,15 +9,43 @@ void	free_arr(int **arr)
 	free(arr);
 }
 
-void	exit_search(t_queue	*end, t_queue *root, int heap_size)
-{
-	t_queue *temp;
 
+void	print_heap(t_heap **heap, int heap_size)
+{
+	for (int k = 0; k < heap_size; k++)
+	{
+		for (int i = 0; i < table_size; i++)
+		{
+			for (int m = 0; m < heap[k]->depth; m++)
+			{
+				printf("\t");
+			}
+			for (int j = 0; j < table_size; j++)
+			{
+				printf("%d", heap[k]->arr[i][j]);
+				if (j != table_size - 1)
+					printf(" ");
+			}
+			printf("\n");
+		}
+		for (int m = 0; m < heap[k]->depth; m++)
+		{
+			printf("\t");
+		}
+		printf("priority = %d + %d\n", heap[k]->heuristic, heap[k]->depth);
+	}
+}
+
+void	exit_search(t_queue	**heap, t_queue *root, int heap_size)
+{
+	t_heap *temp;
+	t_heap *end;
+
+	end = heap[0];
 	print_arr(end->arr);
 	printf("SOLUTION!!!!!!!!!!\n");
 	while (end->depth >= 0)
 	{
-//		print_arr(end->arr);
 		if (end->prev_oper & UP)
 			printf("UP\n");
 		else if (end->prev_oper & DOWN)
@@ -31,6 +59,7 @@ void	exit_search(t_queue	*end, t_queue *root, int heap_size)
 		end = end->prev;
 	}
 	printf("SOLUTION ENDS\n");
+	exit(0);
 	while (root)
 	{
 		temp = root->next;
@@ -40,9 +69,10 @@ void	exit_search(t_queue	*end, t_queue *root, int heap_size)
 	}
 	for (int i = 0; i < heap_size; i++)
 	{
-		free_arr((end + i)->arr);
-		free(end + i);
+		free_arr(heap[i]->arr);
+		free(heap[i]);
 	}
+	free(heap);
 	exit(0);
 }
 
@@ -103,10 +133,26 @@ void	change_state(t_heap *new, int operation)
 	new->heuristic += get_manhattan_distance(arr, y_empty, x_empty) + get_manhattan_distance(arr, y_swap, x_swap) - old_distance;
 }
 
+int	check_heap(t_heap **heap, int heap_size)
+{
+	for (int i = 0; 2 * i + 1 < heap_size; i++)
+	{
+		if (heap[i]->heuristic + heap[i]->depth > heap[2 * i + 1]->heuristic + heap[2 * i + 1]->depth
+			|| ((2 * i + 2 < heap_size) &&heap[i]->heuristic + heap[i]->depth > heap[2 * i + 2]->heuristic + heap[2 * i + 2]->depth))
+			return (0);
+	}
+	return (1);
+}
+
 void	insert_node(t_heap **heap, t_heap *new, int heap_size)
 {
 	int		new_index;
 
+	if (heap_size == 0)
+	{
+		heap[0] = new;
+		return ;
+	}
 	new_index = heap_size;
 	heap[new_index] = new;
 	while (heap[(new_index - 1) / 2]->heuristic + heap[(new_index - 1) / 2]->depth > new->heuristic + new->depth)
@@ -122,78 +168,144 @@ void	delete_root(t_heap **heap, int heap_size)
 	int		index;
 	int		child_flag;
 
+	if (heap_size == 1)
+		return ;
 	index = 0;
 	heap[0] = heap[heap_size - 1];
-	if (heap[2 * index + 1]->heuristic + heap[2 * index + 1]->depth < heap[2 * index + 2]->heuristic + heap[2 * index + 2]->depth)
-		child_flag = 1;
-	else
-		child_flag = 2;
-	while (heap[index]->heuristic + heap[index]->depth > heap[2 * index + child_flag]->heuristic + heap[2 * index + child_flag]->depth)
+	if (2 * index + 2 < heap_size - 1)
+	{
+		if (heap[2 * index + 1]->heuristic + heap[2 * index + 1]->depth <
+			heap[2 * index + 2]->heuristic + heap[2 * index + 2]->depth)
+			child_flag = 1;
+		else
+			child_flag = 2;
+	}
+	while (2 * index + 2 < heap_size - 1 &&  heap[index]->heuristic + heap[index]->depth > heap[2 * index + child_flag]->heuristic + heap[2 * index + child_flag]->depth)
 	{
 		heap[index] = heap[2 * index + child_flag];
 		index = 2 * index + child_flag;
-		heap[index] = heap[heap_size];
+		heap[index] = heap[heap_size - 1];
+		if (2 * index + 2 >= heap_size - 1)
+			break ;
 		if (heap[2 * index + 1]->heuristic + heap[2 * index + 1]->depth < heap[2 * index + 2]->heuristic + heap[2 * index + 2]->depth)
 			child_flag = 1;
 		else
 			child_flag = 2;
 	}
+	if (2 * index + 1 < heap_size - 1 && heap[index]->heuristic + heap[index]->depth > heap[2 * index + 1]->heuristic + heap[2 * index + 1]->depth)
+	{
+		heap[index] = heap[2 * index + 1];
+		index = 2 * index + 1;
+		heap[index] = heap[heap_size - 1];
+	}
 }
 
 void	search_path(t_heap *root)
 {
-	t_heap	*heap[HEAP_SIZE];
+	t_heap	**heap;
 	t_heap	*traverse = NULL;
 	t_heap	*next_state;
 	int		heap_size = 0;
-	int i = 0;
+	int		heap_limit = 0;
 
+	if (table_size == 3)
+		heap_limit = HEAP_LIMIT_3;
+	else
+		heap_limit = HEAP_LIMIT_4;
+	heap = malloc(heap_limit * sizeof(t_heap*));
+	if (!heap)
+	{
+		printf("Not enough memory\n");
+		exit(0);
+	}
 	heap[0] = root;
 	++heap_size;
 	while (heap[0]->heuristic != 0)
 	{
-//		printf("queue on %d iteration\n\n", i);
-//		print_queue(queue);
-//		printf("queue ends\n\n");
-		if (!(heap[0]->prev_oper & DOWN) && heap[0]->empty_y != 0)
-		{
-			next_state = copy_state(heap[0], UP);
-			change_state(next_state, UP);
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(heap[0]->prev_oper & UP) && (heap[0]->empty_y != table_size - 1))
-		{
-			next_state = copy_state(heap[0], DOWN);
-			change_state(next_state, DOWN);
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(heap[0]->prev_oper & RIGHT) && heap[0]->empty_x != 0)
-		{
-			next_state = copy_state(heap[0], LEFT);
-			change_state(next_state, LEFT);
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(heap[0]->prev_oper & LEFT) && (heap[0]->empty_x != table_size - 1))
-		{
-			next_state = copy_state(heap[0], RIGHT);
-			change_state(next_state, RIGHT);
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
+		if ((get_inversion_arr(heap[0]->arr) + get_manhattan_distance(heap[0]->arr, heap[0]->empty_y, heap[0]->empty_x)) % 2 == 1)//can be optimized to O(n log n);
+			exit((write(2, INV_INPUT_MSG, 21), INV_INPUT_FLAG));
 		if (!traverse)
 			traverse = root;
 		else
 		{
 			traverse->next = heap[0];
 			traverse = traverse->next;// start is in the root
-
 		}
 		delete_root(heap, heap_size);
 		--heap_size;
-		i++;
+		if (!(traverse->prev_oper & DOWN) && traverse->empty_y != 0)
+		{
+			if (heap_size == heap_limit - 1)
+			{
+				printf("HEAP SIZE IS NOT ENOUGH\n");
+				exit (0);
+			}
+			next_state = copy_state(traverse, UP);
+			change_state(next_state, UP);
+			if (next_state->heuristic == 0)
+			{
+				heap[heap_size] = heap[0];
+				heap[0] = next_state;
+				break ;
+			}
+			insert_node(heap, next_state, heap_size);
+			++heap_size;
+		}
+		if (!(traverse->prev_oper & UP) && (traverse->empty_y != table_size - 1))
+		{
+			if (heap_size == heap_limit - 1)
+			{
+				printf("HEAP SIZE IS NOT ENOUGH\n");
+				exit (0);
+			}
+			next_state = copy_state(traverse, DOWN);
+			change_state(next_state, DOWN);
+			if (next_state->heuristic == 0)
+			{
+				heap[heap_size] = heap[0];
+				heap[0] = next_state;
+				break ;
+			}
+			insert_node(heap, next_state, heap_size);
+			++heap_size;
+		}
+		if (!(traverse->prev_oper & RIGHT) && traverse->empty_x != 0)
+		{
+			if (heap_size == heap_limit - 1)
+			{
+				printf("HEAP SIZE IS NOT ENOUGH\n");
+				exit (0);
+			}
+			next_state = copy_state(traverse, LEFT);
+			change_state(next_state, LEFT);
+			if (next_state->heuristic == 0)
+			{
+				heap[heap_size] = heap[0];
+				heap[0] = next_state;
+				break ;
+			}
+			insert_node(heap, next_state, heap_size);
+			++heap_size;
+		}
+		if (!(traverse->prev_oper & LEFT) && (traverse->empty_x != table_size - 1))
+		{
+			if (heap_size == heap_limit - 1)
+			{
+				printf("HEAP SIZE IS NOT ENOUGH\n");
+				exit (0);
+			}
+			next_state = copy_state(traverse, RIGHT);
+			change_state(next_state, RIGHT);
+			if (next_state->heuristic == 0)
+			{
+				heap[heap_size] = heap[0];
+				heap[0] = next_state;
+				break ;
+			}
+			insert_node(heap, next_state, heap_size);
+			++heap_size;
+		}
+		free_arr(traverse->arr);
 	}
-	exit_search(heap[0], root, heap_size);
+	exit_search(heap, root, heap_size);
 }

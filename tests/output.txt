@@ -1,0 +1,17164 @@
+UP
+LEFT
+old root arr:
+3 7 1
+2 4 9
+6 5 8
+new root arr:
+3 7 1
+2 4 8
+6 9 5
+UP
+LEFT
+old root arr:
+3 7 1
+2 4 8
+6 9 5
+new root arr:
+3 7 1
+2 9 4
+6 5 8
+UP
+LEFT
+old root arr:
+3 7 1
+2 9 4
+6 5 8
+new root arr:
+3 7 1
+2 4 8
+9 6 5
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+2 5 4
+6 9 8
+new root arr:
+3 7 1
+2 4 8
+9 6 5
+LEFT
+RIGHT
+old root arr:
+3 7 1
+2 5 4
+6 8 9
+new root arr:
+3 7 1
+2 5 4
+9 6 8
+UP
+old root arr:
+3 7 1
+2 5 4
+9 6 8
+new root arr:
+3 7 1
+2 4 8
+9 6 5
+UP
+old root arr:
+3 7 1
+2 4 8
+9 6 5
+new root arr:
+3 7 9
+2 4 1
+6 5 8
+UP
+old root arr:
+3 7 9
+2 4 1
+6 5 8
+new root arr:
+3 7 1
+2 5 9
+6 8 4
+LEFT
+old root arr:
+3 7 1
+2 5 9
+6 8 4
+new root arr:
+3 7 1
+9 2 4
+6 5 8
+UP
+LEFT
+old root arr:
+3 7 1
+9 2 4
+6 5 8
+new root arr:
+3 9 1
+2 7 4
+6 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 2 4
+9 5 8
+new root arr:
+3 9 1
+2 7 4
+6 5 8
+RIGHT
+old root arr:
+3 9 1
+2 7 4
+6 5 8
+new root arr:
+3 7 1
+6 2 4
+5 9 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+2 7 4
+6 5 8
+new root arr:
+3 7 1
+6 2 4
+5 9 8
+DOWN
+old root arr:
+3 7 1
+6 2 4
+5 9 8
+new root arr:
+3 1 4
+2 7 9
+6 5 8
+UP
+RIGHT
+old root arr:
+3 7 1
+6 2 4
+5 8 9
+new root arr:
+3 1 4
+2 7 9
+6 5 8
+UP
+old root arr:
+3 1 4
+2 7 9
+6 5 8
+new root arr:
+3 7 1
+2 9 8
+6 4 5
+DOWN
+LEFT
+old root arr:
+3 7 1
+2 9 8
+6 4 5
+new root arr:
+9 3 1
+2 7 4
+6 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+2 8 9
+6 4 5
+new root arr:
+9 3 1
+2 7 4
+6 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+2 8 5
+6 4 9
+new root arr:
+9 3 1
+2 7 4
+6 5 8
+LEFT
+old root arr:
+9 3 1
+2 7 4
+6 5 8
+new root arr:
+3 1 4
+2 7 8
+6 5 9
+DOWN
+old root arr:
+2 3 1
+9 7 4
+6 5 8
+new root arr:
+3 1 4
+2 7 8
+6 5 9
+DOWN
+RIGHT
+old root arr:
+2 3 1
+6 7 4
+9 5 8
+new root arr:
+2 3 1
+7 9 4
+6 5 8
+RIGHT
+old root arr:
+2 3 1
+7 9 4
+6 5 8
+new root arr:
+2 3 1
+6 7 4
+5 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+UP
+old root arr:
+2 3 1
+7 4 9
+6 5 8
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+DOWN
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 3 1
+7 4 8
+6 5 9
+UP
+old root arr:
+2 3 1
+7 4 8
+6 5 9
+new root arr:
+2 3 1
+6 7 4
+5 9 8
+LEFT
+old root arr:
+2 3 1
+6 7 4
+5 9 8
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 4
+5 8 9
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+UP
+old root arr:
+2 3 1
+9 5 4
+7 6 8
+new root arr:
+2 3 1
+7 5 9
+6 8 4
+UP
+RIGHT
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+3 1 4
+2 7 8
+6 5 9
+UP
+LEFT
+old root arr:
+3 1 4
+2 7 8
+6 5 9
+new root arr:
+2 3 1
+6 9 4
+5 7 8
+LEFT
+old root arr:
+2 3 1
+6 9 4
+5 7 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 4 9
+5 7 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+DOWN
+old root arr:
+2 3 1
+5 9 4
+7 6 8
+new root arr:
+2 3 1
+6 4 8
+5 7 9
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 9 8
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 8 9
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+UP
+old root arr:
+2 3 1
+5 4 9
+7 6 8
+new root arr:
+2 3 1
+6 4 8
+5 7 9
+UP
+DOWN
+old root arr:
+2 3 1
+6 4 8
+5 7 9
+new root arr:
+2 3 1
+5 4 8
+7 6 9
+LEFT
+old root arr:
+2 3 1
+5 4 8
+7 6 9
+new root arr:
+2 3 9
+7 4 1
+6 5 8
+LEFT
+old root arr:
+2 3 9
+7 4 1
+6 5 8
+new root arr:
+3 9 7
+2 4 1
+6 5 8
+LEFT
+old root arr:
+3 9 7
+2 4 1
+6 5 8
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+5 6 9
+7 8 4
+new root arr:
+2 3 1
+5 4 8
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+5 4 8
+7 9 6
+new root arr:
+2 9 3
+7 4 1
+6 5 8
+UP
+LEFT
+old root arr:
+2 9 3
+7 4 1
+6 5 8
+new root arr:
+3 7 1
+9 2 8
+6 4 5
+DOWN
+LEFT
+old root arr:
+3 7 1
+9 2 8
+6 4 5
+new root arr:
+3 9 1
+2 7 8
+6 4 5
+UP
+DOWN
+old root arr:
+3 7 1
+6 2 8
+9 4 5
+new root arr:
+2 9 1
+7 3 4
+6 5 8
+RIGHT
+old root arr:
+3 7 1
+6 2 8
+4 9 5
+new root arr:
+3 7 1
+9 5 4
+2 6 8
+UP
+RIGHT
+old root arr:
+3 7 1
+6 2 8
+4 5 9
+new root arr:
+3 7 1
+2 8 5
+6 9 4
+UP
+old root arr:
+3 7 1
+6 2 9
+4 5 8
+new root arr:
+3 7 1
+9 4 8
+2 6 5
+UP
+LEFT
+old root arr:
+3 7 1
+9 4 8
+2 6 5
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+UP
+RIGHT
+old root arr:
+3 7 1
+4 9 8
+2 6 5
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+UP
+DOWN
+RIGHT
+old root arr:
+3 7 1
+4 6 8
+2 9 5
+new root arr:
+3 7 1
+4 8 9
+2 6 5
+LEFT
+RIGHT
+old root arr:
+3 7 1
+4 6 8
+2 5 9
+new root arr:
+3 7 1
+4 8 9
+2 6 5
+UP
+old root arr:
+3 7 1
+4 8 9
+2 6 5
+new root arr:
+3 7 1
+4 6 9
+2 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+4 8 5
+2 6 9
+new root arr:
+3 7 1
+4 6 9
+2 5 8
+LEFT
+old root arr:
+3 7 1
+4 6 9
+2 5 8
+new root arr:
+3 7 1
+4 8 5
+2 9 6
+UP
+LEFT
+old root arr:
+3 7 1
+4 8 5
+2 9 6
+new root arr:
+3 7 1
+4 6 8
+9 2 5
+UP
+LEFT
+old root arr:
+3 7 1
+4 6 8
+9 2 5
+new root arr:
+3 7 1
+4 9 6
+2 5 8
+UP
+old root arr:
+3 7 1
+4 9 6
+2 5 8
+new root arr:
+3 7 1
+4 9 5
+2 8 6
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+4 5 6
+2 9 8
+new root arr:
+3 7 1
+4 9 5
+2 8 6
+LEFT
+RIGHT
+old root arr:
+3 7 1
+4 5 6
+2 8 9
+new root arr:
+3 7 1
+4 9 5
+2 8 6
+UP
+old root arr:
+3 7 1
+4 9 5
+2 8 6
+new root arr:
+3 7 1
+4 8 5
+9 2 6
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+4 5 9
+2 8 6
+new root arr:
+3 7 1
+4 8 5
+9 2 6
+UP
+DOWN
+old root arr:
+3 7 1
+4 5 6
+2 8 9
+new root arr:
+3 7 1
+4 8 5
+9 2 6
+LEFT
+old root arr:
+3 7 1
+4 8 5
+9 2 6
+new root arr:
+3 7 1
+4 5 6
+9 2 8
+UP
+old root arr:
+3 7 1
+4 5 6
+9 2 8
+new root arr:
+3 7 1
+4 5 6
+2 9 8
+UP
+old root arr:
+3 7 1
+4 5 6
+2 9 8
+new root arr:
+3 7 1
+4 5 9
+2 8 6
+UP
+LEFT
+old root arr:
+3 7 1
+4 5 9
+2 8 6
+new root arr:
+3 9 1
+4 7 6
+2 5 8
+UP
+LEFT
+old root arr:
+3 9 1
+4 7 6
+2 5 8
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 6
+2 5 8
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+DOWN
+old root arr:
+2 3 1
+9 6 4
+5 7 8
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+5 6 4
+9 7 8
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 9 8
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+UP
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 8 9
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+UP
+old root arr:
+3 1 6
+4 7 9
+2 5 8
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+5 6 9
+7 8 4
+new root arr:
+3 9 1
+4 7 5
+2 8 6
+UP
+LEFT
+old root arr:
+3 9 1
+4 7 5
+2 8 6
+new root arr:
+2 3 1
+7 4 8
+6 9 5
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 5
+2 8 6
+new root arr:
+2 3 1
+7 4 8
+6 9 5
+DOWN
+old root arr:
+2 3 1
+7 4 8
+6 9 5
+new root arr:
+3 1 5
+4 7 9
+2 8 6
+UP
+LEFT
+old root arr:
+3 1 5
+4 7 9
+2 8 6
+new root arr:
+3 7 1
+2 8 5
+6 9 4
+DOWN
+LEFT
+old root arr:
+3 1 5
+4 7 6
+2 8 9
+new root arr:
+3 7 1
+2 8 5
+6 9 4
+LEFT
+old root arr:
+3 7 1
+2 8 5
+6 9 4
+new root arr:
+3 7 1
+9 5 4
+2 6 8
+UP
+LEFT
+old root arr:
+3 7 1
+9 5 4
+2 6 8
+new root arr:
+2 9 1
+7 3 4
+6 5 8
+UP
+RIGHT
+old root arr:
+2 9 1
+7 3 4
+6 5 8
+new root arr:
+3 9 1
+4 7 8
+2 6 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 4
+6 5 8
+new root arr:
+3 9 1
+4 7 8
+2 6 5
+DOWN
+old root arr:
+3 9 1
+4 7 8
+2 6 5
+new root arr:
+2 1 4
+7 3 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 8
+2 6 5
+new root arr:
+2 1 4
+7 3 9
+6 5 8
+DOWN
+old root arr:
+2 1 4
+7 3 9
+6 5 8
+new root arr:
+3 9 1
+2 7 8
+6 4 5
+DOWN
+LEFT
+old root arr:
+3 9 1
+2 7 8
+6 4 5
+new root arr:
+2 3 1
+6 7 9
+5 8 4
+LEFT
+RIGHT
+old root arr:
+3 1 9
+2 7 8
+6 4 5
+new root arr:
+2 3 1
+6 7 9
+5 8 4
+DOWN
+old root arr:
+2 3 1
+6 7 9
+5 8 4
+new root arr:
+3 7 1
+6 2 9
+5 8 4
+UP
+LEFT
+old root arr:
+3 7 1
+6 2 9
+5 8 4
+new root arr:
+3 1 8
+4 7 9
+2 6 5
+UP
+LEFT
+old root arr:
+3 1 8
+4 7 9
+2 6 5
+new root arr:
+3 1 8
+2 7 9
+6 4 5
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 7 5
+2 6 9
+new root arr:
+3 1 8
+2 7 9
+6 4 5
+LEFT
+old root arr:
+3 1 8
+2 7 9
+6 4 5
+new root arr:
+3 1 8
+4 7 5
+2 9 6
+DOWN
+LEFT
+old root arr:
+3 1 8
+2 7 5
+6 4 9
+new root arr:
+3 1 8
+4 7 5
+2 9 6
+LEFT
+old root arr:
+3 1 8
+4 7 5
+2 9 6
+new root arr:
+3 7 1
+2 9 5
+6 8 4
+UP
+LEFT
+old root arr:
+3 7 1
+2 9 5
+6 8 4
+new root arr:
+3 1 8
+4 7 5
+9 2 6
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+2 5 9
+6 8 4
+new root arr:
+3 7 1
+5 9 4
+2 6 8
+UP
+DOWN
+old root arr:
+3 7 1
+2 5 4
+6 8 9
+new root arr:
+3 7 9
+2 8 1
+6 4 5
+LEFT
+old root arr:
+3 7 9
+2 8 1
+6 4 5
+new root arr:
+2 3 9
+5 4 1
+7 6 8
+LEFT
+old root arr:
+2 3 9
+5 4 1
+7 6 8
+new root arr:
+9 3 1
+4 7 8
+2 6 5
+LEFT
+old root arr:
+9 3 1
+4 7 8
+2 6 5
+new root arr:
+9 2 1
+7 3 4
+6 5 8
+DOWN
+old root arr:
+9 2 1
+7 3 4
+6 5 8
+new root arr:
+3 7 1
+2 8 5
+9 6 4
+DOWN
+old root arr:
+3 7 1
+2 8 5
+9 6 4
+new root arr:
+2 3 1
+5 9 6
+7 8 4
+UP
+old root arr:
+2 3 1
+5 9 6
+7 8 4
+new root arr:
+3 4 7
+2 9 1
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+3 4 7
+2 9 1
+6 5 8
+new root arr:
+2 3 1
+5 6 4
+9 7 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+3 4 7
+2 5 1
+6 9 8
+new root arr:
+3 4 7
+2 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+3 4 7
+2 5 1
+6 8 9
+new root arr:
+3 4 7
+2 1 9
+6 5 8
+UP
+old root arr:
+3 4 7
+2 1 9
+6 5 8
+new root arr:
+9 3 1
+4 7 5
+2 8 6
+UP
+DOWN
+old root arr:
+9 3 1
+4 7 5
+2 8 6
+new root arr:
+9 3 1
+4 7 6
+2 5 8
+DOWN
+old root arr:
+9 3 1
+4 7 6
+2 5 8
+new root arr:
+9 3 7
+2 4 1
+6 5 8
+DOWN
+old root arr:
+9 3 7
+2 4 1
+6 5 8
+new root arr:
+3 1 4
+2 9 7
+6 5 8
+DOWN
+old root arr:
+2 3 7
+9 4 1
+6 5 8
+new root arr:
+3 4 7
+2 1 8
+6 5 9
+DOWN
+RIGHT
+old root arr:
+2 3 7
+6 4 1
+9 5 8
+new root arr:
+2 3 7
+4 9 1
+6 5 8
+RIGHT
+old root arr:
+2 3 7
+4 9 1
+6 5 8
+new root arr:
+2 3 7
+6 4 1
+5 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 7
+4 5 1
+6 9 8
+new root arr:
+2 3 7
+4 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 3 7
+4 5 1
+6 8 9
+new root arr:
+2 3 7
+4 1 9
+6 5 8
+UP
+old root arr:
+2 3 7
+4 1 9
+6 5 8
+new root arr:
+2 3 7
+4 5 1
+9 6 8
+UP
+DOWN
+old root arr:
+2 3 7
+4 5 1
+9 6 8
+new root arr:
+2 3 9
+4 1 7
+6 5 8
+UP
+old root arr:
+2 3 9
+4 1 7
+6 5 8
+new root arr:
+2 3 7
+4 1 8
+6 5 9
+LEFT
+old root arr:
+2 3 7
+4 1 8
+6 5 9
+new root arr:
+2 3 7
+6 4 1
+5 9 8
+LEFT
+old root arr:
+2 3 7
+6 4 1
+5 9 8
+new root arr:
+2 3 7
+4 5 9
+6 8 1
+UP
+RIGHT
+old root arr:
+2 3 7
+6 4 1
+5 8 9
+new root arr:
+2 3 7
+4 5 9
+6 8 1
+UP
+old root arr:
+2 3 7
+4 5 9
+6 8 1
+new root arr:
+2 9 3
+4 1 7
+6 5 8
+UP
+LEFT
+old root arr:
+2 9 3
+4 1 7
+6 5 8
+new root arr:
+3 1 6
+4 7 8
+2 5 9
+DOWN
+LEFT
+old root arr:
+2 1 3
+4 9 7
+6 5 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 1 3
+4 5 7
+6 9 8
+new root arr:
+2 1 3
+4 7 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 3
+4 5 7
+6 8 9
+new root arr:
+2 1 3
+4 7 9
+6 5 8
+UP
+old root arr:
+2 1 3
+4 7 9
+6 5 8
+new root arr:
+2 1 3
+4 5 9
+6 8 7
+UP
+DOWN
+old root arr:
+2 1 3
+4 5 9
+6 8 7
+new root arr:
+2 1 3
+4 5 7
+9 6 8
+UP
+LEFT
+old root arr:
+2 1 3
+4 5 7
+9 6 8
+new root arr:
+2 1 3
+4 7 8
+6 5 9
+UP
+old root arr:
+2 1 3
+4 7 8
+6 5 9
+new root arr:
+2 3 9
+6 4 1
+5 7 8
+LEFT
+old root arr:
+2 3 9
+6 4 1
+5 7 8
+new root arr:
+9 2 3
+7 4 1
+6 5 8
+LEFT
+old root arr:
+9 2 3
+7 4 1
+6 5 8
+new root arr:
+3 7 1
+6 9 2
+4 5 8
+DOWN
+old root arr:
+3 7 1
+6 9 2
+4 5 8
+new root arr:
+3 7 1
+2 9 5
+6 8 4
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+6 5 2
+4 9 8
+new root arr:
+3 7 9
+4 5 1
+2 8 6
+LEFT
+RIGHT
+old root arr:
+3 7 1
+6 5 2
+4 8 9
+new root arr:
+3 7 9
+4 5 1
+2 8 6
+UP
+old root arr:
+3 7 9
+4 5 1
+2 8 6
+new root arr:
+3 7 1
+2 9 5
+6 8 4
+LEFT
+old root arr:
+3 7 1
+2 9 5
+6 8 4
+new root arr:
+3 1 4
+2 9 7
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+3 1 4
+2 9 7
+6 5 8
+new root arr:
+9 2 3
+4 1 7
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+3 1 4
+2 5 7
+6 9 8
+new root arr:
+9 2 3
+4 1 7
+6 5 8
+LEFT
+RIGHT
+old root arr:
+3 1 4
+2 5 7
+6 8 9
+new root arr:
+9 2 3
+4 1 7
+6 5 8
+UP
+old root arr:
+3 1 4
+2 5 9
+6 8 7
+new root arr:
+9 2 3
+4 1 7
+6 5 8
+UP
+LEFT
+old root arr:
+9 2 3
+4 1 7
+6 5 8
+new root arr:
+3 1 4
+2 5 7
+9 6 8
+DOWN
+old root arr:
+3 1 4
+2 5 7
+9 6 8
+new root arr:
+3 1 9
+2 5 4
+6 8 7
+UP
+old root arr:
+3 1 9
+2 5 4
+6 8 7
+new root arr:
+2 1 9
+4 5 3
+6 8 7
+LEFT
+old root arr:
+2 1 9
+4 5 3
+6 8 7
+new root arr:
+2 1 3
+4 9 5
+6 8 7
+LEFT
+old root arr:
+2 1 3
+4 9 5
+6 8 7
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+5 9 4
+7 6 8
+new root arr:
+3 1 6
+4 7 8
+2 5 9
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 4 9
+7 6 8
+new root arr:
+3 1 6
+4 7 8
+2 5 9
+UP
+DOWN
+old root arr:
+3 1 6
+4 7 8
+2 5 9
+new root arr:
+2 3 1
+5 4 8
+7 6 9
+LEFT
+old root arr:
+2 3 1
+5 4 8
+7 6 9
+new root arr:
+2 1 9
+4 7 3
+6 5 8
+LEFT
+old root arr:
+2 1 9
+4 7 3
+6 5 8
+new root arr:
+2 3 1
+7 9 5
+6 8 4
+LEFT
+old root arr:
+2 3 1
+7 9 5
+6 8 4
+new root arr:
+3 7 9
+4 8 1
+2 6 5
+UP
+DOWN
+LEFT
+old root arr:
+3 7 9
+4 8 1
+2 6 5
+new root arr:
+2 3 9
+4 5 7
+6 8 1
+LEFT
+old root arr:
+2 3 9
+4 5 7
+6 8 1
+new root arr:
+3 4 7
+2 1 8
+6 5 9
+LEFT
+old root arr:
+3 4 7
+2 1 8
+6 5 9
+new root arr:
+3 7 9
+4 6 1
+2 5 8
+LEFT
+old root arr:
+3 7 9
+4 6 1
+2 5 8
+new root arr:
+9 3 1
+2 5 4
+7 6 8
+LEFT
+old root arr:
+9 3 1
+2 5 4
+7 6 8
+new root arr:
+3 7 9
+2 5 1
+6 8 4
+RIGHT
+old root arr:
+3 7 9
+2 5 1
+6 8 4
+new root arr:
+2 3 1
+5 6 4
+9 7 8
+LEFT
+old root arr:
+2 3 1
+5 6 4
+9 7 8
+new root arr:
+3 7 1
+5 9 4
+2 6 8
+UP
+old root arr:
+3 7 1
+5 9 4
+2 6 8
+new root arr:
+3 1 8
+4 7 5
+9 2 6
+UP
+DOWN
+RIGHT
+old root arr:
+3 7 1
+5 6 4
+2 9 8
+new root arr:
+3 7 1
+5 4 9
+2 6 8
+LEFT
+RIGHT
+old root arr:
+3 7 1
+5 6 4
+2 8 9
+new root arr:
+3 7 1
+5 4 9
+2 6 8
+UP
+old root arr:
+3 7 1
+5 4 9
+2 6 8
+new root arr:
+3 1 8
+4 7 5
+9 2 6
+UP
+DOWN
+old root arr:
+3 1 8
+4 7 5
+9 2 6
+new root arr:
+3 7 1
+5 6 4
+9 2 8
+UP
+old root arr:
+3 7 1
+5 6 4
+9 2 8
+new root arr:
+3 7 1
+5 4 8
+2 6 9
+UP
+old root arr:
+3 7 1
+5 4 8
+2 6 9
+new root arr:
+3 4 9
+2 1 7
+6 5 8
+LEFT
+old root arr:
+3 4 9
+2 1 7
+6 5 8
+new root arr:
+3 4 7
+2 5 1
+9 6 8
+LEFT
+old root arr:
+3 4 7
+2 5 1
+9 6 8
+new root arr:
+2 3 9
+7 5 1
+6 8 4
+UP
+old root arr:
+2 3 9
+7 5 1
+6 8 4
+new root arr:
+2 3 1
+5 9 6
+7 8 4
+LEFT
+old root arr:
+2 3 1
+5 9 6
+7 8 4
+new root arr:
+3 7 9
+6 2 1
+4 5 8
+UP
+DOWN
+LEFT
+old root arr:
+3 7 9
+6 2 1
+4 5 8
+new root arr:
+3 7 1
+6 9 4
+5 2 8
+LEFT
+old root arr:
+3 7 1
+6 9 4
+5 2 8
+new root arr:
+3 7 1
+4 5 6
+9 2 8
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+6 4 9
+5 2 8
+new root arr:
+3 7 1
+4 5 6
+9 2 8
+UP
+DOWN
+old root arr:
+3 7 1
+4 5 6
+9 2 8
+new root arr:
+3 7 1
+6 4 8
+5 2 9
+UP
+old root arr:
+3 7 1
+6 4 8
+5 2 9
+new root arr:
+3 1 8
+4 9 5
+2 7 6
+LEFT
+old root arr:
+3 1 8
+4 9 5
+2 7 6
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+UP
+LEFT
+RIGHT
+old root arr:
+3 1 8
+4 5 9
+2 7 6
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+UP
+DOWN
+old root arr:
+3 1 8
+4 5 6
+2 7 9
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+LEFT
+old root arr:
+2 3 1
+7 4 8
+9 6 5
+new root arr:
+3 1 9
+4 5 8
+2 7 6
+UP
+old root arr:
+3 1 9
+4 5 8
+2 7 6
+new root arr:
+9 7 1
+3 2 4
+6 5 8
+LEFT
+old root arr:
+9 7 1
+3 2 4
+6 5 8
+new root arr:
+3 7 1
+6 9 8
+4 2 5
+RIGHT
+old root arr:
+7 9 1
+3 2 4
+6 5 8
+new root arr:
+3 7 1
+6 9 8
+4 2 5
+DOWN
+RIGHT
+old root arr:
+7 2 1
+3 9 4
+6 5 8
+new root arr:
+7 1 9
+3 2 4
+6 5 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 5 4
+6 9 8
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 5 4
+6 8 9
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+UP
+old root arr:
+7 2 1
+3 4 9
+6 5 8
+new root arr:
+7 1 9
+3 2 4
+6 5 8
+UP
+DOWN
+old root arr:
+7 1 9
+3 2 4
+6 5 8
+new root arr:
+7 2 1
+3 5 4
+9 6 8
+DOWN
+old root arr:
+7 2 1
+3 5 4
+9 6 8
+new root arr:
+7 2 1
+3 4 8
+6 5 9
+UP
+old root arr:
+7 2 1
+3 4 8
+6 5 9
+new root arr:
+7 2 1
+9 3 4
+6 5 8
+LEFT
+old root arr:
+7 2 1
+9 3 4
+6 5 8
+new root arr:
+7 2 1
+3 5 9
+6 8 4
+UP
+DOWN
+old root arr:
+7 2 1
+6 3 4
+9 5 8
+new root arr:
+7 2 1
+3 5 9
+6 8 4
+RIGHT
+old root arr:
+7 2 1
+3 5 9
+6 8 4
+new root arr:
+7 1 4
+3 2 9
+6 5 8
+UP
+LEFT
+old root arr:
+7 1 4
+3 2 9
+6 5 8
+new root arr:
+7 2 1
+6 3 4
+5 9 8
+DOWN
+LEFT
+old root arr:
+7 2 1
+6 3 4
+5 9 8
+new root arr:
+3 7 1
+6 9 8
+4 2 5
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 4
+5 8 9
+new root arr:
+7 2 9
+3 4 1
+6 5 8
+UP
+old root arr:
+7 2 9
+3 4 1
+6 5 8
+new root arr:
+9 2 1
+7 3 4
+6 5 8
+LEFT
+old root arr:
+9 2 1
+7 3 4
+6 5 8
+new root arr:
+3 7 1
+6 9 8
+4 2 5
+RIGHT
+old root arr:
+3 7 1
+6 9 8
+4 2 5
+new root arr:
+2 1 4
+7 9 3
+6 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+6 8 9
+4 2 5
+new root arr:
+2 1 4
+7 9 3
+6 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 8 5
+4 2 9
+new root arr:
+2 1 4
+7 9 3
+6 5 8
+LEFT
+old root arr:
+2 1 4
+7 9 3
+6 5 8
+new root arr:
+2 4 3
+7 9 1
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+2 1 4
+7 5 3
+6 9 8
+new root arr:
+2 4 3
+7 9 1
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 4
+7 5 3
+6 8 9
+new root arr:
+2 4 3
+7 9 1
+6 5 8
+UP
+old root arr:
+2 4 3
+7 9 1
+6 5 8
+new root arr:
+9 3 1
+2 7 8
+6 4 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 4 3
+7 5 1
+6 9 8
+new root arr:
+2 4 3
+7 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 4 3
+7 5 1
+6 8 9
+new root arr:
+2 4 3
+7 1 9
+6 5 8
+UP
+old root arr:
+2 4 3
+7 1 9
+6 5 8
+new root arr:
+9 3 1
+2 7 8
+6 4 5
+UP
+DOWN
+old root arr:
+9 3 1
+2 7 8
+6 4 5
+new root arr:
+2 1 4
+7 3 8
+6 5 9
+DOWN
+old root arr:
+2 3 1
+9 7 8
+6 4 5
+new root arr:
+2 1 4
+7 3 8
+6 5 9
+DOWN
+RIGHT
+old root arr:
+2 3 1
+6 7 8
+9 4 5
+new root arr:
+2 3 1
+7 9 8
+6 4 5
+RIGHT
+old root arr:
+2 3 1
+6 7 8
+4 9 5
+new root arr:
+2 3 1
+7 9 8
+6 4 5
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 8
+4 5 9
+new root arr:
+2 3 1
+7 9 8
+6 4 5
+UP
+old root arr:
+2 3 1
+6 7 9
+4 5 8
+new root arr:
+2 3 1
+7 9 8
+6 4 5
+UP
+LEFT
+old root arr:
+2 3 1
+7 9 8
+6 4 5
+new root arr:
+2 3 1
+6 9 8
+4 7 5
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 4 8
+6 9 5
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 4 8
+6 5 9
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+UP
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+LEFT
+old root arr:
+2 3 1
+7 4 9
+6 5 8
+new root arr:
+2 3 1
+6 9 8
+4 7 5
+UP
+LEFT
+old root arr:
+2 3 1
+6 9 8
+4 7 5
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 8 9
+4 7 5
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+UP
+DOWN
+old root arr:
+2 3 1
+6 8 5
+4 7 9
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+LEFT
+old root arr:
+2 3 1
+7 4 8
+9 6 5
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+2 3 1
+9 6 8
+4 7 5
+UP
+LEFT
+old root arr:
+2 3 1
+9 6 8
+4 7 5
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+DOWN
+old root arr:
+2 3 1
+4 6 8
+9 7 5
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 9 5
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 5 9
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+old root arr:
+2 3 1
+4 6 9
+7 5 8
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+LEFT
+old root arr:
+2 3 1
+4 9 6
+7 5 8
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+UP
+old root arr:
+2 3 1
+6 8 5
+4 9 7
+new root arr:
+2 3 1
+9 4 8
+7 6 5
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 8
+7 6 5
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+RIGHT
+old root arr:
+2 3 1
+4 9 8
+7 6 5
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 9 5
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 5 9
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+UP
+old root arr:
+2 3 1
+4 8 9
+7 6 5
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 8 5
+7 6 9
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+LEFT
+old root arr:
+2 3 1
+4 6 9
+7 5 8
+new root arr:
+2 3 1
+4 8 5
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+2 3 1
+4 9 6
+7 5 8
+UP
+LEFT
+old root arr:
+2 3 1
+4 9 6
+7 5 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+DOWN
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+LEFT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+UP
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 1 4
+7 3 8
+6 5 9
+UP
+LEFT
+old root arr:
+2 1 4
+7 3 8
+6 5 9
+new root arr:
+2 3 1
+4 6 8
+9 7 5
+LEFT
+old root arr:
+2 3 1
+4 6 8
+9 7 5
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+UP
+old root arr:
+2 3 1
+4 5 6
+9 7 8
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+UP
+old root arr:
+2 3 9
+4 5 1
+7 8 6
+new root arr:
+2 3 9
+4 8 1
+7 6 5
+LEFT
+old root arr:
+2 3 9
+4 8 1
+7 6 5
+new root arr:
+2 3 1
+4 8 5
+9 7 6
+LEFT
+old root arr:
+2 3 1
+4 8 5
+9 7 6
+new root arr:
+2 3 9
+4 6 1
+7 5 8
+UP
+old root arr:
+2 3 9
+4 6 1
+7 5 8
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+LEFT
+old root arr:
+2 3 1
+7 8 5
+9 6 4
+new root arr:
+2 3 1
+4 9 8
+7 6 5
+UP
+old root arr:
+2 3 1
+4 9 8
+7 6 5
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 8 9
+7 6 5
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 8 5
+7 6 9
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+LEFT
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+UP
+LEFT
+old root arr:
+2 3 1
+4 5 6
+9 7 8
+new root arr:
+2 3 1
+6 9 5
+4 8 7
+UP
+old root arr:
+2 3 1
+6 9 5
+4 8 7
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 5 9
+4 8 7
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+DOWN
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 9
+4 6 1
+7 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 3 9
+4 6 1
+7 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 9
+4 6 1
+7 5 8
+LEFT
+old root arr:
+2 3 9
+4 6 1
+7 5 8
+new root arr:
+2 3 1
+6 5 7
+4 8 9
+LEFT
+old root arr:
+2 3 1
+6 5 7
+4 8 9
+new root arr:
+2 3 1
+7 9 4
+6 5 8
+LEFT
+old root arr:
+2 3 1
+7 9 4
+6 5 8
+new root arr:
+2 3 9
+6 8 1
+4 7 5
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+2 3 9
+6 8 1
+4 7 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 9
+6 8 1
+4 7 5
+UP
+old root arr:
+2 3 9
+6 8 1
+4 7 5
+new root arr:
+2 3 1
+6 9 7
+4 5 8
+LEFT
+old root arr:
+2 3 1
+6 9 7
+4 5 8
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+6 5 7
+4 9 8
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 5 7
+4 8 9
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+old root arr:
+2 3 1
+6 5 9
+4 8 7
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+LEFT
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 3 1
+7 9 5
+6 8 4
+UP
+old root arr:
+2 3 1
+7 9 5
+6 8 4
+new root arr:
+2 3 9
+7 8 1
+6 4 5
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+2 3 9
+7 8 1
+6 4 5
+UP
+DOWN
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 9
+7 8 1
+6 4 5
+LEFT
+old root arr:
+2 3 9
+7 8 1
+6 4 5
+new root arr:
+2 3 9
+7 4 1
+6 5 8
+LEFT
+old root arr:
+2 3 9
+7 4 1
+6 5 8
+new root arr:
+7 1 4
+3 2 8
+6 5 9
+LEFT
+old root arr:
+7 1 4
+3 2 8
+6 5 9
+new root arr:
+2 1 4
+7 5 3
+9 6 8
+LEFT
+old root arr:
+2 1 4
+7 5 3
+9 6 8
+new root arr:
+2 4 3
+7 5 1
+9 6 8
+UP
+old root arr:
+2 4 3
+7 5 1
+9 6 8
+new root arr:
+2 3 9
+6 7 1
+4 5 8
+UP
+old root arr:
+2 3 9
+6 7 1
+4 5 8
+new root arr:
+2 4 3
+7 1 8
+6 5 9
+LEFT
+old root arr:
+2 4 3
+7 1 8
+6 5 9
+new root arr:
+2 9 3
+6 7 1
+4 5 8
+LEFT
+old root arr:
+2 9 3
+6 7 1
+4 5 8
+new root arr:
+2 1 3
+4 7 8
+6 9 5
+DOWN
+LEFT
+old root arr:
+2 1 3
+4 7 8
+6 9 5
+new root arr:
+7 2 1
+3 4 8
+6 9 5
+UP
+LEFT
+old root arr:
+7 2 1
+3 4 8
+6 9 5
+new root arr:
+7 2 1
+9 5 4
+3 6 8
+UP
+LEFT
+old root arr:
+7 2 1
+9 5 4
+3 6 8
+new root arr:
+3 7 1
+5 6 9
+2 8 4
+UP
+RIGHT
+old root arr:
+3 7 1
+5 6 9
+2 8 4
+new root arr:
+2 9 3
+5 4 1
+7 6 8
+UP
+LEFT
+old root arr:
+2 9 3
+5 4 1
+7 6 8
+new root arr:
+3 1 8
+4 5 6
+2 9 7
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 5 6
+2 9 7
+new root arr:
+2 3 1
+9 4 8
+7 6 5
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 8
+7 6 5
+new root arr:
+7 2 1
+9 3 4
+6 5 8
+UP
+RIGHT
+old root arr:
+2 3 1
+4 9 8
+7 6 5
+new root arr:
+3 7 1
+9 4 5
+2 8 6
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 9 5
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 5 9
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+UP
+old root arr:
+2 3 1
+4 8 9
+7 6 5
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 8 5
+7 6 9
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+LEFT
+old root arr:
+2 3 1
+4 6 9
+7 5 8
+new root arr:
+2 3 1
+4 8 5
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+2 3 1
+4 9 6
+7 5 8
+UP
+LEFT
+old root arr:
+2 3 1
+4 9 6
+7 5 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+DOWN
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+7 2 1
+9 3 4
+6 5 8
+LEFT
+old root arr:
+7 2 1
+9 3 4
+6 5 8
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+DOWN
+RIGHT
+old root arr:
+7 2 1
+6 3 4
+9 5 8
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+RIGHT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+3 7 1
+5 4 8
+2 9 6
+UP
+LEFT
+old root arr:
+3 7 1
+5 4 8
+2 9 6
+new root arr:
+3 7 1
+2 5 4
+6 9 8
+UP
+LEFT
+old root arr:
+3 7 1
+2 5 4
+6 9 8
+new root arr:
+2 9 3
+4 5 7
+6 8 1
+UP
+LEFT
+old root arr:
+2 9 3
+4 5 7
+6 8 1
+new root arr:
+3 9 1
+5 7 4
+2 6 8
+DOWN
+LEFT
+old root arr:
+3 9 1
+5 7 4
+2 6 8
+new root arr:
+7 2 1
+6 3 4
+5 9 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+5 7 4
+2 6 8
+new root arr:
+7 2 1
+6 3 4
+5 9 8
+DOWN
+old root arr:
+7 2 1
+6 3 4
+5 9 8
+new root arr:
+3 9 1
+6 7 4
+5 2 8
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 4
+5 8 9
+new root arr:
+3 9 1
+6 7 4
+5 2 8
+UP
+old root arr:
+3 9 1
+6 7 4
+5 2 8
+new root arr:
+3 1 5
+4 7 6
+2 9 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+6 7 4
+5 2 8
+new root arr:
+3 1 5
+4 7 6
+2 9 8
+DOWN
+old root arr:
+3 1 5
+4 7 6
+2 9 8
+new root arr:
+2 3 1
+5 8 6
+7 9 4
+UP
+LEFT
+old root arr:
+2 3 1
+5 8 6
+7 9 4
+new root arr:
+3 1 4
+6 7 9
+5 2 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 8 6
+7 4 9
+new root arr:
+3 1 4
+6 7 9
+5 2 8
+UP
+old root arr:
+3 1 4
+6 7 9
+5 2 8
+new root arr:
+3 1 4
+5 7 9
+2 6 8
+DOWN
+LEFT
+old root arr:
+3 1 4
+5 7 9
+2 6 8
+new root arr:
+4 3 1
+9 7 8
+2 6 5
+DOWN
+LEFT
+old root arr:
+4 3 1
+9 7 8
+2 6 5
+new root arr:
+3 4 7
+2 5 9
+6 8 1
+DOWN
+RIGHT
+old root arr:
+4 3 1
+2 7 8
+9 6 5
+new root arr:
+4 3 1
+7 9 8
+2 6 5
+RIGHT
+old root arr:
+4 3 1
+7 9 8
+2 6 5
+new root arr:
+3 4 7
+2 5 9
+6 8 1
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+7 6 8
+2 9 5
+new root arr:
+4 3 1
+7 8 9
+2 6 5
+LEFT
+RIGHT
+old root arr:
+4 3 1
+7 6 8
+2 5 9
+new root arr:
+4 3 1
+7 8 9
+2 6 5
+UP
+old root arr:
+4 3 1
+7 8 9
+2 6 5
+new root arr:
+4 3 1
+7 6 9
+2 5 8
+UP
+DOWN
+old root arr:
+4 3 1
+7 8 5
+2 6 9
+new root arr:
+4 3 1
+7 6 9
+2 5 8
+LEFT
+old root arr:
+4 3 1
+7 6 9
+2 5 8
+new root arr:
+4 3 1
+7 8 5
+2 9 6
+UP
+LEFT
+old root arr:
+4 3 1
+7 8 5
+2 9 6
+new root arr:
+4 3 1
+7 6 8
+9 2 5
+UP
+LEFT
+old root arr:
+4 3 1
+7 6 8
+9 2 5
+new root arr:
+4 3 1
+7 9 6
+2 5 8
+UP
+old root arr:
+4 3 1
+7 9 6
+2 5 8
+new root arr:
+4 3 1
+7 9 5
+2 8 6
+UP
+DOWN
+LEFT
+old root arr:
+4 3 1
+7 5 6
+2 9 8
+new root arr:
+4 3 1
+7 9 5
+2 8 6
+LEFT
+RIGHT
+old root arr:
+4 3 1
+7 5 6
+2 8 9
+new root arr:
+4 3 1
+7 9 5
+2 8 6
+UP
+old root arr:
+4 3 1
+7 9 5
+2 8 6
+new root arr:
+4 3 1
+7 8 5
+9 2 6
+UP
+LEFT
+RIGHT
+old root arr:
+4 3 1
+7 5 9
+2 8 6
+new root arr:
+4 3 1
+7 8 5
+9 2 6
+UP
+DOWN
+old root arr:
+4 3 1
+7 5 6
+2 8 9
+new root arr:
+4 3 1
+7 8 5
+9 2 6
+LEFT
+old root arr:
+4 3 1
+7 8 5
+9 2 6
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+old root arr:
+4 3 1
+7 5 6
+9 2 8
+new root arr:
+3 4 7
+2 5 9
+6 8 1
+UP
+old root arr:
+3 4 7
+2 5 9
+6 8 1
+new root arr:
+4 3 1
+7 5 6
+2 9 8
+UP
+LEFT
+old root arr:
+4 3 1
+7 5 6
+2 9 8
+new root arr:
+4 3 1
+9 8 5
+7 2 6
+UP
+LEFT
+old root arr:
+4 3 1
+9 8 5
+7 2 6
+new root arr:
+4 3 1
+9 5 6
+7 2 8
+UP
+RIGHT
+old root arr:
+4 3 1
+9 5 6
+7 2 8
+new root arr:
+3 7 1
+9 6 4
+5 2 8
+UP
+RIGHT
+old root arr:
+3 7 1
+9 6 4
+5 2 8
+new root arr:
+4 3 1
+9 6 8
+7 2 5
+UP
+DOWN
+old root arr:
+3 7 1
+5 6 4
+9 2 8
+new root arr:
+4 3 1
+9 6 8
+7 2 5
+RIGHT
+old root arr:
+4 3 1
+9 6 8
+7 2 5
+new root arr:
+4 3 1
+7 5 9
+2 8 6
+UP
+RIGHT
+old root arr:
+4 3 1
+7 5 9
+2 8 6
+new root arr:
+4 3 1
+2 7 8
+6 9 5
+UP
+LEFT
+old root arr:
+4 3 1
+2 7 8
+6 9 5
+new root arr:
+3 7 1
+5 6 4
+2 9 8
+UP
+RIGHT
+old root arr:
+4 3 1
+2 7 8
+6 5 9
+new root arr:
+3 7 1
+5 6 4
+2 9 8
+UP
+old root arr:
+3 7 1
+5 6 4
+2 9 8
+new root arr:
+4 3 1
+9 7 6
+2 5 8
+UP
+RIGHT
+old root arr:
+3 7 1
+5 6 4
+2 8 9
+new root arr:
+4 3 1
+9 7 6
+2 5 8
+UP
+old root arr:
+4 3 1
+9 7 6
+2 5 8
+new root arr:
+4 3 1
+2 7 9
+6 5 8
+DOWN
+RIGHT
+old root arr:
+4 3 1
+2 7 6
+9 5 8
+new root arr:
+4 3 1
+7 9 6
+2 5 8
+RIGHT
+old root arr:
+4 3 1
+7 9 6
+2 5 8
+new root arr:
+4 3 1
+2 7 9
+6 5 8
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+7 5 6
+2 9 8
+new root arr:
+4 3 1
+2 7 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+4 3 1
+7 5 6
+2 8 9
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+old root arr:
+4 3 1
+7 5 6
+9 2 8
+new root arr:
+4 3 1
+2 7 9
+6 5 8
+UP
+old root arr:
+4 3 1
+2 7 9
+6 5 8
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+UP
+LEFT
+old root arr:
+2 3 1
+9 5 4
+7 6 8
+new root arr:
+4 3 1
+2 7 6
+5 9 8
+UP
+DOWN
+old root arr:
+4 3 1
+2 7 6
+5 9 8
+new root arr:
+4 3 1
+7 6 9
+2 5 8
+UP
+RIGHT
+old root arr:
+4 3 1
+2 7 6
+5 8 9
+new root arr:
+4 3 1
+7 5 9
+2 8 6
+UP
+old root arr:
+4 3 1
+7 5 9
+2 8 6
+new root arr:
+4 3 1
+9 5 6
+7 2 8
+UP
+LEFT
+old root arr:
+4 3 1
+9 5 6
+7 2 8
+new root arr:
+4 3 1
+9 7 5
+2 8 6
+UP
+RIGHT
+old root arr:
+4 3 1
+9 7 5
+2 8 6
+new root arr:
+2 9 1
+5 3 4
+7 6 8
+DOWN
+RIGHT
+old root arr:
+4 3 1
+2 7 5
+9 8 6
+new root arr:
+4 3 1
+7 9 5
+2 8 6
+RIGHT
+old root arr:
+4 3 1
+7 9 5
+2 8 6
+new root arr:
+4 3 1
+2 7 5
+8 9 6
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+7 5 9
+2 8 6
+new root arr:
+3 7 1
+9 6 8
+4 2 5
+UP
+DOWN
+old root arr:
+4 3 1
+7 5 6
+2 8 9
+new root arr:
+2 9 3
+7 4 1
+6 5 8
+LEFT
+old root arr:
+2 9 3
+7 4 1
+6 5 8
+new root arr:
+4 3 1
+7 5 6
+2 9 8
+DOWN
+LEFT
+old root arr:
+4 3 1
+7 5 6
+2 9 8
+new root arr:
+3 7 1
+2 8 5
+6 9 4
+UP
+LEFT
+old root arr:
+3 7 1
+2 8 5
+6 9 4
+new root arr:
+2 1 3
+4 8 5
+6 9 7
+LEFT
+RIGHT
+old root arr:
+3 7 1
+2 8 5
+6 4 9
+new root arr:
+4 2 3
+9 1 7
+6 5 8
+UP
+old root arr:
+4 2 3
+9 1 7
+6 5 8
+new root arr:
+3 7 1
+9 4 5
+2 8 6
+DOWN
+RIGHT
+old root arr:
+4 2 3
+6 1 7
+9 5 8
+new root arr:
+4 2 3
+1 9 7
+6 5 8
+RIGHT
+old root arr:
+4 2 3
+1 9 7
+6 5 8
+new root arr:
+4 2 3
+6 1 7
+5 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+4 2 3
+1 5 7
+6 9 8
+new root arr:
+4 2 3
+1 7 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+4 2 3
+1 5 7
+6 8 9
+new root arr:
+4 2 3
+1 7 9
+6 5 8
+UP
+old root arr:
+4 2 3
+1 7 9
+6 5 8
+new root arr:
+4 2 3
+1 5 9
+6 8 7
+UP
+DOWN
+old root arr:
+4 2 3
+1 5 9
+6 8 7
+new root arr:
+4 2 3
+1 5 7
+9 6 8
+UP
+LEFT
+old root arr:
+4 2 3
+1 5 7
+9 6 8
+new root arr:
+4 2 3
+1 7 8
+6 5 9
+UP
+old root arr:
+4 2 3
+1 7 8
+6 5 9
+new root arr:
+7 2 1
+6 3 9
+5 8 4
+LEFT
+old root arr:
+7 2 1
+6 3 9
+5 8 4
+new root arr:
+3 1 4
+2 7 8
+6 9 5
+UP
+LEFT
+old root arr:
+3 1 4
+2 7 8
+6 9 5
+new root arr:
+3 7 1
+9 2 5
+6 8 4
+UP
+LEFT
+old root arr:
+3 7 1
+9 2 5
+6 8 4
+new root arr:
+3 1 4
+9 2 7
+6 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 2 5
+9 8 4
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+RIGHT
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+3 7 1
+6 2 5
+8 9 4
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+3 1 8
+2 7 5
+6 9 4
+UP
+old root arr:
+3 1 8
+2 7 5
+6 9 4
+new root arr:
+2 9 3
+6 4 1
+5 7 8
+UP
+LEFT
+old root arr:
+2 9 3
+6 4 1
+5 7 8
+new root arr:
+2 1 3
+9 5 7
+4 6 8
+DOWN
+LEFT
+old root arr:
+2 1 3
+9 5 7
+4 6 8
+new root arr:
+3 7 1
+9 6 2
+4 5 8
+UP
+RIGHT
+old root arr:
+3 7 1
+9 6 2
+4 5 8
+new root arr:
+7 2 3
+9 4 1
+6 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+4 6 2
+9 5 8
+new root arr:
+3 9 1
+2 7 5
+6 8 4
+RIGHT
+old root arr:
+3 9 1
+2 7 5
+6 8 4
+new root arr:
+3 7 1
+4 6 2
+5 9 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+2 7 5
+6 8 4
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+DOWN
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+3 1 5
+2 7 9
+6 8 4
+UP
+LEFT
+old root arr:
+3 1 5
+2 7 9
+6 8 4
+new root arr:
+3 7 1
+4 6 2
+5 9 8
+DOWN
+LEFT
+old root arr:
+3 1 5
+2 7 4
+6 8 9
+new root arr:
+3 7 1
+4 6 2
+5 9 8
+LEFT
+old root arr:
+3 7 1
+4 6 2
+5 9 8
+new root arr:
+2 9 3
+6 8 1
+4 7 5
+UP
+RIGHT
+old root arr:
+3 7 1
+4 6 2
+5 8 9
+new root arr:
+2 9 3
+6 8 1
+4 7 5
+UP
+old root arr:
+2 9 3
+6 8 1
+4 7 5
+new root arr:
+2 9 3
+4 6 1
+7 5 8
+DOWN
+LEFT
+old root arr:
+2 9 3
+4 6 1
+7 5 8
+new root arr:
+3 7 1
+9 4 6
+2 5 8
+DOWN
+LEFT
+old root arr:
+3 7 1
+9 4 6
+2 5 8
+new root arr:
+2 3 1
+9 6 5
+4 8 7
+UP
+DOWN
+old root arr:
+3 7 1
+2 4 6
+9 5 8
+new root arr:
+2 3 1
+9 6 5
+4 8 7
+RIGHT
+old root arr:
+2 3 1
+9 6 5
+4 8 7
+new root arr:
+3 7 1
+2 4 6
+5 9 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 6 5
+9 8 7
+new root arr:
+3 7 1
+2 4 6
+5 9 8
+RIGHT
+old root arr:
+3 7 1
+2 4 6
+5 9 8
+new root arr:
+2 3 1
+4 6 5
+8 9 7
+UP
+RIGHT
+old root arr:
+3 7 1
+2 4 6
+5 8 9
+new root arr:
+2 3 1
+5 8 6
+7 9 4
+UP
+old root arr:
+2 3 1
+5 8 6
+7 9 4
+new root arr:
+2 3 1
+4 6 5
+8 9 7
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 8 6
+7 4 9
+new root arr:
+2 3 1
+4 6 5
+8 9 7
+UP
+old root arr:
+2 3 1
+4 6 5
+8 9 7
+new root arr:
+2 3 7
+9 5 1
+4 6 8
+UP
+RIGHT
+old root arr:
+2 3 1
+4 6 5
+8 7 9
+new root arr:
+2 3 1
+9 8 5
+7 6 4
+UP
+old root arr:
+2 3 1
+9 8 5
+7 6 4
+new root arr:
+2 3 7
+9 5 1
+4 6 8
+UP
+RIGHT
+old root arr:
+2 3 7
+9 5 1
+4 6 8
+new root arr:
+2 9 3
+4 8 1
+7 6 5
+UP
+RIGHT
+old root arr:
+2 9 3
+4 8 1
+7 6 5
+new root arr:
+2 3 1
+6 4 8
+5 9 7
+DOWN
+LEFT
+old root arr:
+2 3 1
+6 4 8
+5 9 7
+new root arr:
+2 9 1
+4 3 5
+7 8 6
+UP
+LEFT
+old root arr:
+2 9 1
+4 3 5
+7 8 6
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 5
+7 8 6
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+DOWN
+old root arr:
+2 3 1
+9 4 6
+7 5 8
+new root arr:
+2 3 1
+5 4 8
+7 9 6
+UP
+DOWN
+old root arr:
+2 3 1
+5 4 8
+7 9 6
+new root arr:
+3 7 1
+6 5 9
+4 8 2
+UP
+LEFT
+old root arr:
+3 7 1
+6 5 9
+4 8 2
+new root arr:
+2 3 7
+6 4 9
+5 8 1
+UP
+LEFT
+old root arr:
+2 3 7
+6 4 9
+5 8 1
+new root arr:
+3 7 1
+9 6 8
+4 2 5
+UP
+LEFT
+old root arr:
+3 7 1
+9 6 8
+4 2 5
+new root arr:
+2 3 7
+4 1 8
+6 9 5
+UP
+RIGHT
+old root arr:
+2 3 7
+4 1 8
+6 9 5
+new root arr:
+2 9 7
+4 3 1
+6 5 8
+UP
+LEFT
+old root arr:
+2 9 7
+4 3 1
+6 5 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 7 9
+4 3 1
+6 5 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+DOWN
+old root arr:
+2 7 1
+4 3 9
+6 5 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+DOWN
+LEFT
+old root arr:
+2 7 1
+4 3 8
+6 5 9
+new root arr:
+2 7 1
+4 9 3
+6 5 8
+LEFT
+old root arr:
+2 7 1
+4 9 3
+6 5 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+UP
+DOWN
+LEFT
+old root arr:
+2 7 1
+4 5 3
+6 9 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 7 1
+4 5 3
+6 8 9
+new root arr:
+2 7 1
+4 5 3
+9 6 8
+UP
+old root arr:
+2 7 1
+4 5 3
+9 6 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+UP
+old root arr:
+2 9 1
+4 3 8
+7 6 5
+new root arr:
+2 9 1
+4 3 6
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 8
+7 6 5
+new root arr:
+2 9 1
+4 3 6
+7 5 8
+DOWN
+old root arr:
+2 9 1
+4 3 6
+7 5 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 6
+7 5 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+DOWN
+old root arr:
+2 9 3
+4 5 1
+7 8 6
+new root arr:
+2 3 1
+9 5 6
+7 8 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 5 6
+7 8 4
+new root arr:
+2 9 1
+4 7 3
+6 5 8
+UP
+DOWN
+old root arr:
+2 9 1
+4 7 3
+6 5 8
+new root arr:
+2 7 1
+4 5 9
+6 8 3
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 7 3
+6 5 8
+new root arr:
+2 7 1
+4 5 9
+6 8 3
+DOWN
+old root arr:
+2 1 3
+4 7 9
+6 5 8
+new root arr:
+2 7 1
+4 5 9
+6 8 3
+DOWN
+LEFT
+old root arr:
+2 1 3
+4 7 8
+6 5 9
+new root arr:
+2 7 1
+4 5 9
+6 8 3
+LEFT
+old root arr:
+2 7 1
+4 5 9
+6 8 3
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+UP
+LEFT
+old root arr:
+2 1 8
+4 3 9
+7 6 5
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+DOWN
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 6 9
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+LEFT
+old root arr:
+2 1 6
+4 3 9
+7 5 8
+new root arr:
+3 4 7
+9 2 1
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 4 7
+9 2 1
+6 5 8
+new root arr:
+2 9 1
+4 3 6
+7 5 8
+UP
+DOWN
+old root arr:
+3 4 7
+6 2 1
+9 5 8
+new root arr:
+2 9 1
+4 3 6
+7 5 8
+RIGHT
+old root arr:
+2 9 1
+4 3 6
+7 5 8
+new root arr:
+3 7 1
+9 8 5
+4 2 6
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 6
+7 5 8
+new root arr:
+3 7 1
+9 8 5
+4 2 6
+DOWN
+old root arr:
+3 7 1
+9 8 5
+4 2 6
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+UP
+RIGHT
+old root arr:
+2 1 8
+4 3 5
+7 9 6
+new root arr:
+2 3 1
+9 4 5
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 5
+7 8 6
+new root arr:
+3 4 7
+6 2 1
+5 9 8
+UP
+DOWN
+old root arr:
+3 4 7
+6 2 1
+5 9 8
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+UP
+RIGHT
+old root arr:
+3 4 7
+6 2 1
+5 8 9
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+UP
+old root arr:
+2 1 6
+4 3 9
+7 5 8
+new root arr:
+3 7 1
+9 5 6
+4 2 8
+DOWN
+LEFT
+old root arr:
+3 7 1
+9 5 6
+4 2 8
+new root arr:
+2 9 1
+6 3 8
+4 7 5
+UP
+RIGHT
+old root arr:
+2 9 1
+6 3 8
+4 7 5
+new root arr:
+2 1 5
+4 3 9
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 9
+6 3 8
+4 7 5
+new root arr:
+2 1 5
+4 3 9
+7 8 6
+DOWN
+old root arr:
+2 1 5
+4 3 9
+7 8 6
+new root arr:
+3 9 1
+6 7 2
+4 5 8
+DOWN
+LEFT
+old root arr:
+2 1 5
+4 3 6
+7 8 9
+new root arr:
+3 9 1
+6 7 2
+4 5 8
+LEFT
+old root arr:
+3 9 1
+6 7 2
+4 5 8
+new root arr:
+2 1 8
+6 3 9
+4 7 5
+LEFT
+RIGHT
+old root arr:
+3 1 9
+6 7 2
+4 5 8
+new root arr:
+2 1 8
+6 3 9
+4 7 5
+DOWN
+old root arr:
+3 1 2
+6 7 9
+4 5 8
+new root arr:
+2 1 8
+6 3 9
+4 7 5
+DOWN
+LEFT
+old root arr:
+3 1 2
+6 7 8
+4 5 9
+new root arr:
+2 1 8
+6 3 9
+4 7 5
+LEFT
+old root arr:
+2 1 8
+6 3 9
+4 7 5
+new root arr:
+2 9 1
+6 3 4
+5 7 8
+DOWN
+LEFT
+old root arr:
+2 1 8
+6 3 5
+4 7 9
+new root arr:
+2 9 1
+6 3 4
+5 7 8
+LEFT
+old root arr:
+2 9 1
+6 3 4
+5 7 8
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+6 3 4
+5 7 8
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+DOWN
+old root arr:
+2 3 1
+9 4 6
+7 5 8
+new root arr:
+3 9 1
+2 5 4
+7 6 8
+UP
+DOWN
+old root arr:
+3 9 1
+2 5 4
+7 6 8
+new root arr:
+2 1 4
+6 3 9
+5 7 8
+DOWN
+RIGHT
+old root arr:
+3 1 9
+2 5 4
+7 6 8
+new root arr:
+2 1 4
+6 3 9
+5 7 8
+DOWN
+old root arr:
+2 1 4
+6 3 9
+5 7 8
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+3 1 4
+2 5 9
+7 6 8
+UP
+LEFT
+old root arr:
+3 1 4
+2 5 9
+7 6 8
+new root arr:
+2 3 1
+9 6 7
+4 5 8
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 6 7
+4 5 8
+new root arr:
+7 2 3
+9 4 1
+6 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 6 7
+9 5 8
+new root arr:
+7 2 3
+9 4 1
+6 5 8
+RIGHT
+old root arr:
+7 2 3
+9 4 1
+6 5 8
+new root arr:
+3 7 1
+6 2 5
+8 9 4
+DOWN
+RIGHT
+old root arr:
+7 2 3
+6 4 1
+9 5 8
+new root arr:
+7 2 3
+4 9 1
+6 5 8
+RIGHT
+old root arr:
+7 2 3
+4 9 1
+6 5 8
+new root arr:
+3 7 1
+6 2 5
+8 9 4
+UP
+DOWN
+RIGHT
+old root arr:
+7 2 3
+4 5 1
+6 9 8
+new root arr:
+7 2 3
+4 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 3
+4 5 1
+6 8 9
+new root arr:
+7 2 3
+4 1 9
+6 5 8
+UP
+old root arr:
+7 2 3
+4 1 9
+6 5 8
+new root arr:
+7 2 3
+4 5 1
+9 6 8
+UP
+DOWN
+old root arr:
+7 2 3
+4 5 1
+9 6 8
+new root arr:
+7 2 3
+4 1 8
+6 5 9
+UP
+old root arr:
+7 2 3
+4 1 8
+6 5 9
+new root arr:
+3 7 1
+6 2 5
+8 9 4
+LEFT
+old root arr:
+3 7 1
+6 2 5
+8 9 4
+new root arr:
+2 3 1
+4 6 7
+5 9 8
+UP
+RIGHT
+old root arr:
+3 7 1
+6 2 5
+8 4 9
+new root arr:
+2 3 1
+4 6 7
+5 9 8
+UP
+old root arr:
+2 3 1
+4 6 7
+5 9 8
+new root arr:
+7 2 3
+6 4 1
+5 9 8
+UP
+RIGHT
+old root arr:
+2 3 1
+4 6 7
+5 8 9
+new root arr:
+7 2 3
+6 4 1
+5 9 8
+UP
+old root arr:
+7 2 3
+6 4 1
+5 9 8
+new root arr:
+7 2 3
+4 5 9
+6 8 1
+UP
+RIGHT
+old root arr:
+7 2 3
+6 4 1
+5 8 9
+new root arr:
+7 2 3
+4 5 9
+6 8 1
+UP
+old root arr:
+7 2 3
+4 5 9
+6 8 1
+new root arr:
+2 3 1
+4 6 9
+5 8 7
+UP
+LEFT
+old root arr:
+2 3 1
+4 6 9
+5 8 7
+new root arr:
+3 1 4
+9 2 7
+6 5 8
+UP
+LEFT
+old root arr:
+3 1 4
+9 2 7
+6 5 8
+new root arr:
+2 9 1
+7 3 8
+6 4 5
+UP
+DOWN
+old root arr:
+3 1 4
+6 2 7
+9 5 8
+new root arr:
+2 9 1
+7 3 8
+6 4 5
+RIGHT
+old root arr:
+2 9 1
+7 3 8
+6 4 5
+new root arr:
+2 3 1
+7 5 9
+6 8 4
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 8
+6 4 5
+new root arr:
+2 3 1
+7 5 9
+6 8 4
+DOWN
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+3 1 4
+6 2 7
+5 9 8
+UP
+LEFT
+old root arr:
+3 1 4
+6 2 7
+5 9 8
+new root arr:
+2 1 8
+7 3 9
+6 4 5
+UP
+RIGHT
+old root arr:
+3 1 4
+6 2 7
+5 8 9
+new root arr:
+2 1 8
+7 3 9
+6 4 5
+UP
+old root arr:
+2 1 8
+7 3 9
+6 4 5
+new root arr:
+3 7 1
+9 4 5
+2 8 6
+DOWN
+LEFT
+old root arr:
+2 1 8
+7 3 5
+6 4 9
+new root arr:
+3 7 1
+9 4 5
+2 8 6
+LEFT
+old root arr:
+3 7 1
+9 4 5
+2 8 6
+new root arr:
+3 1 4
+6 2 9
+5 8 7
+UP
+DOWN
+old root arr:
+3 7 1
+2 4 5
+9 8 6
+new root arr:
+3 1 4
+6 2 9
+5 8 7
+RIGHT
+old root arr:
+3 1 4
+6 2 9
+5 8 7
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+UP
+LEFT
+old root arr:
+2 3 1
+9 5 4
+7 6 8
+new root arr:
+3 7 1
+2 4 5
+8 9 6
+UP
+RIGHT
+old root arr:
+3 7 1
+2 4 5
+8 9 6
+new root arr:
+2 1 3
+4 8 5
+6 9 7
+UP
+RIGHT
+old root arr:
+2 1 3
+4 8 5
+6 9 7
+new root arr:
+2 9 3
+7 8 1
+6 4 5
+LEFT
+RIGHT
+old root arr:
+2 1 3
+4 8 5
+6 7 9
+new root arr:
+2 9 3
+7 8 1
+6 4 5
+UP
+old root arr:
+2 9 3
+7 8 1
+6 4 5
+new root arr:
+2 9 3
+7 5 1
+6 8 4
+DOWN
+LEFT
+old root arr:
+2 9 3
+7 5 1
+6 8 4
+new root arr:
+2 4 3
+7 5 9
+6 8 1
+DOWN
+LEFT
+old root arr:
+2 4 3
+7 5 9
+6 8 1
+new root arr:
+3 9 1
+2 7 5
+6 8 4
+UP
+LEFT
+old root arr:
+3 9 1
+2 7 5
+6 8 4
+new root arr:
+2 3 1
+9 5 6
+7 8 4
+LEFT
+RIGHT
+old root arr:
+3 1 9
+2 7 5
+6 8 4
+new root arr:
+2 3 1
+9 5 6
+7 8 4
+DOWN
+old root arr:
+2 3 1
+9 5 6
+7 8 4
+new root arr:
+2 9 3
+4 6 1
+7 5 8
+UP
+DOWN
+old root arr:
+2 9 3
+4 6 1
+7 5 8
+new root arr:
+3 1 5
+2 7 9
+6 8 4
+DOWN
+LEFT
+old root arr:
+3 1 5
+2 7 9
+6 8 4
+new root arr:
+2 1 3
+9 4 7
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 1 5
+2 7 4
+6 8 9
+new root arr:
+2 1 3
+9 4 7
+6 5 8
+LEFT
+old root arr:
+2 1 3
+9 4 7
+6 5 8
+new root arr:
+4 2 3
+6 1 7
+5 9 8
+UP
+DOWN
+old root arr:
+2 1 3
+6 4 7
+9 5 8
+new root arr:
+4 2 3
+6 1 7
+5 9 8
+RIGHT
+old root arr:
+4 2 3
+6 1 7
+5 9 8
+new root arr:
+3 7 1
+6 8 5
+4 9 2
+UP
+RIGHT
+old root arr:
+4 2 3
+6 1 7
+5 8 9
+new root arr:
+3 7 1
+6 8 5
+4 9 2
+UP
+old root arr:
+3 7 1
+6 8 5
+4 9 2
+new root arr:
+2 1 3
+6 4 7
+5 9 8
+UP
+LEFT
+old root arr:
+2 1 3
+6 4 7
+5 9 8
+new root arr:
+4 2 3
+6 1 9
+5 8 7
+UP
+RIGHT
+old root arr:
+2 1 3
+6 4 7
+5 8 9
+new root arr:
+4 2 3
+6 1 9
+5 8 7
+UP
+old root arr:
+4 2 3
+6 1 9
+5 8 7
+new root arr:
+3 7 1
+9 6 8
+4 2 5
+UP
+LEFT
+old root arr:
+3 7 1
+9 6 8
+4 2 5
+new root arr:
+2 1 3
+6 4 9
+5 8 7
+UP
+DOWN
+old root arr:
+3 7 1
+4 6 8
+9 2 5
+new root arr:
+2 1 3
+6 4 9
+5 8 7
+RIGHT
+old root arr:
+2 1 3
+6 4 9
+5 8 7
+new root arr:
+4 3 1
+2 7 5
+8 9 6
+UP
+LEFT
+old root arr:
+4 3 1
+2 7 5
+8 9 6
+new root arr:
+3 7 1
+4 6 8
+2 9 5
+UP
+RIGHT
+old root arr:
+3 7 1
+4 6 8
+2 9 5
+new root arr:
+3 7 1
+9 2 5
+6 8 4
+UP
+RIGHT
+old root arr:
+3 7 1
+4 6 8
+2 5 9
+new root arr:
+3 7 1
+9 2 5
+6 8 4
+UP
+old root arr:
+3 7 1
+9 2 5
+6 8 4
+new root arr:
+2 9 1
+5 3 4
+7 6 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 2 5
+9 8 4
+new root arr:
+2 9 1
+5 3 4
+7 6 8
+RIGHT
+old root arr:
+2 9 1
+5 3 4
+7 6 8
+new root arr:
+3 7 1
+4 6 9
+2 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+5 3 4
+7 6 8
+new root arr:
+3 7 1
+4 6 9
+2 5 8
+DOWN
+old root arr:
+3 7 1
+4 6 9
+2 5 8
+new root arr:
+3 7 1
+6 2 5
+8 9 4
+UP
+LEFT
+old root arr:
+3 7 1
+6 2 5
+8 9 4
+new root arr:
+2 1 4
+5 3 9
+7 6 8
+UP
+RIGHT
+old root arr:
+3 7 1
+6 2 5
+8 4 9
+new root arr:
+2 1 4
+5 3 9
+7 6 8
+UP
+old root arr:
+2 1 4
+5 3 9
+7 6 8
+new root arr:
+4 3 1
+7 6 9
+2 5 8
+DOWN
+LEFT
+old root arr:
+4 3 1
+7 6 9
+2 5 8
+new root arr:
+2 4 3
+9 5 1
+7 6 8
+UP
+DOWN
+old root arr:
+2 4 3
+9 5 1
+7 6 8
+new root arr:
+2 1 4
+9 5 3
+7 6 8
+UP
+RIGHT
+old root arr:
+2 1 4
+9 5 3
+7 6 8
+new root arr:
+3 9 1
+6 7 8
+4 2 5
+UP
+RIGHT
+old root arr:
+3 9 1
+6 7 8
+4 2 5
+new root arr:
+4 3 1
+7 8 5
+2 9 6
+LEFT
+RIGHT
+old root arr:
+3 1 9
+6 7 8
+4 2 5
+new root arr:
+4 3 1
+7 8 5
+2 9 6
+DOWN
+old root arr:
+4 3 1
+7 8 5
+2 9 6
+new root arr:
+2 1 4
+7 5 9
+6 8 3
+LEFT
+RIGHT
+old root arr:
+2 1 4
+7 5 9
+6 8 3
+new root arr:
+3 1 8
+6 7 9
+4 2 5
+UP
+LEFT
+old root arr:
+3 1 8
+6 7 9
+4 2 5
+new root arr:
+2 9 1
+7 3 4
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 1 8
+6 7 5
+4 2 9
+new root arr:
+2 9 1
+7 3 4
+6 5 8
+LEFT
+old root arr:
+2 9 1
+7 3 4
+6 5 8
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 9 4
+6 5 8
+new root arr:
+2 1 9
+7 3 4
+6 5 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+UP
+old root arr:
+2 3 1
+7 4 9
+6 5 8
+new root arr:
+2 1 9
+7 3 4
+6 5 8
+UP
+DOWN
+old root arr:
+2 1 9
+7 3 4
+6 5 8
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+DOWN
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 3 1
+7 4 8
+6 5 9
+UP
+old root arr:
+2 3 1
+7 4 8
+6 5 9
+new root arr:
+2 3 1
+7 5 9
+6 8 4
+LEFT
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+2 1 4
+7 3 9
+6 5 8
+UP
+LEFT
+old root arr:
+2 1 4
+7 3 9
+6 5 8
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 5 4
+7 6 8
+new root arr:
+2 1 4
+7 9 3
+6 5 8
+UP
+RIGHT
+old root arr:
+2 1 4
+7 9 3
+6 5 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+DOWN
+LEFT
+old root arr:
+2 1 4
+7 5 3
+6 9 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 1 4
+7 5 3
+6 8 9
+new root arr:
+2 1 4
+7 5 3
+9 6 8
+UP
+old root arr:
+2 1 4
+7 5 3
+9 6 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+old root arr:
+2 3 1
+5 9 4
+7 6 8
+new root arr:
+4 3 1
+2 9 8
+6 7 5
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 9 8
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 8 9
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+UP
+old root arr:
+2 3 1
+5 4 9
+7 6 8
+new root arr:
+3 7 1
+4 9 6
+2 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+4 9 6
+2 5 8
+new root arr:
+2 3 1
+5 4 8
+7 6 9
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 4 8
+7 6 9
+new root arr:
+9 7 1
+3 4 8
+2 6 5
+LEFT
+old root arr:
+9 7 1
+3 4 8
+2 6 5
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+RIGHT
+old root arr:
+7 9 1
+3 4 8
+2 6 5
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+DOWN
+RIGHT
+old root arr:
+7 1 9
+3 4 8
+2 6 5
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+DOWN
+old root arr:
+7 1 8
+3 4 9
+2 6 5
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+DOWN
+LEFT
+old root arr:
+7 1 8
+3 4 5
+2 6 9
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+LEFT
+old root arr:
+7 1 8
+3 4 5
+2 9 6
+new root arr:
+4 3 1
+2 9 8
+6 7 5
+UP
+LEFT
+old root arr:
+4 3 1
+2 9 8
+6 7 5
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+LEFT
+RIGHT
+old root arr:
+4 3 1
+2 8 9
+6 7 5
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+DOWN
+old root arr:
+4 3 1
+2 8 5
+6 7 9
+new root arr:
+7 1 8
+3 4 5
+9 2 6
+LEFT
+old root arr:
+7 1 8
+3 4 5
+9 2 6
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+old root arr:
+4 3 1
+7 5 6
+9 2 8
+new root arr:
+3 4 9
+2 5 7
+6 8 1
+UP
+old root arr:
+3 4 9
+2 5 7
+6 8 1
+new root arr:
+4 3 9
+7 5 1
+2 8 6
+LEFT
+old root arr:
+4 3 9
+7 5 1
+2 8 6
+new root arr:
+4 3 1
+5 9 6
+7 2 8
+LEFT
+old root arr:
+4 3 1
+5 9 6
+7 2 8
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 9 8
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+LEFT
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 8 9
+new root arr:
+2 3 1
+4 6 8
+9 7 5
+UP
+old root arr:
+2 3 1
+4 6 8
+9 7 5
+new root arr:
+4 3 1
+7 5 6
+9 2 8
+UP
+old root arr:
+4 3 1
+7 5 6
+9 2 8
+new root arr:
+3 7 9
+6 4 1
+5 2 8
+UP
+old root arr:
+3 7 9
+6 4 1
+5 2 8
+new root arr:
+4 3 9
+7 6 1
+2 5 8
+LEFT
+old root arr:
+4 3 9
+7 6 1
+2 5 8
+new root arr:
+4 3 9
+7 8 1
+2 6 5
+LEFT
+old root arr:
+4 3 9
+7 8 1
+2 6 5
+new root arr:
+7 2 9
+3 5 1
+6 8 4
+LEFT
+old root arr:
+7 2 9
+3 5 1
+6 8 4
+new root arr:
+7 2 1
+5 9 4
+3 6 8
+LEFT
+old root arr:
+7 2 1
+5 9 4
+3 6 8
+new root arr:
+3 1 8
+4 5 6
+9 2 7
+UP
+DOWN
+RIGHT
+old root arr:
+7 2 1
+5 6 4
+3 9 8
+new root arr:
+7 2 1
+5 4 9
+3 6 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+5 6 4
+3 8 9
+new root arr:
+7 2 1
+5 4 9
+3 6 8
+UP
+old root arr:
+7 2 1
+5 4 9
+3 6 8
+new root arr:
+7 2 1
+5 6 4
+9 3 8
+UP
+DOWN
+old root arr:
+7 2 1
+5 6 4
+9 3 8
+new root arr:
+9 3 1
+2 6 4
+5 7 8
+UP
+old root arr:
+9 3 1
+2 6 4
+5 7 8
+new root arr:
+2 3 9
+5 4 1
+7 6 8
+RIGHT
+old root arr:
+2 3 9
+5 4 1
+7 6 8
+new root arr:
+3 7 1
+5 9 6
+2 8 4
+LEFT
+old root arr:
+3 7 1
+5 9 6
+2 8 4
+new root arr:
+3 1 4
+5 7 8
+2 6 9
+UP
+DOWN
+LEFT
+old root arr:
+3 1 4
+5 7 8
+2 6 9
+new root arr:
+3 1 4
+6 7 8
+5 2 9
+LEFT
+old root arr:
+3 1 4
+6 7 8
+5 2 9
+new root arr:
+2 3 1
+4 8 5
+9 7 6
+LEFT
+old root arr:
+2 3 1
+4 8 5
+9 7 6
+new root arr:
+3 1 5
+4 9 6
+2 7 8
+UP
+old root arr:
+3 1 5
+4 9 6
+2 7 8
+new root arr:
+7 1 4
+3 9 2
+6 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+7 1 4
+3 9 2
+6 5 8
+new root arr:
+9 3 1
+6 7 4
+5 2 8
+UP
+DOWN
+LEFT
+old root arr:
+7 1 4
+3 5 2
+6 9 8
+new root arr:
+9 3 1
+6 7 4
+5 2 8
+LEFT
+RIGHT
+old root arr:
+7 1 4
+3 5 2
+6 8 9
+new root arr:
+7 1 4
+3 5 2
+9 6 8
+UP
+old root arr:
+7 1 4
+3 5 2
+9 6 8
+new root arr:
+9 3 1
+6 7 4
+5 2 8
+UP
+old root arr:
+9 3 1
+6 7 4
+5 2 8
+new root arr:
+3 7 1
+2 5 4
+9 6 8
+DOWN
+old root arr:
+3 7 1
+2 5 4
+9 6 8
+new root arr:
+9 3 1
+5 7 4
+2 6 8
+UP
+old root arr:
+9 3 1
+5 7 4
+2 6 8
+new root arr:
+3 7 1
+5 4 8
+9 2 6
+DOWN
+old root arr:
+3 7 1
+5 4 8
+9 2 6
+new root arr:
+3 1 6
+4 9 7
+2 5 8
+UP
+old root arr:
+3 1 6
+4 9 7
+2 5 8
+new root arr:
+7 2 1
+3 9 4
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+3 1 6
+4 5 7
+2 9 8
+new root arr:
+7 2 1
+3 9 4
+6 5 8
+LEFT
+RIGHT
+old root arr:
+3 1 6
+4 5 7
+2 8 9
+new root arr:
+7 2 1
+3 9 4
+6 5 8
+UP
+old root arr:
+3 1 6
+4 5 9
+2 8 7
+new root arr:
+7 2 1
+3 9 4
+6 5 8
+UP
+LEFT
+old root arr:
+7 2 1
+3 9 4
+6 5 8
+new root arr:
+9 2 3
+4 5 7
+6 8 1
+UP
+DOWN
+RIGHT
+old root arr:
+7 2 1
+3 5 4
+6 9 8
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 5 4
+6 8 9
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+UP
+old root arr:
+7 2 1
+3 4 9
+6 5 8
+new root arr:
+9 2 3
+4 5 7
+6 8 1
+UP
+DOWN
+old root arr:
+9 2 3
+4 5 7
+6 8 1
+new root arr:
+2 5 3
+4 9 7
+6 8 1
+DOWN
+old root arr:
+2 5 3
+4 9 7
+6 8 1
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 5 3
+4 7 9
+6 8 1
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+UP
+DOWN
+old root arr:
+2 5 3
+4 7 1
+6 8 9
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+LEFT
+old root arr:
+2 3 9
+4 5 1
+7 8 6
+new root arr:
+3 1 5
+4 7 6
+9 2 8
+LEFT
+old root arr:
+3 1 5
+4 7 6
+9 2 8
+new root arr:
+3 1 9
+4 5 6
+2 8 7
+UP
+old root arr:
+3 1 9
+4 5 6
+2 8 7
+new root arr:
+7 2 1
+3 5 4
+9 6 8
+LEFT
+old root arr:
+7 2 1
+3 5 4
+9 6 8
+new root arr:
+7 2 1
+3 4 8
+6 5 9
+UP
+old root arr:
+7 2 1
+3 4 8
+6 5 9
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+LEFT
+old root arr:
+2 3 1
+4 5 6
+9 7 8
+new root arr:
+3 1 6
+4 5 7
+9 2 8
+UP
+old root arr:
+3 1 6
+4 5 7
+9 2 8
+new root arr:
+3 1 8
+4 5 6
+9 2 7
+UP
+old root arr:
+3 1 8
+4 5 6
+9 2 7
+new root arr:
+9 2 3
+5 4 1
+7 6 8
+UP
+old root arr:
+9 2 3
+5 4 1
+7 6 8
+new root arr:
+3 1 5
+4 9 7
+2 8 6
+DOWN
+old root arr:
+3 1 5
+4 9 7
+2 8 6
+new root arr:
+2 3 1
+7 9 8
+6 4 5
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+7 9 8
+6 4 5
+new root arr:
+7 2 1
+5 4 8
+3 6 9
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+7 2 1
+5 4 8
+3 6 9
+UP
+DOWN
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+7 2 1
+5 4 8
+3 6 9
+LEFT
+old root arr:
+7 2 1
+5 4 8
+3 6 9
+new root arr:
+2 1 3
+4 7 8
+9 6 5
+LEFT
+old root arr:
+2 1 3
+4 7 8
+9 6 5
+new root arr:
+9 3 1
+4 8 5
+7 2 6
+UP
+old root arr:
+9 3 1
+4 8 5
+7 2 6
+new root arr:
+2 3 1
+6 9 7
+5 8 4
+RIGHT
+old root arr:
+2 3 1
+6 9 7
+5 8 4
+new root arr:
+2 3 9
+4 8 1
+7 6 5
+UP
+DOWN
+LEFT
+old root arr:
+2 3 9
+4 8 1
+7 6 5
+new root arr:
+4 3 1
+5 9 6
+7 2 8
+LEFT
+old root arr:
+4 3 1
+5 9 6
+7 2 8
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 9 8
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+LEFT
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 8 9
+new root arr:
+9 3 1
+4 6 8
+7 2 5
+UP
+old root arr:
+9 3 1
+4 6 8
+7 2 5
+new root arr:
+7 2 1
+3 4 8
+9 6 5
+RIGHT
+old root arr:
+7 2 1
+3 4 8
+9 6 5
+new root arr:
+9 3 1
+4 5 6
+7 2 8
+UP
+old root arr:
+9 3 1
+4 5 6
+7 2 8
+new root arr:
+4 3 1
+8 9 5
+7 2 6
+RIGHT
+old root arr:
+4 3 1
+8 9 5
+7 2 6
+new root arr:
+9 2 1
+7 5 4
+3 6 8
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+8 2 5
+7 9 6
+new root arr:
+4 3 1
+8 5 9
+7 2 6
+LEFT
+RIGHT
+old root arr:
+4 3 1
+8 5 9
+7 2 6
+new root arr:
+9 2 1
+7 5 4
+3 6 8
+UP
+DOWN
+old root arr:
+4 3 1
+8 5 6
+7 2 9
+new root arr:
+9 2 1
+7 5 4
+3 6 8
+LEFT
+old root arr:
+9 2 1
+7 5 4
+3 6 8
+new root arr:
+2 3 9
+4 6 1
+7 5 8
+RIGHT
+old root arr:
+2 3 9
+4 6 1
+7 5 8
+new root arr:
+2 4 3
+5 9 1
+7 6 8
+LEFT
+old root arr:
+2 4 3
+5 9 1
+7 6 8
+new root arr:
+4 3 1
+8 2 5
+7 6 9
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 9 8
+new root arr:
+2 4 3
+5 1 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 8 9
+new root arr:
+2 4 3
+5 1 9
+7 6 8
+UP
+old root arr:
+2 4 3
+5 1 9
+7 6 8
+new root arr:
+4 3 1
+8 2 5
+7 6 9
+UP
+DOWN
+old root arr:
+4 3 1
+8 2 5
+7 6 9
+new root arr:
+7 4 1
+3 9 8
+2 6 5
+UP
+old root arr:
+7 4 1
+3 9 8
+2 6 5
+new root arr:
+2 4 3
+5 1 8
+7 6 9
+DOWN
+LEFT
+RIGHT
+old root arr:
+7 4 1
+3 6 8
+2 9 5
+new root arr:
+7 4 1
+3 8 9
+2 6 5
+LEFT
+RIGHT
+old root arr:
+7 4 1
+3 6 8
+2 5 9
+new root arr:
+7 4 1
+3 8 9
+2 6 5
+UP
+old root arr:
+7 4 1
+3 8 9
+2 6 5
+new root arr:
+7 4 1
+3 6 9
+2 5 8
+UP
+DOWN
+old root arr:
+7 4 1
+3 8 5
+2 6 9
+new root arr:
+7 4 1
+3 6 9
+2 5 8
+LEFT
+old root arr:
+7 4 1
+3 6 9
+2 5 8
+new root arr:
+7 4 1
+3 8 5
+2 9 6
+UP
+LEFT
+old root arr:
+7 4 1
+3 8 5
+2 9 6
+new root arr:
+2 4 3
+5 1 8
+7 6 9
+UP
+LEFT
+old root arr:
+2 4 3
+5 1 8
+7 6 9
+new root arr:
+2 3 9
+5 6 1
+7 8 4
+LEFT
+old root arr:
+2 3 9
+5 6 1
+7 8 4
+new root arr:
+7 4 1
+3 6 8
+9 2 5
+LEFT
+old root arr:
+7 4 1
+3 6 8
+9 2 5
+new root arr:
+7 4 1
+3 9 6
+2 5 8
+UP
+old root arr:
+7 4 1
+3 9 6
+2 5 8
+new root arr:
+7 4 1
+3 9 5
+2 8 6
+UP
+DOWN
+LEFT
+old root arr:
+7 4 1
+3 5 6
+2 9 8
+new root arr:
+7 4 1
+3 9 5
+2 8 6
+LEFT
+RIGHT
+old root arr:
+7 4 1
+3 5 6
+2 8 9
+new root arr:
+7 4 1
+3 9 5
+2 8 6
+UP
+old root arr:
+7 4 1
+3 9 5
+2 8 6
+new root arr:
+7 4 1
+3 8 5
+9 2 6
+UP
+LEFT
+RIGHT
+old root arr:
+7 4 1
+3 5 9
+2 8 6
+new root arr:
+7 4 1
+3 8 5
+9 2 6
+UP
+DOWN
+old root arr:
+7 4 1
+3 5 6
+2 8 9
+new root arr:
+7 4 1
+3 8 5
+9 2 6
+LEFT
+old root arr:
+7 4 1
+3 8 5
+9 2 6
+new root arr:
+7 4 1
+3 5 6
+9 2 8
+UP
+old root arr:
+7 4 1
+3 5 6
+9 2 8
+new root arr:
+9 7 1
+3 5 4
+2 6 8
+UP
+old root arr:
+9 7 1
+3 5 4
+2 6 8
+new root arr:
+4 3 1
+6 9 8
+7 2 5
+RIGHT
+old root arr:
+7 9 1
+3 5 4
+2 6 8
+new root arr:
+4 3 1
+6 9 8
+7 2 5
+DOWN
+RIGHT
+old root arr:
+7 1 9
+3 5 4
+2 6 8
+new root arr:
+4 3 1
+6 9 8
+7 2 5
+DOWN
+old root arr:
+7 1 4
+3 5 9
+2 6 8
+new root arr:
+4 3 1
+6 9 8
+7 2 5
+DOWN
+LEFT
+old root arr:
+4 3 1
+6 9 8
+7 2 5
+new root arr:
+2 3 7
+4 9 5
+6 8 1
+UP
+DOWN
+RIGHT
+old root arr:
+4 3 1
+6 2 8
+7 9 5
+new root arr:
+4 3 1
+6 8 9
+7 2 5
+LEFT
+RIGHT
+old root arr:
+4 3 1
+6 2 8
+7 5 9
+new root arr:
+4 3 1
+6 8 9
+7 2 5
+UP
+old root arr:
+4 3 1
+6 8 9
+7 2 5
+new root arr:
+4 3 1
+6 2 9
+7 5 8
+UP
+DOWN
+old root arr:
+4 3 1
+6 8 5
+7 2 9
+new root arr:
+4 3 1
+6 2 9
+7 5 8
+LEFT
+old root arr:
+4 3 1
+6 2 9
+7 5 8
+new root arr:
+2 3 7
+4 9 5
+6 8 1
+UP
+LEFT
+old root arr:
+2 3 7
+4 9 5
+6 8 1
+new root arr:
+7 5 1
+3 9 4
+2 6 8
+UP
+DOWN
+LEFT
+old root arr:
+7 5 1
+3 9 4
+2 6 8
+new root arr:
+7 1 4
+3 5 8
+2 6 9
+DOWN
+LEFT
+RIGHT
+old root arr:
+7 5 1
+3 6 4
+2 9 8
+new root arr:
+7 5 1
+3 4 9
+2 6 8
+LEFT
+RIGHT
+old root arr:
+7 5 1
+3 6 4
+2 8 9
+new root arr:
+7 5 1
+3 4 9
+2 6 8
+UP
+old root arr:
+7 5 1
+3 4 9
+2 6 8
+new root arr:
+7 1 4
+3 5 8
+2 6 9
+UP
+DOWN
+old root arr:
+7 1 4
+3 5 8
+2 6 9
+new root arr:
+2 3 9
+5 6 1
+7 8 4
+LEFT
+old root arr:
+2 3 9
+5 6 1
+7 8 4
+new root arr:
+7 5 1
+3 6 4
+9 2 8
+LEFT
+old root arr:
+7 5 1
+3 6 4
+9 2 8
+new root arr:
+7 5 1
+3 4 8
+2 6 9
+UP
+old root arr:
+7 5 1
+3 4 8
+2 6 9
+new root arr:
+3 1 4
+2 7 8
+9 6 5
+LEFT
+old root arr:
+3 1 4
+2 7 8
+9 6 5
+new root arr:
+7 2 1
+6 9 3
+5 8 4
+UP
+old root arr:
+7 2 1
+6 9 3
+5 8 4
+new root arr:
+9 2 3
+6 7 1
+4 5 8
+UP
+DOWN
+LEFT
+old root arr:
+9 2 3
+6 7 1
+4 5 8
+new root arr:
+2 1 3
+4 9 8
+6 7 5
+DOWN
+old root arr:
+2 1 3
+4 9 8
+6 7 5
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+UP
+LEFT
+RIGHT
+old root arr:
+2 1 3
+4 8 9
+6 7 5
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+UP
+DOWN
+old root arr:
+2 1 3
+4 8 5
+6 7 9
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+LEFT
+old root arr:
+7 2 1
+3 9 5
+6 8 4
+new root arr:
+2 3 9
+7 5 1
+6 8 4
+UP
+DOWN
+LEFT
+old root arr:
+2 3 9
+7 5 1
+6 8 4
+new root arr:
+2 1 4
+7 3 8
+6 5 9
+LEFT
+old root arr:
+2 1 4
+7 3 8
+6 5 9
+new root arr:
+9 2 3
+7 4 1
+6 5 8
+LEFT
+old root arr:
+9 2 3
+7 4 1
+6 5 8
+new root arr:
+2 3 9
+7 4 1
+6 5 8
+DOWN
+old root arr:
+2 3 9
+7 4 1
+6 5 8
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+LEFT
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 1 3
+5 9 7
+4 6 8
+RIGHT
+old root arr:
+2 1 3
+5 9 7
+4 6 8
+new root arr:
+9 2 3
+6 4 1
+5 7 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 1 3
+5 6 7
+4 9 8
+new root arr:
+2 1 3
+5 7 9
+4 6 8
+LEFT
+RIGHT
+old root arr:
+2 1 3
+5 6 7
+4 8 9
+new root arr:
+2 1 3
+5 7 9
+4 6 8
+UP
+old root arr:
+2 1 3
+5 7 9
+4 6 8
+new root arr:
+2 1 3
+5 6 9
+4 8 7
+UP
+DOWN
+old root arr:
+2 1 3
+5 6 9
+4 8 7
+new root arr:
+9 2 3
+6 4 1
+5 7 8
+UP
+LEFT
+old root arr:
+9 2 3
+6 4 1
+5 7 8
+new root arr:
+3 1 8
+2 7 5
+9 6 4
+DOWN
+old root arr:
+3 1 8
+2 7 5
+9 6 4
+new root arr:
+2 1 3
+5 7 8
+4 6 9
+UP
+old root arr:
+2 1 3
+5 7 8
+4 6 9
+new root arr:
+2 1 3
+5 9 6
+4 8 7
+LEFT
+old root arr:
+2 1 3
+5 9 6
+4 8 7
+new root arr:
+2 7 3
+6 9 1
+4 5 8
+UP
+DOWN
+LEFT
+old root arr:
+2 7 3
+6 9 1
+4 5 8
+new root arr:
+2 1 4
+5 9 3
+7 6 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 7 3
+6 5 1
+4 9 8
+new root arr:
+2 7 3
+6 1 9
+4 5 8
+LEFT
+RIGHT
+old root arr:
+2 7 3
+6 5 1
+4 8 9
+new root arr:
+2 7 3
+6 1 9
+4 5 8
+UP
+old root arr:
+2 7 3
+6 1 9
+4 5 8
+new root arr:
+2 1 4
+5 9 3
+7 6 8
+UP
+DOWN
+old root arr:
+2 1 4
+5 9 3
+7 6 8
+new root arr:
+2 7 3
+6 1 8
+4 5 9
+UP
+DOWN
+RIGHT
+old root arr:
+2 1 4
+5 6 3
+7 9 8
+new root arr:
+2 7 3
+6 1 8
+4 5 9
+LEFT
+RIGHT
+old root arr:
+2 1 4
+5 6 3
+7 8 9
+new root arr:
+2 7 3
+6 1 8
+4 5 9
+UP
+old root arr:
+2 7 3
+6 1 8
+4 5 9
+new root arr:
+9 3 1
+6 7 8
+4 2 5
+LEFT
+old root arr:
+9 3 1
+6 7 8
+4 2 5
+new root arr:
+2 1 8
+7 9 3
+6 4 5
+DOWN
+old root arr:
+2 1 8
+7 9 3
+6 4 5
+new root arr:
+3 1 9
+6 2 4
+5 8 7
+UP
+DOWN
+LEFT
+old root arr:
+2 1 8
+7 4 3
+6 9 5
+new root arr:
+3 1 9
+6 2 4
+5 8 7
+LEFT
+RIGHT
+old root arr:
+2 1 8
+7 4 3
+6 5 9
+new root arr:
+3 1 9
+6 2 4
+5 8 7
+UP
+old root arr:
+3 1 9
+6 2 4
+5 8 7
+new root arr:
+2 1 8
+7 4 3
+9 6 5
+LEFT
+old root arr:
+2 1 8
+7 4 3
+9 6 5
+new root arr:
+4 3 1
+2 9 5
+8 7 6
+UP
+old root arr:
+4 3 1
+2 9 5
+8 7 6
+new root arr:
+4 3 1
+7 8 5
+2 6 9
+UP
+LEFT
+RIGHT
+old root arr:
+4 3 1
+2 5 9
+8 7 6
+new root arr:
+4 3 1
+7 8 5
+2 6 9
+UP
+DOWN
+old root arr:
+4 3 1
+2 5 6
+8 7 9
+new root arr:
+4 3 1
+7 8 5
+2 6 9
+LEFT
+old root arr:
+4 3 1
+7 8 5
+2 6 9
+new root arr:
+2 1 9
+7 5 4
+6 8 3
+UP
+old root arr:
+2 1 9
+7 5 4
+6 8 3
+new root arr:
+2 1 4
+5 3 8
+7 6 9
+LEFT
+old root arr:
+2 1 4
+5 3 8
+7 6 9
+new root arr:
+4 3 1
+7 8 5
+9 2 6
+LEFT
+old root arr:
+4 3 1
+7 8 5
+9 2 6
+new root arr:
+2 1 4
+5 9 3
+7 6 8
+UP
+old root arr:
+2 1 4
+5 9 3
+7 6 8
+new root arr:
+4 3 1
+7 6 8
+2 5 9
+UP
+DOWN
+LEFT
+old root arr:
+2 1 4
+5 6 3
+7 9 8
+new root arr:
+4 3 1
+7 6 8
+2 5 9
+LEFT
+RIGHT
+old root arr:
+2 1 4
+5 6 3
+7 8 9
+new root arr:
+4 3 1
+7 6 8
+2 5 9
+UP
+old root arr:
+4 3 1
+7 6 8
+2 5 9
+new root arr:
+4 3 1
+2 7 5
+8 6 9
+LEFT
+old root arr:
+4 3 1
+2 7 5
+8 6 9
+new root arr:
+9 2 1
+5 3 4
+7 6 8
+UP
+old root arr:
+9 2 1
+5 3 4
+7 6 8
+new root arr:
+3 7 1
+4 9 6
+2 5 8
+DOWN
+old root arr:
+3 7 1
+4 9 6
+2 5 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+4 5 6
+2 9 8
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+LEFT
+RIGHT
+old root arr:
+3 7 1
+4 5 6
+2 8 9
+new root arr:
+2 3 1
+5 9 4
+7 6 8
+UP
+old root arr:
+2 3 1
+5 9 4
+7 6 8
+new root arr:
+3 7 1
+4 5 6
+9 2 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 9 8
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 6 4
+7 8 9
+new root arr:
+2 3 1
+5 4 9
+7 6 8
+UP
+old root arr:
+2 3 1
+5 4 9
+7 6 8
+new root arr:
+3 7 1
+4 5 6
+9 2 8
+UP
+DOWN
+old root arr:
+3 7 1
+4 5 6
+9 2 8
+new root arr:
+2 3 1
+5 4 8
+7 6 9
+UP
+old root arr:
+2 3 1
+5 4 8
+7 6 9
+new root arr:
+2 3 1
+7 5 6
+9 8 4
+LEFT
+old root arr:
+2 3 1
+7 5 6
+9 8 4
+new root arr:
+3 7 1
+6 9 5
+4 8 2
+RIGHT
+old root arr:
+3 7 1
+6 9 5
+4 8 2
+new root arr:
+2 6 3
+4 9 1
+7 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 1
+6 5 9
+4 8 2
+new root arr:
+2 6 3
+4 9 1
+7 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 5 2
+4 8 9
+new root arr:
+3 7 9
+4 5 1
+2 8 6
+LEFT
+old root arr:
+3 7 9
+4 5 1
+2 8 6
+new root arr:
+2 6 3
+4 9 1
+7 5 8
+LEFT
+old root arr:
+2 6 3
+4 9 1
+7 5 8
+new root arr:
+2 8 3
+7 9 1
+6 4 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 6 3
+4 5 1
+7 9 8
+new root arr:
+2 6 3
+4 1 9
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 6 3
+4 5 1
+7 8 9
+new root arr:
+2 6 3
+4 1 9
+7 5 8
+UP
+old root arr:
+2 6 3
+4 1 9
+7 5 8
+new root arr:
+9 2 3
+7 8 1
+6 4 5
+UP
+DOWN
+old root arr:
+9 2 3
+7 8 1
+6 4 5
+new root arr:
+2 6 3
+4 1 8
+7 5 9
+DOWN
+old root arr:
+2 6 3
+4 1 8
+7 5 9
+new root arr:
+2 5 3
+7 9 1
+6 8 4
+LEFT
+old root arr:
+2 5 3
+7 9 1
+6 8 4
+new root arr:
+2 1 3
+4 8 5
+9 6 7
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 5 3
+7 1 9
+6 8 4
+new root arr:
+2 1 3
+4 8 5
+9 6 7
+UP
+DOWN
+old root arr:
+2 5 3
+7 1 4
+6 8 9
+new root arr:
+2 1 3
+4 8 5
+9 6 7
+LEFT
+old root arr:
+2 1 3
+4 8 5
+9 6 7
+new root arr:
+2 3 1
+4 9 6
+5 8 7
+UP
+old root arr:
+2 3 1
+4 9 6
+5 8 7
+new root arr:
+9 2 3
+6 8 1
+4 7 5
+UP
+DOWN
+LEFT
+old root arr:
+9 2 3
+6 8 1
+4 7 5
+new root arr:
+2 3 9
+6 5 1
+4 8 7
+DOWN
+old root arr:
+2 3 9
+6 5 1
+4 8 7
+new root arr:
+7 2 9
+4 1 3
+6 5 8
+LEFT
+old root arr:
+7 2 9
+4 1 3
+6 5 8
+new root arr:
+3 7 1
+6 9 2
+5 8 4
+LEFT
+old root arr:
+3 7 1
+6 9 2
+5 8 4
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 3 9
+4 5 1
+7 8 6
+new root arr:
+9 2 1
+7 3 8
+6 4 5
+LEFT
+old root arr:
+9 2 1
+7 3 8
+6 4 5
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+DOWN
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 3 9
+4 5 1
+7 8 6
+new root arr:
+3 1 4
+2 9 5
+6 8 7
+LEFT
+old root arr:
+3 1 4
+2 9 5
+6 8 7
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 3 1
+4 9 6
+7 5 8
+UP
+old root arr:
+2 3 1
+4 9 6
+7 5 8
+new root arr:
+3 7 9
+2 5 1
+6 8 4
+UP
+LEFT
+RIGHT
+old root arr:
+3 7 9
+2 5 1
+6 8 4
+new root arr:
+4 2 3
+1 9 5
+6 8 7
+LEFT
+old root arr:
+4 2 3
+1 9 5
+6 8 7
+new root arr:
+2 3 7
+6 9 1
+5 4 8
+UP
+DOWN
+LEFT
+old root arr:
+2 3 7
+6 9 1
+5 4 8
+new root arr:
+2 3 1
+5 9 8
+7 4 6
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 7
+6 1 9
+5 4 8
+new root arr:
+2 3 1
+5 9 8
+7 4 6
+UP
+DOWN
+old root arr:
+2 3 1
+5 9 8
+7 4 6
+new root arr:
+2 3 7
+6 1 8
+5 4 9
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+5 8 9
+7 4 6
+new root arr:
+2 3 7
+6 1 8
+5 4 9
+UP
+DOWN
+old root arr:
+2 3 1
+5 8 6
+7 4 9
+new root arr:
+2 3 7
+6 1 8
+5 4 9
+LEFT
+old root arr:
+2 3 7
+6 1 8
+5 4 9
+new root arr:
+2 3 9
+6 5 1
+4 8 7
+LEFT
+old root arr:
+2 3 9
+6 5 1
+4 8 7
+new root arr:
+2 1 4
+6 3 8
+5 7 9
+LEFT
+old root arr:
+2 1 4
+6 3 8
+5 7 9
+new root arr:
+9 2 3
+4 6 1
+7 5 8
+LEFT
+old root arr:
+9 2 3
+4 6 1
+7 5 8
+new root arr:
+2 1 5
+4 9 3
+7 8 6
+DOWN
+old root arr:
+2 1 5
+4 9 3
+7 8 6
+new root arr:
+3 5 1
+2 9 4
+7 6 8
+UP
+DOWN
+LEFT
+old root arr:
+3 5 1
+2 9 4
+7 6 8
+new root arr:
+3 1 8
+2 9 7
+6 4 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+3 5 1
+2 6 4
+7 9 8
+new root arr:
+3 5 1
+2 4 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+3 5 1
+2 6 4
+7 8 9
+new root arr:
+3 5 1
+2 4 9
+7 6 8
+UP
+old root arr:
+3 5 1
+2 4 9
+7 6 8
+new root arr:
+3 1 4
+2 9 8
+6 7 5
+UP
+DOWN
+old root arr:
+3 1 4
+2 9 8
+6 7 5
+new root arr:
+2 3 1
+6 5 7
+9 4 8
+UP
+LEFT
+RIGHT
+old root arr:
+3 1 4
+2 8 9
+6 7 5
+new root arr:
+2 3 1
+6 5 7
+9 4 8
+UP
+DOWN
+old root arr:
+3 1 4
+2 8 5
+6 7 9
+new root arr:
+3 1 9
+2 8 4
+6 7 5
+LEFT
+old root arr:
+3 1 9
+2 8 4
+6 7 5
+new root arr:
+2 3 1
+6 5 7
+9 4 8
+LEFT
+old root arr:
+2 3 1
+6 5 7
+9 4 8
+new root arr:
+2 3 9
+6 7 1
+5 8 4
+UP
+old root arr:
+2 3 9
+6 7 1
+5 8 4
+new root arr:
+9 3 1
+6 7 2
+4 5 8
+LEFT
+old root arr:
+9 3 1
+6 7 2
+4 5 8
+new root arr:
+2 3 1
+5 4 8
+9 7 6
+DOWN
+old root arr:
+2 3 1
+5 4 8
+9 7 6
+new root arr:
+2 3 1
+4 5 6
+9 7 8
+UP
+old root arr:
+2 3 1
+4 5 6
+9 7 8
+new root arr:
+9 2 1
+6 3 8
+4 7 5
+UP
+old root arr:
+9 2 1
+6 3 8
+4 7 5
+new root arr:
+2 3 1
+6 4 8
+9 5 7
+DOWN
+old root arr:
+2 3 1
+6 4 8
+9 5 7
+new root arr:
+2 3 1
+7 4 6
+9 5 8
+UP
+old root arr:
+2 3 1
+7 4 6
+9 5 8
+new root arr:
+2 1 6
+4 3 8
+7 5 9
+RIGHT
+old root arr:
+2 1 6
+4 3 8
+7 5 9
+new root arr:
+3 7 1
+4 9 5
+2 8 6
+LEFT
+old root arr:
+3 7 1
+4 9 5
+2 8 6
+new root arr:
+3 7 1
+5 9 6
+4 2 8
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+5 9 6
+4 2 8
+new root arr:
+2 1 8
+4 9 3
+7 6 5
+UP
+DOWN
+RIGHT
+old root arr:
+3 7 1
+5 2 6
+4 9 8
+new root arr:
+2 1 8
+4 9 3
+7 6 5
+LEFT
+RIGHT
+old root arr:
+3 7 1
+5 2 6
+4 8 9
+new root arr:
+2 1 8
+4 9 3
+7 6 5
+UP
+old root arr:
+2 1 8
+4 9 3
+7 6 5
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+UP
+DOWN
+LEFT
+old root arr:
+2 1 8
+4 6 3
+7 9 5
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 8
+4 6 3
+7 5 9
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+UP
+old root arr:
+2 1 6
+4 9 3
+7 5 8
+new root arr:
+2 1 3
+4 9 7
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+2 1 6
+4 5 3
+7 9 8
+new root arr:
+2 1 3
+4 9 7
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 6
+4 5 3
+7 8 9
+new root arr:
+2 1 3
+4 9 7
+6 5 8
+UP
+old root arr:
+2 1 3
+4 9 7
+6 5 8
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 1 3
+4 5 7
+6 9 8
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 3
+4 5 7
+6 8 9
+new root arr:
+2 1 3
+4 5 7
+9 6 8
+UP
+old root arr:
+2 1 3
+4 5 9
+6 8 7
+new root arr:
+2 6 3
+4 9 1
+7 5 8
+UP
+LEFT
+old root arr:
+2 6 3
+4 9 1
+7 5 8
+new root arr:
+2 1 3
+4 5 7
+9 6 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 6 3
+4 5 1
+7 9 8
+new root arr:
+2 6 3
+4 1 9
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 6 3
+4 5 1
+7 8 9
+new root arr:
+2 6 3
+4 1 9
+7 5 8
+UP
+old root arr:
+2 6 3
+4 1 9
+7 5 8
+new root arr:
+9 2 1
+4 3 6
+7 5 8
+UP
+DOWN
+old root arr:
+9 2 1
+4 3 6
+7 5 8
+new root arr:
+2 1 3
+4 5 7
+9 6 8
+DOWN
+old root arr:
+2 1 3
+4 5 7
+9 6 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 7
+4 1 8
+9 6 5
+UP
+DOWN
+LEFT
+old root arr:
+2 3 7
+4 1 8
+9 6 5
+new root arr:
+2 3 1
+7 5 6
+9 8 4
+UP
+old root arr:
+2 3 1
+7 5 6
+9 8 4
+new root arr:
+9 2 7
+4 3 1
+6 5 8
+RIGHT
+old root arr:
+9 2 7
+4 3 1
+6 5 8
+new root arr:
+3 7 1
+6 9 8
+4 2 5
+DOWN
+old root arr:
+3 7 1
+6 9 8
+4 2 5
+new root arr:
+3 7 9
+5 4 1
+2 6 8
+UP
+DOWN
+RIGHT
+old root arr:
+3 7 1
+6 2 8
+4 9 5
+new root arr:
+3 7 1
+6 8 9
+4 2 5
+LEFT
+RIGHT
+old root arr:
+3 7 1
+6 2 8
+4 5 9
+new root arr:
+3 7 1
+6 8 9
+4 2 5
+UP
+old root arr:
+3 7 1
+6 8 9
+4 2 5
+new root arr:
+3 7 1
+6 2 9
+4 5 8
+UP
+DOWN
+old root arr:
+3 7 1
+6 8 5
+4 2 9
+new root arr:
+3 7 1
+6 2 9
+4 5 8
+LEFT
+old root arr:
+3 7 1
+6 2 9
+4 5 8
+new root arr:
+9 3 1
+2 6 8
+4 7 5
+UP
+LEFT
+old root arr:
+9 3 1
+2 6 8
+4 7 5
+new root arr:
+2 3 1
+8 9 5
+7 6 4
+RIGHT
+old root arr:
+2 3 1
+8 9 5
+7 6 4
+new root arr:
+2 8 3
+4 9 1
+7 6 5
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+8 6 5
+7 9 4
+new root arr:
+2 3 1
+8 5 9
+7 6 4
+LEFT
+RIGHT
+old root arr:
+2 3 1
+8 6 5
+7 4 9
+new root arr:
+2 3 1
+8 5 9
+7 6 4
+UP
+old root arr:
+2 3 1
+8 5 9
+7 6 4
+new root arr:
+2 8 3
+4 9 1
+7 6 5
+UP
+DOWN
+old root arr:
+2 3 1
+8 5 4
+7 6 9
+new root arr:
+2 8 3
+4 9 1
+7 6 5
+LEFT
+old root arr:
+2 3 1
+8 5 4
+7 9 6
+new root arr:
+2 8 3
+4 9 1
+7 6 5
+UP
+LEFT
+old root arr:
+2 8 3
+4 9 1
+7 6 5
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 9 5
+new root arr:
+2 8 3
+4 1 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 5 9
+new root arr:
+2 8 3
+4 1 9
+7 6 5
+UP
+old root arr:
+2 8 3
+4 1 9
+7 6 5
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+UP
+DOWN
+old root arr:
+2 8 3
+4 1 5
+7 6 9
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+LEFT
+old root arr:
+2 8 3
+4 1 5
+7 9 6
+new root arr:
+2 1 6
+4 9 3
+7 5 8
+UP
+LEFT
+old root arr:
+2 1 6
+4 9 3
+7 5 8
+new root arr:
+2 3 1
+7 4 5
+9 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 1 6
+4 5 3
+7 9 8
+new root arr:
+2 3 1
+7 4 5
+9 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 6
+4 5 3
+7 8 9
+new root arr:
+2 3 1
+7 4 5
+9 8 6
+UP
+old root arr:
+2 3 1
+7 4 5
+9 8 6
+new root arr:
+3 7 9
+5 4 1
+2 6 8
+RIGHT
+old root arr:
+3 7 9
+5 4 1
+2 6 8
+new root arr:
+9 2 1
+4 3 5
+7 8 6
+LEFT
+old root arr:
+9 2 1
+4 3 5
+7 8 6
+new root arr:
+9 2 3
+4 8 1
+7 6 5
+DOWN
+old root arr:
+9 2 3
+4 8 1
+7 6 5
+new root arr:
+2 3 9
+6 4 7
+5 8 1
+DOWN
+old root arr:
+2 3 9
+6 4 7
+5 8 1
+new root arr:
+3 1 8
+4 9 7
+2 6 5
+LEFT
+old root arr:
+3 1 8
+4 9 7
+2 6 5
+new root arr:
+9 2 1
+4 3 8
+7 6 5
+UP
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 6 7
+2 9 5
+new root arr:
+9 2 1
+4 3 8
+7 6 5
+LEFT
+RIGHT
+old root arr:
+3 1 8
+4 6 7
+2 5 9
+new root arr:
+9 2 1
+4 3 8
+7 6 5
+UP
+old root arr:
+3 1 8
+4 6 9
+2 5 7
+new root arr:
+9 2 1
+4 3 8
+7 6 5
+UP
+LEFT
+old root arr:
+9 2 1
+4 3 8
+7 6 5
+new root arr:
+2 3 9
+4 5 1
+7 8 6
+DOWN
+old root arr:
+2 3 9
+4 5 1
+7 8 6
+new root arr:
+2 8 3
+6 9 1
+4 7 5
+LEFT
+old root arr:
+2 8 3
+6 9 1
+4 7 5
+new root arr:
+3 1 8
+4 6 7
+9 2 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 8 3
+6 1 9
+4 7 5
+new root arr:
+3 1 8
+4 6 7
+9 2 5
+UP
+DOWN
+old root arr:
+2 8 3
+6 1 5
+4 7 9
+new root arr:
+3 1 8
+4 6 7
+9 2 5
+LEFT
+old root arr:
+3 1 8
+4 6 7
+9 2 5
+new root arr:
+3 1 9
+4 6 8
+2 5 7
+UP
+old root arr:
+3 1 9
+4 6 8
+2 5 7
+new root arr:
+3 1 8
+4 9 6
+2 5 7
+LEFT
+old root arr:
+3 1 8
+4 9 6
+2 5 7
+new root arr:
+2 6 3
+4 1 8
+7 5 9
+UP
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 5 6
+2 9 7
+new root arr:
+2 6 3
+4 1 8
+7 5 9
+LEFT
+RIGHT
+old root arr:
+3 1 8
+4 5 6
+2 7 9
+new root arr:
+2 6 3
+4 1 8
+7 5 9
+UP
+old root arr:
+2 6 3
+4 1 8
+7 5 9
+new root arr:
+9 2 3
+4 5 1
+7 8 6
+LEFT
+old root arr:
+9 2 3
+4 5 1
+7 8 6
+new root arr:
+2 5 3
+4 9 1
+7 8 6
+DOWN
+old root arr:
+2 5 3
+4 9 1
+7 8 6
+new root arr:
+3 1 8
+4 5 6
+9 2 7
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 5 3
+4 1 9
+7 8 6
+new root arr:
+3 1 8
+4 5 6
+9 2 7
+UP
+DOWN
+old root arr:
+2 5 3
+4 1 6
+7 8 9
+new root arr:
+3 1 8
+4 5 6
+9 2 7
+LEFT
+old root arr:
+3 1 8
+4 5 6
+9 2 7
+new root arr:
+9 2 1
+4 7 3
+6 5 8
+UP
+old root arr:
+9 2 1
+4 7 3
+6 5 8
+new root arr:
+2 3 1
+6 9 5
+4 8 7
+DOWN
+old root arr:
+2 3 1
+6 9 5
+4 8 7
+new root arr:
+2 1 6
+4 3 8
+7 5 9
+UP
+DOWN
+LEFT
+old root arr:
+2 1 6
+4 3 8
+7 5 9
+new root arr:
+9 7 1
+3 2 8
+6 4 5
+LEFT
+old root arr:
+9 7 1
+3 2 8
+6 4 5
+new root arr:
+9 3 1
+2 7 5
+6 8 4
+RIGHT
+old root arr:
+7 9 1
+3 2 8
+6 4 5
+new root arr:
+9 3 1
+2 7 5
+6 8 4
+DOWN
+RIGHT
+old root arr:
+7 2 1
+3 9 8
+6 4 5
+new root arr:
+7 1 9
+3 2 8
+6 4 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 4 8
+6 9 5
+new root arr:
+7 2 1
+3 8 9
+6 4 5
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 4 8
+6 5 9
+new root arr:
+7 2 1
+3 8 9
+6 4 5
+UP
+old root arr:
+7 2 1
+3 8 9
+6 4 5
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+UP
+DOWN
+old root arr:
+7 2 1
+3 8 5
+6 4 9
+new root arr:
+7 2 1
+3 4 9
+6 5 8
+LEFT
+old root arr:
+7 2 1
+3 4 9
+6 5 8
+new root arr:
+7 1 9
+3 2 8
+6 4 5
+UP
+LEFT
+old root arr:
+7 1 9
+3 2 8
+6 4 5
+new root arr:
+7 2 1
+3 4 8
+9 6 5
+DOWN
+old root arr:
+7 2 1
+3 4 8
+9 6 5
+new root arr:
+7 2 1
+9 3 8
+6 4 5
+UP
+old root arr:
+7 2 1
+9 3 8
+6 4 5
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+DOWN
+old root arr:
+7 2 1
+6 3 8
+9 4 5
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+RIGHT
+old root arr:
+7 2 1
+6 3 8
+4 9 5
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 8
+4 5 9
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+old root arr:
+7 2 1
+6 3 9
+4 5 8
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+LEFT
+old root arr:
+7 2 1
+6 9 3
+4 5 8
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+DOWN
+LEFT
+old root arr:
+7 2 1
+6 5 3
+4 9 8
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 5 3
+4 8 9
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+UP
+old root arr:
+7 2 1
+3 8 5
+6 9 4
+new root arr:
+7 1 8
+3 2 9
+6 4 5
+UP
+LEFT
+old root arr:
+7 1 8
+3 2 9
+6 4 5
+new root arr:
+7 2 1
+9 6 3
+4 5 8
+DOWN
+LEFT
+old root arr:
+7 1 8
+3 2 5
+6 4 9
+new root arr:
+7 2 1
+9 6 3
+4 5 8
+LEFT
+old root arr:
+7 2 1
+9 6 3
+4 5 8
+new root arr:
+7 2 1
+6 5 9
+4 8 3
+UP
+DOWN
+old root arr:
+7 2 1
+4 6 3
+9 5 8
+new root arr:
+7 2 1
+6 5 9
+4 8 3
+RIGHT
+old root arr:
+7 2 1
+6 5 9
+4 8 3
+new root arr:
+7 2 1
+4 6 3
+5 9 8
+UP
+LEFT
+old root arr:
+7 2 1
+4 6 3
+5 9 8
+new root arr:
+7 2 9
+6 3 1
+4 5 8
+UP
+RIGHT
+old root arr:
+7 2 1
+4 6 3
+5 8 9
+new root arr:
+7 2 9
+6 3 1
+4 5 8
+UP
+old root arr:
+7 2 9
+6 3 1
+4 5 8
+new root arr:
+7 2 1
+6 5 3
+9 4 8
+LEFT
+old root arr:
+7 2 1
+6 5 3
+9 4 8
+new root arr:
+7 2 9
+3 4 1
+6 5 8
+UP
+old root arr:
+7 2 9
+3 4 1
+6 5 8
+new root arr:
+7 2 1
+3 8 5
+9 6 4
+LEFT
+old root arr:
+7 2 1
+3 8 5
+9 6 4
+new root arr:
+7 2 1
+3 9 4
+6 5 8
+UP
+old root arr:
+7 2 1
+3 9 4
+6 5 8
+new root arr:
+9 2 1
+7 6 3
+4 5 8
+UP
+DOWN
+LEFT
+old root arr:
+7 2 1
+3 5 4
+6 9 8
+new root arr:
+9 2 1
+7 6 3
+4 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 5 4
+6 8 9
+new root arr:
+9 2 1
+7 6 3
+4 5 8
+UP
+old root arr:
+9 2 1
+7 6 3
+4 5 8
+new root arr:
+9 2 1
+7 3 8
+6 4 5
+RIGHT
+old root arr:
+9 2 1
+7 3 8
+6 4 5
+new root arr:
+7 2 1
+6 9 8
+4 3 5
+RIGHT
+old root arr:
+7 2 1
+6 9 8
+4 3 5
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+UP
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 8 9
+4 3 5
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+UP
+DOWN
+old root arr:
+7 2 1
+6 8 5
+4 3 9
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+LEFT
+old root arr:
+7 2 1
+6 8 5
+4 9 3
+new root arr:
+7 2 1
+3 9 5
+6 8 4
+UP
+LEFT
+old root arr:
+7 2 1
+3 9 5
+6 8 4
+new root arr:
+7 2 1
+3 5 4
+9 6 8
+UP
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 5 9
+6 8 4
+new root arr:
+7 2 1
+3 5 4
+9 6 8
+UP
+DOWN
+old root arr:
+7 2 1
+3 5 4
+6 8 9
+new root arr:
+7 2 1
+3 5 4
+9 6 8
+LEFT
+old root arr:
+7 2 1
+3 5 4
+9 6 8
+new root arr:
+9 3 1
+2 7 5
+6 8 4
+UP
+old root arr:
+9 3 1
+2 7 5
+6 8 4
+new root arr:
+2 3 1
+6 8 5
+9 4 7
+DOWN
+old root arr:
+2 3 1
+9 7 5
+6 8 4
+new root arr:
+2 3 1
+6 8 5
+9 4 7
+DOWN
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+9 8 4
+new root arr:
+2 3 1
+7 9 5
+6 8 4
+RIGHT
+old root arr:
+2 3 1
+7 9 5
+6 8 4
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+DOWN
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+LEFT
+old root arr:
+2 3 1
+6 7 5
+8 9 4
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+8 4 9
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+UP
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+2 3 1
+6 8 5
+9 4 7
+UP
+LEFT
+old root arr:
+2 3 1
+6 8 5
+9 4 7
+new root arr:
+7 2 1
+6 9 5
+4 8 3
+UP
+old root arr:
+7 2 1
+6 9 5
+4 8 3
+new root arr:
+9 2 1
+4 3 6
+7 5 8
+UP
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 5 9
+4 8 3
+new root arr:
+9 2 1
+4 3 6
+7 5 8
+UP
+DOWN
+old root arr:
+7 2 1
+6 5 3
+4 8 9
+new root arr:
+9 2 1
+4 3 6
+7 5 8
+LEFT
+old root arr:
+9 2 1
+4 3 6
+7 5 8
+new root arr:
+7 2 9
+3 8 1
+6 4 5
+DOWN
+old root arr:
+7 2 9
+3 8 1
+6 4 5
+new root arr:
+2 3 9
+7 5 1
+6 8 4
+LEFT
+old root arr:
+2 3 9
+7 5 1
+6 8 4
+new root arr:
+2 3 1
+6 9 5
+8 7 4
+LEFT
+old root arr:
+2 3 1
+6 9 5
+8 7 4
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 5 9
+8 7 4
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+UP
+DOWN
+old root arr:
+2 3 1
+6 5 4
+8 7 9
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+LEFT
+old root arr:
+2 3 1
+7 8 5
+9 6 4
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+3 7 1
+8 9 5
+4 2 6
+UP
+old root arr:
+3 7 1
+8 9 5
+4 2 6
+new root arr:
+2 3 7
+5 9 1
+4 6 8
+UP
+DOWN
+RIGHT
+old root arr:
+3 7 1
+8 2 5
+4 9 6
+new root arr:
+3 7 1
+8 5 9
+4 2 6
+LEFT
+RIGHT
+old root arr:
+3 7 1
+8 5 9
+4 2 6
+new root arr:
+2 3 7
+5 9 1
+4 6 8
+UP
+DOWN
+old root arr:
+3 7 1
+8 5 6
+4 2 9
+new root arr:
+2 3 7
+5 9 1
+4 6 8
+LEFT
+old root arr:
+2 3 7
+5 9 1
+4 6 8
+new root arr:
+3 1 2
+6 9 7
+4 5 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 7
+5 6 1
+4 9 8
+new root arr:
+2 3 7
+5 1 9
+4 6 8
+LEFT
+RIGHT
+old root arr:
+2 3 7
+5 6 1
+4 8 9
+new root arr:
+2 3 7
+5 1 9
+4 6 8
+UP
+old root arr:
+2 3 7
+5 1 9
+4 6 8
+new root arr:
+3 1 2
+6 9 7
+4 5 8
+UP
+DOWN
+old root arr:
+3 1 2
+6 9 7
+4 5 8
+new root arr:
+3 7 1
+8 2 5
+4 6 9
+UP
+DOWN
+LEFT
+old root arr:
+3 1 2
+6 5 7
+4 9 8
+new root arr:
+3 7 1
+8 2 5
+4 6 9
+LEFT
+RIGHT
+old root arr:
+3 1 2
+6 5 7
+4 8 9
+new root arr:
+3 7 1
+8 2 5
+4 6 9
+UP
+old root arr:
+3 1 2
+6 5 9
+4 8 7
+new root arr:
+3 7 1
+8 2 5
+4 6 9
+UP
+LEFT
+old root arr:
+3 7 1
+8 2 5
+4 6 9
+new root arr:
+2 3 9
+5 1 7
+4 6 8
+UP
+old root arr:
+2 3 9
+5 1 7
+4 6 8
+new root arr:
+2 3 7
+5 1 8
+4 6 9
+LEFT
+old root arr:
+2 3 7
+5 1 8
+4 6 9
+new root arr:
+3 1 8
+2 9 7
+6 4 5
+LEFT
+old root arr:
+3 1 8
+2 9 7
+6 4 5
+new root arr:
+2 4 3
+6 9 1
+5 7 8
+UP
+DOWN
+LEFT
+old root arr:
+3 1 8
+2 4 7
+6 9 5
+new root arr:
+2 4 3
+6 9 1
+5 7 8
+LEFT
+RIGHT
+old root arr:
+3 1 8
+2 4 7
+6 5 9
+new root arr:
+2 4 3
+6 9 1
+5 7 8
+UP
+old root arr:
+3 1 8
+2 4 9
+6 5 7
+new root arr:
+2 4 3
+6 9 1
+5 7 8
+UP
+LEFT
+old root arr:
+2 4 3
+6 9 1
+5 7 8
+new root arr:
+3 1 8
+2 9 5
+6 7 4
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 4 3
+6 1 9
+5 7 8
+new root arr:
+3 1 8
+2 9 5
+6 7 4
+UP
+DOWN
+old root arr:
+3 1 8
+2 9 5
+6 7 4
+new root arr:
+3 1 8
+2 4 7
+9 6 5
+UP
+LEFT
+RIGHT
+old root arr:
+3 1 8
+2 5 9
+6 7 4
+new root arr:
+3 1 8
+2 4 7
+9 6 5
+UP
+DOWN
+old root arr:
+3 1 8
+2 5 4
+6 7 9
+new root arr:
+3 1 8
+2 4 7
+9 6 5
+LEFT
+old root arr:
+3 1 8
+2 4 7
+9 6 5
+new root arr:
+3 1 9
+2 4 8
+6 5 7
+UP
+old root arr:
+3 1 9
+2 4 8
+6 5 7
+new root arr:
+2 4 3
+6 1 8
+5 7 9
+LEFT
+old root arr:
+2 4 3
+6 1 8
+5 7 9
+new root arr:
+3 1 9
+2 5 8
+6 7 4
+LEFT
+old root arr:
+3 1 9
+2 5 8
+6 7 4
+new root arr:
+9 2 1
+6 3 4
+5 7 8
+LEFT
+old root arr:
+9 2 1
+6 3 4
+5 7 8
+new root arr:
+3 1 4
+2 5 8
+7 6 9
+DOWN
+old root arr:
+3 1 4
+2 5 8
+7 6 9
+new root arr:
+2 3 1
+7 4 6
+9 5 8
+LEFT
+old root arr:
+2 3 1
+7 4 6
+9 5 8
+new root arr:
+2 4 9
+7 1 3
+6 5 8
+RIGHT
+old root arr:
+2 4 9
+7 1 3
+6 5 8
+new root arr:
+3 5 1
+2 4 8
+7 6 9
+LEFT
+old root arr:
+3 5 1
+2 4 8
+7 6 9
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+LEFT
+old root arr:
+2 3 1
+7 8 5
+9 6 4
+new root arr:
+2 1 8
+6 9 3
+4 7 5
+UP
+old root arr:
+2 1 8
+6 9 3
+4 7 5
+new root arr:
+3 7 1
+6 5 2
+9 4 8
+UP
+DOWN
+LEFT
+old root arr:
+3 7 1
+6 5 2
+9 4 8
+new root arr:
+2 3 1
+4 8 5
+9 7 6
+UP
+old root arr:
+2 3 1
+4 8 5
+9 7 6
+new root arr:
+2 3 9
+4 8 1
+7 6 5
+UP
+old root arr:
+2 3 9
+4 8 1
+7 6 5
+new root arr:
+9 3 1
+2 7 5
+6 8 4
+LEFT
+old root arr:
+9 3 1
+2 7 5
+6 8 4
+new root arr:
+4 2 9
+1 5 3
+6 8 7
+DOWN
+old root arr:
+2 3 1
+9 7 5
+6 8 4
+new root arr:
+4 2 9
+1 5 3
+6 8 7
+DOWN
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+9 8 4
+new root arr:
+2 3 1
+7 9 5
+6 8 4
+RIGHT
+old root arr:
+2 3 1
+7 9 5
+6 8 4
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 5 9
+6 8 4
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+DOWN
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+LEFT
+old root arr:
+2 3 1
+6 7 5
+8 9 4
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+8 4 9
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+UP
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+4 2 9
+1 5 3
+6 8 7
+UP
+LEFT
+old root arr:
+4 2 9
+1 5 3
+6 8 7
+new root arr:
+4 2 9
+1 7 3
+6 5 8
+LEFT
+old root arr:
+4 2 9
+1 7 3
+6 5 8
+new root arr:
+2 3 9
+7 5 1
+6 8 4
+LEFT
+old root arr:
+2 3 9
+7 5 1
+6 8 4
+new root arr:
+2 3 1
+7 8 5
+9 6 4
+LEFT
+old root arr:
+2 3 1
+7 8 5
+9 6 4
+new root arr:
+2 3 1
+7 5 4
+9 6 8
+UP
+old root arr:
+2 3 1
+7 5 4
+9 6 8
+new root arr:
+2 3 1
+6 9 5
+8 7 4
+UP
+old root arr:
+2 3 1
+6 9 5
+8 7 4
+new root arr:
+2 3 9
+6 1 7
+5 4 8
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 5 9
+8 7 4
+new root arr:
+2 3 9
+6 1 7
+5 4 8
+UP
+DOWN
+old root arr:
+2 3 1
+6 5 4
+8 7 9
+new root arr:
+2 3 9
+6 1 7
+5 4 8
+LEFT
+old root arr:
+2 3 9
+6 1 7
+5 4 8
+new root arr:
+3 7 9
+6 2 1
+5 8 4
+LEFT
+old root arr:
+3 7 9
+6 2 1
+5 8 4
+new root arr:
+3 7 9
+6 8 1
+4 2 5
+LEFT
+old root arr:
+3 7 9
+6 8 1
+4 2 5
+new root arr:
+3 7 1
+2 8 5
+9 6 4
+LEFT
+old root arr:
+3 7 1
+2 8 5
+9 6 4
+new root arr:
+2 8 3
+7 9 1
+6 4 5
+UP
+old root arr:
+2 8 3
+7 9 1
+6 4 5
+new root arr:
+9 2 3
+7 5 1
+6 8 4
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 8 3
+7 4 1
+6 9 5
+new root arr:
+2 8 3
+7 1 9
+6 4 5
+LEFT
+RIGHT
+old root arr:
+2 8 3
+7 4 1
+6 5 9
+new root arr:
+2 8 3
+7 1 9
+6 4 5
+UP
+old root arr:
+2 8 3
+7 1 9
+6 4 5
+new root arr:
+9 2 3
+7 5 1
+6 8 4
+UP
+DOWN
+old root arr:
+2 8 3
+7 1 5
+6 4 9
+new root arr:
+9 2 3
+7 5 1
+6 8 4
+LEFT
+old root arr:
+9 2 3
+7 5 1
+6 8 4
+new root arr:
+3 7 1
+2 4 5
+8 6 9
+DOWN
+old root arr:
+3 7 1
+2 4 5
+8 6 9
+new root arr:
+2 8 3
+7 4 1
+9 6 5
+UP
+old root arr:
+2 8 3
+7 4 1
+9 6 5
+new root arr:
+4 3 9
+7 5 1
+2 8 6
+UP
+old root arr:
+4 3 9
+7 5 1
+2 8 6
+new root arr:
+9 2 3
+4 6 1
+7 5 8
+LEFT
+old root arr:
+9 2 3
+4 6 1
+7 5 8
+new root arr:
+9 3 1
+2 4 8
+7 6 5
+DOWN
+old root arr:
+9 3 1
+2 4 8
+7 6 5
+new root arr:
+2 1 4
+6 9 3
+5 7 8
+RIGHT
+old root arr:
+2 1 4
+6 9 3
+5 7 8
+new root arr:
+9 3 1
+4 5 6
+7 2 8
+UP
+DOWN
+LEFT
+old root arr:
+9 3 1
+4 5 6
+7 2 8
+new root arr:
+2 4 3
+5 9 1
+7 6 8
+RIGHT
+old root arr:
+2 4 3
+5 9 1
+7 6 8
+new root arr:
+2 4 3
+7 9 1
+6 5 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 9 8
+new root arr:
+2 4 3
+5 1 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 8 9
+new root arr:
+2 4 3
+5 1 9
+7 6 8
+UP
+old root arr:
+2 4 3
+5 1 9
+7 6 8
+new root arr:
+2 4 3
+7 9 1
+6 5 8
+UP
+DOWN
+old root arr:
+2 4 3
+7 9 1
+6 5 8
+new root arr:
+7 2 1
+6 9 4
+5 3 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 4 3
+7 5 1
+6 9 8
+new root arr:
+2 4 3
+7 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+2 4 3
+7 5 1
+6 8 9
+new root arr:
+2 4 3
+7 1 9
+6 5 8
+UP
+old root arr:
+2 4 3
+7 1 9
+6 5 8
+new root arr:
+7 2 1
+6 9 4
+5 3 8
+UP
+DOWN
+old root arr:
+7 2 1
+6 9 4
+5 3 8
+new root arr:
+2 4 3
+5 1 8
+7 6 9
+UP
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 4 9
+5 3 8
+new root arr:
+2 4 3
+5 1 8
+7 6 9
+UP
+DOWN
+old root arr:
+2 4 3
+5 1 8
+7 6 9
+new root arr:
+2 4 3
+7 5 1
+9 6 8
+LEFT
+old root arr:
+2 4 3
+7 5 1
+9 6 8
+new root arr:
+2 4 3
+7 1 8
+6 5 9
+UP
+old root arr:
+2 4 3
+7 1 8
+6 5 9
+new root arr:
+7 2 1
+6 4 8
+5 3 9
+LEFT
+old root arr:
+7 2 1
+6 4 8
+5 3 9
+new root arr:
+4 3 1
+2 9 6
+5 7 8
+LEFT
+old root arr:
+4 3 1
+2 9 6
+5 7 8
+new root arr:
+7 2 1
+6 4 8
+5 9 3
+UP
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 4 8
+5 9 3
+new root arr:
+2 7 3
+9 6 1
+4 5 8
+UP
+LEFT
+old root arr:
+2 7 3
+9 6 1
+4 5 8
+new root arr:
+2 1 3
+5 7 8
+4 9 6
+UP
+DOWN
+old root arr:
+2 7 3
+4 6 1
+9 5 8
+new root arr:
+6 2 3
+9 4 1
+5 7 8
+RIGHT
+old root arr:
+6 2 3
+9 4 1
+5 7 8
+new root arr:
+2 1 4
+9 5 3
+7 6 8
+DOWN
+RIGHT
+old root arr:
+6 2 3
+5 4 1
+9 7 8
+new root arr:
+6 2 3
+4 9 1
+5 7 8
+RIGHT
+old root arr:
+6 2 3
+5 4 1
+7 9 8
+new root arr:
+6 2 3
+4 9 1
+5 7 8
+UP
+RIGHT
+old root arr:
+6 2 3
+5 4 1
+7 8 9
+new root arr:
+6 2 3
+4 9 1
+5 7 8
+UP
+old root arr:
+6 2 3
+4 9 1
+5 7 8
+new root arr:
+3 7 1
+4 5 9
+2 8 6
+UP
+DOWN
+RIGHT
+old root arr:
+6 2 3
+4 1 9
+5 7 8
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+UP
+DOWN
+old root arr:
+6 2 3
+4 1 8
+5 7 9
+new root arr:
+2 9 1
+7 3 4
+6 5 8
+LEFT
+old root arr:
+2 9 1
+7 3 4
+6 5 8
+new root arr:
+2 1 4
+5 6 9
+7 8 3
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 4
+6 5 8
+new root arr:
+7 2 3
+4 1 8
+6 9 5
+DOWN
+old root arr:
+7 2 3
+4 1 8
+6 9 5
+new root arr:
+2 1 4
+7 3 9
+6 5 8
+UP
+LEFT
+old root arr:
+2 1 4
+7 3 9
+6 5 8
+new root arr:
+5 2 1
+9 3 4
+7 6 8
+DOWN
+LEFT
+old root arr:
+5 2 1
+9 3 4
+7 6 8
+new root arr:
+3 9 1
+4 7 6
+2 5 8
+DOWN
+RIGHT
+old root arr:
+3 9 1
+4 7 6
+2 5 8
+new root arr:
+2 1 4
+5 6 9
+7 8 3
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 6
+2 5 8
+new root arr:
+6 3 1
+9 7 8
+4 2 5
+DOWN
+old root arr:
+6 3 1
+9 7 8
+4 2 5
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+DOWN
+RIGHT
+old root arr:
+6 3 1
+4 7 8
+9 2 5
+new root arr:
+6 3 1
+7 9 8
+4 2 5
+RIGHT
+old root arr:
+6 3 1
+7 9 8
+4 2 5
+new root arr:
+6 3 1
+4 7 8
+2 9 5
+UP
+DOWN
+RIGHT
+old root arr:
+6 3 1
+7 2 8
+4 9 5
+new root arr:
+6 3 1
+7 8 9
+4 2 5
+LEFT
+RIGHT
+old root arr:
+6 3 1
+7 2 8
+4 5 9
+new root arr:
+6 3 1
+7 8 9
+4 2 5
+UP
+old root arr:
+6 3 1
+7 8 9
+4 2 5
+new root arr:
+6 3 1
+7 2 9
+4 5 8
+UP
+DOWN
+old root arr:
+6 3 1
+7 8 5
+4 2 9
+new root arr:
+6 3 1
+7 2 9
+4 5 8
+LEFT
+old root arr:
+6 3 1
+7 2 9
+4 5 8
+new root arr:
+6 3 1
+7 8 5
+4 9 2
+UP
+LEFT
+old root arr:
+6 3 1
+7 8 5
+4 9 2
+new root arr:
+4 3 1
+9 2 5
+8 7 6
+UP
+LEFT
+old root arr:
+4 3 1
+9 2 5
+8 7 6
+new root arr:
+4 3 1
+2 5 6
+8 9 7
+UP
+DOWN
+old root arr:
+4 3 1
+2 5 6
+8 9 7
+new root arr:
+2 1 8
+7 4 9
+6 5 3
+UP
+LEFT
+old root arr:
+2 1 8
+7 4 9
+6 5 3
+new root arr:
+2 1 8
+9 4 3
+7 6 5
+UP
+LEFT
+old root arr:
+2 1 8
+9 4 3
+7 6 5
+new root arr:
+4 9 1
+7 3 6
+2 5 8
+UP
+RIGHT
+old root arr:
+2 1 8
+4 9 3
+7 6 5
+new root arr:
+2 7 3
+6 5 9
+4 8 1
+UP
+DOWN
+RIGHT
+old root arr:
+2 1 8
+4 6 3
+7 9 5
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 1 8
+4 6 3
+7 5 9
+new root arr:
+2 1 4
+5 3 9
+7 6 8
+UP
+old root arr:
+2 1 4
+5 3 9
+7 6 8
+new root arr:
+2 1 8
+4 6 9
+7 5 3
+UP
+DOWN
+old root arr:
+2 1 8
+4 6 9
+7 5 3
+new root arr:
+2 4 3
+7 1 8
+6 9 5
+UP
+LEFT
+old root arr:
+2 4 3
+7 1 8
+6 9 5
+new root arr:
+2 1 4
+7 5 9
+6 8 3
+UP
+LEFT
+old root arr:
+2 1 4
+7 5 9
+6 8 3
+new root arr:
+2 1 4
+9 5 3
+7 6 8
+UP
+LEFT
+old root arr:
+2 1 4
+9 5 3
+7 6 8
+new root arr:
+2 1 3
+5 8 6
+4 9 7
+UP
+RIGHT
+old root arr:
+2 1 3
+5 8 6
+4 9 7
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+LEFT
+RIGHT
+old root arr:
+2 1 3
+5 8 6
+4 7 9
+new root arr:
+3 7 1
+4 6 9
+2 5 8
+UP
+old root arr:
+3 7 1
+4 6 9
+2 5 8
+new root arr:
+2 9 1
+5 3 4
+7 6 8
+UP
+DOWN
+old root arr:
+2 9 1
+5 3 4
+7 6 8
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+LEFT
+RIGHT
+old root arr:
+2 1 9
+5 3 4
+7 6 8
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+DOWN
+old root arr:
+2 9 1
+4 3 8
+7 6 5
+new root arr:
+2 1 4
+5 3 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 8
+7 6 5
+new root arr:
+2 9 1
+4 3 5
+7 8 6
+DOWN
+old root arr:
+2 9 1
+4 3 5
+7 8 6
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 5
+7 8 6
+new root arr:
+2 3 1
+5 4 8
+7 9 6
+DOWN
+old root arr:
+2 3 1
+5 4 8
+7 9 6
+new root arr:
+7 2 1
+9 3 5
+6 8 4
+UP
+LEFT
+old root arr:
+7 2 1
+9 3 5
+6 8 4
+new root arr:
+2 9 4
+7 1 3
+6 5 8
+UP
+DOWN
+old root arr:
+7 2 1
+6 3 5
+9 8 4
+new root arr:
+7 2 1
+3 8 5
+6 9 4
+RIGHT
+old root arr:
+7 2 1
+3 8 5
+6 9 4
+new root arr:
+7 2 1
+6 3 5
+8 9 4
+LEFT
+RIGHT
+old root arr:
+7 2 1
+3 8 5
+6 4 9
+new root arr:
+4 9 1
+7 3 6
+2 5 8
+UP
+old root arr:
+4 9 1
+7 3 6
+2 5 8
+new root arr:
+7 1 4
+3 5 8
+2 9 6
+LEFT
+RIGHT
+old root arr:
+4 1 9
+7 3 6
+2 5 8
+new root arr:
+4 3 1
+6 8 5
+7 9 2
+DOWN
+old root arr:
+4 3 1
+6 8 5
+7 9 2
+new root arr:
+7 5 1
+3 6 9
+2 8 4
+UP
+LEFT
+old root arr:
+7 5 1
+3 6 9
+2 8 4
+new root arr:
+3 7 1
+9 8 5
+2 6 4
+UP
+LEFT
+old root arr:
+3 7 1
+9 8 5
+2 6 4
+new root arr:
+7 2 1
+6 8 3
+5 9 4
+UP
+RIGHT
+old root arr:
+7 2 1
+6 8 3
+5 9 4
+new root arr:
+7 2 1
+9 6 3
+5 8 4
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 8 3
+5 4 9
+new root arr:
+3 9 8
+4 1 5
+2 7 6
+UP
+old root arr:
+3 9 8
+4 1 5
+2 7 6
+new root arr:
+3 9 7
+2 8 1
+6 4 5
+LEFT
+RIGHT
+old root arr:
+3 8 9
+4 1 5
+2 7 6
+new root arr:
+4 9 1
+7 3 5
+2 8 6
+DOWN
+old root arr:
+4 9 1
+7 3 5
+2 8 6
+new root arr:
+4 3 1
+9 7 6
+2 5 8
+LEFT
+RIGHT
+old root arr:
+4 1 9
+7 3 5
+2 8 6
+new root arr:
+7 5 1
+9 3 4
+2 6 8
+DOWN
+old root arr:
+7 5 1
+9 3 4
+2 6 8
+new root arr:
+4 1 5
+7 3 9
+2 8 6
+UP
+DOWN
+old root arr:
+7 5 1
+2 3 4
+9 6 8
+new root arr:
+4 1 6
+7 3 9
+2 5 8
+RIGHT
+old root arr:
+4 1 6
+7 3 9
+2 5 8
+new root arr:
+7 5 1
+2 3 4
+6 9 8
+DOWN
+LEFT
+old root arr:
+7 5 1
+2 3 4
+6 9 8
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+UP
+RIGHT
+old root arr:
+7 5 1
+2 3 4
+6 8 9
+new root arr:
+4 3 1
+9 7 5
+2 8 6
+UP
+old root arr:
+4 3 1
+9 7 5
+2 8 6
+new root arr:
+4 3 1
+5 6 9
+7 2 8
+UP
+DOWN
+old root arr:
+4 3 1
+2 7 5
+9 8 6
+new root arr:
+2 3 7
+4 8 5
+6 9 1
+RIGHT
+old root arr:
+2 3 7
+4 8 5
+6 9 1
+new root arr:
+4 9 1
+7 3 6
+2 5 8
+LEFT
+RIGHT
+old root arr:
+2 3 7
+4 8 5
+6 1 9
+new root arr:
+4 3 1
+2 7 5
+8 9 6
+UP
+old root arr:
+4 3 1
+2 7 5
+8 9 6
+new root arr:
+4 3 1
+9 5 6
+7 2 8
+UP
+RIGHT
+old root arr:
+4 3 1
+9 5 6
+7 2 8
+new root arr:
+3 1 8
+9 4 5
+2 7 6
+UP
+RIGHT
+old root arr:
+3 1 8
+9 4 5
+2 7 6
+new root arr:
+4 9 3
+7 5 1
+2 8 6
+UP
+DOWN
+old root arr:
+3 1 8
+2 4 5
+9 7 6
+new root arr:
+7 4 1
+3 5 9
+2 8 6
+RIGHT
+old root arr:
+3 1 8
+2 4 5
+7 9 6
+new root arr:
+3 9 4
+2 1 7
+6 5 8
+UP
+RIGHT
+old root arr:
+3 1 8
+2 4 5
+7 6 9
+new root arr:
+3 9 7
+2 8 1
+6 4 5
+UP
+old root arr:
+3 9 7
+2 8 1
+6 4 5
+new root arr:
+3 1 8
+9 7 5
+4 2 6
+DOWN
+LEFT
+old root arr:
+3 1 8
+9 7 5
+4 2 6
+new root arr:
+3 1 8
+6 7 5
+4 9 2
+UP
+RIGHT
+old root arr:
+3 1 8
+7 9 5
+4 2 6
+new root arr:
+3 9 1
+4 5 8
+2 7 6
+UP
+DOWN
+RIGHT
+old root arr:
+3 1 8
+7 2 5
+4 9 6
+new root arr:
+3 1 8
+7 5 9
+4 2 6
+LEFT
+RIGHT
+old root arr:
+3 1 8
+7 5 9
+4 2 6
+new root arr:
+3 1 8
+7 2 5
+4 6 9
+UP
+DOWN
+old root arr:
+3 1 8
+7 5 6
+4 2 9
+new root arr:
+3 1 8
+7 2 5
+4 6 9
+LEFT
+old root arr:
+3 1 8
+7 2 5
+4 6 9
+new root arr:
+3 1 9
+7 5 8
+4 2 6
+UP
+old root arr:
+3 1 9
+7 5 8
+4 2 6
+new root arr:
+7 4 1
+9 3 6
+2 5 8
+LEFT
+old root arr:
+7 4 1
+9 3 6
+2 5 8
+new root arr:
+7 4 1
+9 3 5
+2 8 6
+UP
+DOWN
+old root arr:
+7 4 1
+2 3 6
+9 5 8
+new root arr:
+2 9 3
+5 6 1
+7 8 4
+RIGHT
+old root arr:
+2 9 3
+5 6 1
+7 8 4
+new root arr:
+7 4 1
+2 3 6
+5 9 8
+DOWN
+LEFT
+old root arr:
+7 4 1
+2 3 6
+5 9 8
+new root arr:
+2 4 3
+5 1 8
+7 9 6
+UP
+RIGHT
+old root arr:
+7 4 1
+2 3 6
+5 8 9
+new root arr:
+7 9 1
+3 4 5
+2 8 6
+UP
+old root arr:
+7 9 1
+3 4 5
+2 8 6
+new root arr:
+4 9 1
+7 3 8
+2 6 5
+LEFT
+RIGHT
+old root arr:
+7 1 9
+3 4 5
+2 8 6
+new root arr:
+4 3 1
+9 5 6
+7 2 8
+DOWN
+old root arr:
+4 3 1
+9 5 6
+7 2 8
+new root arr:
+4 9 3
+7 6 1
+2 5 8
+UP
+RIGHT
+old root arr:
+4 9 3
+7 6 1
+2 5 8
+new root arr:
+7 9 1
+3 4 6
+2 5 8
+DOWN
+LEFT
+old root arr:
+7 9 1
+3 4 6
+2 5 8
+new root arr:
+4 3 1
+2 8 5
+6 9 7
+LEFT
+RIGHT
+old root arr:
+7 1 9
+3 4 6
+2 5 8
+new root arr:
+4 2 3
+9 5 7
+1 6 8
+DOWN
+old root arr:
+4 2 3
+9 5 7
+1 6 8
+new root arr:
+4 9 3
+7 8 1
+2 6 5
+UP
+RIGHT
+old root arr:
+4 9 3
+7 8 1
+2 6 5
+new root arr:
+3 9 7
+6 2 1
+4 5 8
+DOWN
+LEFT
+old root arr:
+3 9 7
+6 2 1
+4 5 8
+new root arr:
+3 7 1
+6 4 8
+5 9 2
+DOWN
+LEFT
+old root arr:
+3 2 7
+6 9 1
+4 5 8
+new root arr:
+7 2 1
+5 6 9
+3 8 4
+DOWN
+LEFT
+RIGHT
+old root arr:
+3 2 7
+6 5 1
+4 9 8
+new root arr:
+3 2 7
+6 1 9
+4 5 8
+LEFT
+RIGHT
+old root arr:
+3 2 7
+6 5 1
+4 8 9
+new root arr:
+3 2 7
+6 1 9
+4 5 8
+UP
+old root arr:
+3 2 7
+6 1 9
+4 5 8
+new root arr:
+3 2 7
+6 5 9
+4 8 1
+UP
+DOWN
+old root arr:
+3 2 9
+6 1 7
+4 5 8
+new root arr:
+3 2 7
+6 1 8
+4 5 9
+LEFT
+old root arr:
+3 2 7
+6 1 8
+4 5 9
+new root arr:
+7 2 3
+9 4 1
+6 5 8
+LEFT
+old root arr:
+7 2 3
+9 4 1
+6 5 8
+new root arr:
+7 4 1
+9 3 8
+2 6 5
+DOWN
+RIGHT
+old root arr:
+7 2 3
+6 4 1
+9 5 8
+new root arr:
+7 2 3
+4 9 1
+6 5 8
+RIGHT
+old root arr:
+7 2 3
+4 9 1
+6 5 8
+new root arr:
+7 2 3
+6 4 1
+5 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+7 2 3
+4 5 1
+6 9 8
+new root arr:
+7 2 3
+4 1 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 3
+4 5 1
+6 8 9
+new root arr:
+7 2 3
+4 1 9
+6 5 8
+UP
+old root arr:
+7 2 3
+4 1 9
+6 5 8
+new root arr:
+7 2 3
+4 5 1
+9 6 8
+UP
+DOWN
+old root arr:
+7 2 3
+4 5 1
+9 6 8
+new root arr:
+7 2 3
+4 1 8
+6 5 9
+UP
+old root arr:
+7 2 3
+4 1 8
+6 5 9
+new root arr:
+7 2 3
+4 5 9
+6 8 1
+LEFT
+old root arr:
+7 2 3
+4 5 9
+6 8 1
+new root arr:
+2 9 1
+7 3 5
+6 8 4
+UP
+LEFT
+old root arr:
+2 9 1
+7 3 5
+6 8 4
+new root arr:
+2 3 1
+7 4 8
+6 9 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 5
+6 8 4
+new root arr:
+2 3 1
+7 4 8
+6 9 5
+DOWN
+old root arr:
+2 3 1
+7 4 8
+6 9 5
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+UP
+LEFT
+old root arr:
+2 1 5
+7 3 9
+6 8 4
+new root arr:
+4 3 1
+8 5 6
+7 9 2
+DOWN
+LEFT
+old root arr:
+2 1 5
+7 3 4
+6 8 9
+new root arr:
+4 3 1
+8 5 6
+7 9 2
+LEFT
+old root arr:
+4 3 1
+8 5 6
+7 9 2
+new root arr:
+2 4 3
+9 5 1
+7 6 8
+UP
+LEFT
+old root arr:
+2 4 3
+9 5 1
+7 6 8
+new root arr:
+4 3 1
+5 6 9
+7 2 8
+UP
+DOWN
+old root arr:
+4 3 1
+5 6 9
+7 2 8
+new root arr:
+4 3 1
+5 2 9
+7 8 6
+UP
+DOWN
+old root arr:
+4 3 1
+5 2 9
+7 8 6
+new root arr:
+3 9 1
+4 6 8
+7 2 5
+UP
+LEFT
+old root arr:
+3 9 1
+4 6 8
+7 2 5
+new root arr:
+2 3 1
+9 7 5
+6 8 4
+DOWN
+RIGHT
+old root arr:
+3 1 9
+4 6 8
+7 2 5
+new root arr:
+2 3 1
+9 7 5
+6 8 4
+DOWN
+old root arr:
+2 3 1
+9 7 5
+6 8 4
+new root arr:
+4 3 1
+2 7 9
+5 8 6
+UP
+DOWN
+old root arr:
+2 3 1
+6 7 5
+9 8 4
+new root arr:
+4 3 1
+2 7 9
+5 8 6
+RIGHT
+old root arr:
+4 3 1
+2 7 9
+5 8 6
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+LEFT
+old root arr:
+2 3 1
+6 7 5
+8 9 4
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+8 4 9
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+2 5 3
+4 7 1
+6 9 8
+UP
+LEFT
+old root arr:
+2 5 3
+4 7 1
+6 9 8
+new root arr:
+7 2 1
+3 5 9
+6 8 4
+UP
+LEFT
+old root arr:
+7 2 1
+3 5 9
+6 8 4
+new root arr:
+4 2 3
+9 5 7
+6 8 1
+UP
+LEFT
+old root arr:
+4 2 3
+9 5 7
+6 8 1
+new root arr:
+2 5 3
+4 8 7
+6 9 1
+DOWN
+RIGHT
+old root arr:
+4 2 3
+6 5 7
+9 8 1
+new root arr:
+2 5 3
+4 8 7
+6 9 1
+RIGHT
+old root arr:
+2 5 3
+4 8 7
+6 9 1
+new root arr:
+3 7 1
+5 6 9
+2 8 4
+LEFT
+RIGHT
+old root arr:
+2 5 3
+4 8 7
+6 1 9
+new root arr:
+4 2 3
+6 5 7
+8 9 1
+UP
+old root arr:
+4 2 3
+6 5 7
+8 9 1
+new root arr:
+2 5 3
+4 8 9
+6 1 7
+UP
+RIGHT
+old root arr:
+4 2 3
+6 5 7
+8 1 9
+new root arr:
+2 5 3
+4 8 9
+6 1 7
+UP
+old root arr:
+2 5 3
+4 8 9
+6 1 7
+new root arr:
+4 2 3
+6 5 9
+8 1 7
+UP
+LEFT
+old root arr:
+4 2 3
+6 5 9
+8 1 7
+new root arr:
+3 7 1
+5 6 9
+2 8 4
+UP
+LEFT
+old root arr:
+3 7 1
+5 6 9
+2 8 4
+new root arr:
+6 3 1
+9 7 4
+5 2 8
+UP
+LEFT
+old root arr:
+6 3 1
+9 7 4
+5 2 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+DOWN
+RIGHT
+old root arr:
+6 3 1
+5 7 4
+9 2 8
+new root arr:
+6 3 1
+7 9 4
+5 2 8
+RIGHT
+old root arr:
+6 3 1
+7 9 4
+5 2 8
+new root arr:
+6 3 1
+5 7 4
+2 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+6 3 1
+7 2 4
+5 9 8
+new root arr:
+6 3 1
+7 4 9
+5 2 8
+LEFT
+RIGHT
+old root arr:
+6 3 1
+7 2 4
+5 8 9
+new root arr:
+6 3 1
+7 4 9
+5 2 8
+UP
+old root arr:
+6 3 1
+7 4 9
+5 2 8
+new root arr:
+6 3 1
+7 2 4
+9 5 8
+UP
+DOWN
+old root arr:
+6 3 1
+7 2 4
+9 5 8
+new root arr:
+6 3 1
+7 4 8
+5 2 9
+UP
+old root arr:
+6 3 1
+7 4 8
+5 2 9
+new root arr:
+6 3 1
+9 2 4
+7 5 8
+LEFT
+old root arr:
+6 3 1
+9 2 4
+7 5 8
+new root arr:
+6 3 1
+7 2 9
+5 8 4
+UP
+RIGHT
+old root arr:
+6 3 1
+7 2 9
+5 8 4
+new root arr:
+3 1 5
+4 6 9
+2 7 8
+UP
+LEFT
+old root arr:
+3 1 5
+4 6 9
+2 7 8
+new root arr:
+3 7 1
+9 5 6
+2 8 4
+UP
+DOWN
+old root arr:
+3 7 1
+9 5 6
+2 8 4
+new root arr:
+2 3 1
+9 6 7
+5 8 4
+UP
+DOWN
+old root arr:
+3 7 1
+2 5 6
+9 8 4
+new root arr:
+2 3 1
+9 6 7
+5 8 4
+RIGHT
+old root arr:
+2 3 1
+9 6 7
+5 8 4
+new root arr:
+3 7 1
+2 5 6
+8 9 4
+UP
+DOWN
+old root arr:
+2 3 1
+5 6 7
+9 8 4
+new root arr:
+3 9 1
+4 8 5
+7 2 6
+RIGHT
+old root arr:
+3 9 1
+4 8 5
+7 2 6
+new root arr:
+2 3 1
+5 6 7
+8 9 4
+DOWN
+RIGHT
+old root arr:
+3 1 9
+4 8 5
+7 2 6
+new root arr:
+2 3 1
+5 6 7
+8 9 4
+DOWN
+old root arr:
+2 3 1
+5 6 7
+8 9 4
+new root arr:
+3 1 5
+4 8 9
+7 2 6
+UP
+RIGHT
+old root arr:
+2 3 1
+5 6 7
+8 4 9
+new root arr:
+4 3 1
+9 2 8
+6 7 5
+UP
+old root arr:
+4 3 1
+9 2 8
+6 7 5
+new root arr:
+2 3 1
+5 6 9
+8 4 7
+UP
+DOWN
+old root arr:
+4 3 1
+6 2 8
+9 7 5
+new root arr:
+2 3 1
+5 6 9
+8 4 7
+RIGHT
+old root arr:
+4 3 1
+6 2 8
+7 9 5
+new root arr:
+2 3 1
+5 6 9
+8 4 7
+UP
+RIGHT
+old root arr:
+4 3 1
+6 2 8
+7 5 9
+new root arr:
+2 3 1
+5 6 9
+8 4 7
+UP
+old root arr:
+4 3 1
+6 2 9
+7 5 8
+new root arr:
+2 3 1
+5 6 9
+8 4 7
+UP
+LEFT
+old root arr:
+2 3 1
+5 6 9
+8 4 7
+new root arr:
+3 1 5
+4 8 9
+7 2 6
+UP
+LEFT
+old root arr:
+3 1 5
+4 8 9
+7 2 6
+new root arr:
+3 7 1
+2 5 6
+8 9 4
+DOWN
+LEFT
+old root arr:
+3 1 5
+4 8 6
+7 2 9
+new root arr:
+3 7 1
+2 5 6
+8 9 4
+LEFT
+old root arr:
+3 7 1
+2 5 6
+8 9 4
+new root arr:
+6 3 1
+5 7 4
+2 9 8
+UP
+RIGHT
+old root arr:
+3 7 1
+2 5 6
+8 4 9
+new root arr:
+6 3 1
+5 7 4
+2 9 8
+UP
+old root arr:
+6 3 1
+5 7 4
+2 9 8
+new root arr:
+3 7 1
+5 8 6
+2 9 4
+UP
+RIGHT
+old root arr:
+6 3 1
+5 7 4
+2 8 9
+new root arr:
+3 7 1
+5 8 6
+2 9 4
+UP
+old root arr:
+3 7 1
+5 8 6
+2 9 4
+new root arr:
+2 9 3
+4 1 5
+6 8 7
+LEFT
+RIGHT
+old root arr:
+3 7 1
+5 8 6
+2 4 9
+new root arr:
+2 9 3
+4 1 5
+6 8 7
+UP
+old root arr:
+2 9 3
+4 1 5
+6 8 7
+new root arr:
+3 9 1
+5 7 6
+2 8 4
+LEFT
+RIGHT
+old root arr:
+3 9 1
+5 7 6
+2 8 4
+new root arr:
+5 2 3
+9 4 1
+7 6 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+5 7 6
+2 8 4
+new root arr:
+5 2 3
+9 4 1
+7 6 8
+DOWN
+old root arr:
+5 2 3
+9 4 1
+7 6 8
+new root arr:
+3 7 1
+2 8 9
+6 4 5
+DOWN
+RIGHT
+old root arr:
+5 2 3
+4 9 1
+7 6 8
+new root arr:
+3 7 1
+2 8 9
+6 4 5
+UP
+DOWN
+RIGHT
+old root arr:
+5 2 3
+4 6 1
+7 9 8
+new root arr:
+5 2 3
+4 1 9
+7 6 8
+LEFT
+RIGHT
+old root arr:
+5 2 3
+4 6 1
+7 8 9
+new root arr:
+5 2 3
+4 1 9
+7 6 8
+UP
+old root arr:
+5 2 3
+4 1 9
+7 6 8
+new root arr:
+3 7 1
+2 8 9
+6 4 5
+UP
+DOWN
+old root arr:
+5 2 3
+4 1 8
+7 6 9
+new root arr:
+3 7 1
+2 8 9
+6 4 5
+LEFT
+old root arr:
+3 7 1
+2 8 9
+6 4 5
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+UP
+LEFT
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+2 9 1
+4 3 6
+7 5 8
+UP
+LEFT
+old root arr:
+2 9 1
+4 3 6
+7 5 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 6
+7 5 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+DOWN
+old root arr:
+2 9 3
+4 5 1
+7 8 6
+new root arr:
+3 1 6
+5 7 9
+2 8 4
+DOWN
+LEFT
+old root arr:
+3 1 6
+5 7 9
+2 8 4
+new root arr:
+5 2 3
+4 6 9
+7 8 1
+DOWN
+LEFT
+old root arr:
+3 1 6
+5 7 4
+2 8 9
+new root arr:
+5 2 3
+4 6 9
+7 8 1
+LEFT
+old root arr:
+5 2 3
+4 6 9
+7 8 1
+new root arr:
+5 2 3
+4 1 8
+7 9 6
+UP
+LEFT
+old root arr:
+5 2 3
+4 1 8
+7 9 6
+new root arr:
+7 1 4
+9 3 2
+6 5 8
+UP
+LEFT
+old root arr:
+7 1 4
+9 3 2
+6 5 8
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+UP
+DOWN
+old root arr:
+7 1 4
+6 3 2
+9 5 8
+new root arr:
+2 1 6
+4 3 9
+7 5 8
+RIGHT
+old root arr:
+2 1 6
+4 3 9
+7 5 8
+new root arr:
+3 9 1
+4 5 6
+7 2 8
+DOWN
+LEFT
+old root arr:
+3 9 1
+4 5 6
+7 2 8
+new root arr:
+7 2 1
+5 4 8
+3 9 6
+DOWN
+RIGHT
+old root arr:
+3 1 9
+4 5 6
+7 2 8
+new root arr:
+7 2 1
+5 4 8
+3 9 6
+DOWN
+old root arr:
+7 2 1
+5 4 8
+3 9 6
+new root arr:
+7 1 4
+6 3 2
+5 9 8
+UP
+LEFT
+old root arr:
+7 1 4
+6 3 2
+5 9 8
+new root arr:
+2 9 3
+4 8 1
+7 6 5
+UP
+RIGHT
+old root arr:
+7 1 4
+6 3 2
+5 8 9
+new root arr:
+2 9 3
+4 8 1
+7 6 5
+UP
+old root arr:
+2 9 3
+4 8 1
+7 6 5
+new root arr:
+3 1 6
+4 5 9
+7 2 8
+DOWN
+LEFT
+old root arr:
+3 1 6
+4 5 9
+7 2 8
+new root arr:
+5 3 1
+9 7 4
+2 6 8
+DOWN
+LEFT
+old root arr:
+5 3 1
+9 7 4
+2 6 8
+new root arr:
+2 3 1
+5 8 9
+7 4 6
+DOWN
+RIGHT
+old root arr:
+5 3 1
+2 7 4
+9 6 8
+new root arr:
+5 3 1
+7 9 4
+2 6 8
+RIGHT
+old root arr:
+5 3 1
+7 9 4
+2 6 8
+new root arr:
+2 3 1
+5 8 9
+7 4 6
+UP
+DOWN
+RIGHT
+old root arr:
+5 3 1
+7 6 4
+2 9 8
+new root arr:
+5 3 1
+7 4 9
+2 6 8
+LEFT
+RIGHT
+old root arr:
+5 3 1
+7 6 4
+2 8 9
+new root arr:
+5 3 1
+7 4 9
+2 6 8
+UP
+old root arr:
+5 3 1
+7 4 9
+2 6 8
+new root arr:
+5 3 1
+7 6 4
+9 2 8
+UP
+DOWN
+old root arr:
+5 3 1
+7 6 4
+9 2 8
+new root arr:
+5 3 1
+7 4 8
+2 6 9
+UP
+old root arr:
+5 3 1
+7 4 8
+2 6 9
+new root arr:
+2 3 1
+5 8 9
+7 4 6
+LEFT
+old root arr:
+2 3 1
+5 8 9
+7 4 6
+new root arr:
+2 3 1
+9 4 5
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 5
+7 8 6
+new root arr:
+2 9 1
+4 3 5
+7 8 6
+UP
+DOWN
+old root arr:
+2 9 1
+4 3 5
+7 8 6
+new root arr:
+5 3 1
+2 7 4
+6 9 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 5
+7 8 6
+new root arr:
+5 3 1
+2 7 4
+6 9 8
+DOWN
+old root arr:
+5 3 1
+2 7 4
+6 9 8
+new root arr:
+5 3 1
+7 6 9
+2 8 4
+UP
+RIGHT
+old root arr:
+5 3 1
+2 7 4
+6 8 9
+new root arr:
+5 3 1
+7 6 9
+2 8 4
+UP
+old root arr:
+5 3 1
+7 6 9
+2 8 4
+new root arr:
+5 3 1
+9 6 4
+7 2 8
+UP
+LEFT
+old root arr:
+5 3 1
+9 6 4
+7 2 8
+new root arr:
+5 3 1
+7 4 8
+2 9 6
+UP
+RIGHT
+old root arr:
+5 3 1
+7 4 8
+2 9 6
+new root arr:
+2 1 5
+4 3 9
+7 8 6
+UP
+LEFT
+old root arr:
+2 1 5
+4 3 9
+7 8 6
+new root arr:
+7 2 1
+6 3 9
+5 8 4
+DOWN
+LEFT
+old root arr:
+2 1 5
+4 3 6
+7 8 9
+new root arr:
+7 2 1
+6 3 9
+5 8 4
+LEFT
+old root arr:
+7 2 1
+6 3 9
+5 8 4
+new root arr:
+3 1 5
+4 8 7
+2 9 6
+UP
+LEFT
+old root arr:
+3 1 5
+4 8 7
+2 9 6
+new root arr:
+7 1 4
+3 5 9
+6 8 2
+LEFT
+RIGHT
+old root arr:
+7 1 4
+3 5 9
+6 8 2
+new root arr:
+3 9 1
+4 7 6
+2 5 8
+UP
+LEFT
+old root arr:
+3 9 1
+4 7 6
+2 5 8
+new root arr:
+4 2 3
+1 7 8
+6 9 5
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 6
+2 5 8
+new root arr:
+4 2 3
+1 7 8
+6 9 5
+DOWN
+old root arr:
+4 2 3
+1 7 8
+6 9 5
+new root arr:
+2 3 1
+6 8 7
+5 9 4
+UP
+LEFT
+old root arr:
+2 3 1
+6 8 7
+5 9 4
+new root arr:
+2 9 3
+4 6 1
+7 5 8
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 8 7
+5 4 9
+new root arr:
+2 9 3
+4 6 1
+7 5 8
+UP
+old root arr:
+2 9 3
+4 6 1
+7 5 8
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+DOWN
+LEFT
+old root arr:
+3 1 6
+4 7 9
+2 5 8
+new root arr:
+2 9 1
+7 5 4
+3 6 8
+DOWN
+LEFT
+old root arr:
+2 9 1
+7 5 4
+3 6 8
+new root arr:
+2 3 1
+6 8 9
+5 4 7
+DOWN
+RIGHT
+old root arr:
+2 1 9
+7 5 4
+3 6 8
+new root arr:
+2 3 1
+6 8 9
+5 4 7
+DOWN
+old root arr:
+2 3 1
+6 8 9
+5 4 7
+new root arr:
+2 9 3
+5 6 1
+7 8 4
+UP
+LEFT
+old root arr:
+2 9 3
+5 6 1
+7 8 4
+new root arr:
+7 4 1
+3 5 6
+2 9 8
+DOWN
+LEFT
+old root arr:
+7 4 1
+3 5 6
+2 9 8
+new root arr:
+2 1 4
+7 5 9
+3 6 8
+UP
+LEFT
+old root arr:
+2 1 4
+7 5 9
+3 6 8
+new root arr:
+3 1 8
+4 6 9
+7 2 5
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 6 9
+7 2 5
+new root arr:
+4 3 1
+5 2 9
+7 8 6
+DOWN
+LEFT
+old root arr:
+3 1 8
+4 6 5
+7 2 9
+new root arr:
+4 3 1
+5 2 9
+7 8 6
+LEFT
+old root arr:
+4 3 1
+5 2 9
+7 8 6
+new root arr:
+3 9 1
+2 6 4
+5 7 8
+UP
+LEFT
+old root arr:
+3 9 1
+2 6 4
+5 7 8
+new root arr:
+7 2 3
+6 4 1
+5 9 8
+DOWN
+RIGHT
+old root arr:
+3 1 9
+2 6 4
+5 7 8
+new root arr:
+7 2 3
+6 4 1
+5 9 8
+DOWN
+old root arr:
+7 2 3
+6 4 1
+5 9 8
+new root arr:
+2 3 1
+9 7 4
+6 5 8
+UP
+RIGHT
+old root arr:
+7 2 3
+6 4 1
+5 8 9
+new root arr:
+2 3 1
+9 7 4
+6 5 8
+UP
+old root arr:
+2 3 1
+9 7 4
+6 5 8
+new root arr:
+2 4 3
+9 7 1
+6 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+6 7 4
+9 5 8
+new root arr:
+2 4 3
+9 7 1
+6 5 8
+RIGHT
+old root arr:
+2 4 3
+9 7 1
+6 5 8
+new root arr:
+3 1 4
+2 6 9
+5 7 8
+UP
+DOWN
+old root arr:
+2 4 3
+6 7 1
+9 5 8
+new root arr:
+3 1 4
+2 6 9
+5 7 8
+RIGHT
+old root arr:
+3 1 4
+2 6 9
+5 7 8
+new root arr:
+7 5 1
+3 4 8
+2 9 6
+DOWN
+LEFT
+old root arr:
+7 5 1
+3 4 8
+2 9 6
+new root arr:
+2 3 1
+6 7 4
+5 9 8
+UP
+LEFT
+old root arr:
+2 3 1
+6 7 4
+5 9 8
+new root arr:
+2 4 3
+6 7 1
+5 9 8
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 4
+5 8 9
+new root arr:
+2 4 3
+6 7 1
+5 9 8
+UP
+old root arr:
+2 4 3
+6 7 1
+5 9 8
+new root arr:
+7 4 1
+9 3 8
+2 6 5
+UP
+RIGHT
+old root arr:
+2 4 3
+6 7 1
+5 8 9
+new root arr:
+7 4 1
+9 3 8
+2 6 5
+UP
+old root arr:
+7 4 1
+9 3 8
+2 6 5
+new root arr:
+2 9 3
+5 4 1
+7 6 8
+UP
+DOWN
+old root arr:
+7 4 1
+2 3 8
+9 6 5
+new root arr:
+2 9 3
+5 4 1
+7 6 8
+RIGHT
+old root arr:
+2 9 3
+5 4 1
+7 6 8
+new root arr:
+3 2 7
+6 5 9
+4 8 1
+DOWN
+LEFT
+old root arr:
+3 2 7
+6 5 9
+4 8 1
+new root arr:
+2 9 1
+7 3 5
+6 8 4
+UP
+LEFT
+old root arr:
+2 9 1
+7 3 5
+6 8 4
+new root arr:
+7 4 1
+2 3 8
+6 9 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 5
+6 8 4
+new root arr:
+7 4 1
+2 3 8
+6 9 5
+DOWN
+old root arr:
+7 4 1
+2 3 8
+6 9 5
+new root arr:
+3 1 4
+5 7 8
+2 9 6
+UP
+RIGHT
+old root arr:
+7 4 1
+2 3 8
+6 5 9
+new root arr:
+3 1 4
+5 7 8
+2 9 6
+UP
+old root arr:
+3 1 4
+5 7 8
+2 9 6
+new root arr:
+6 2 3
+9 7 1
+4 5 8
+UP
+LEFT
+old root arr:
+6 2 3
+9 7 1
+4 5 8
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+DOWN
+RIGHT
+old root arr:
+6 2 3
+4 7 1
+9 5 8
+new root arr:
+6 2 3
+7 9 1
+4 5 8
+RIGHT
+old root arr:
+6 2 3
+7 9 1
+4 5 8
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+UP
+DOWN
+RIGHT
+old root arr:
+6 2 3
+7 5 1
+4 9 8
+new root arr:
+6 2 3
+7 1 9
+4 5 8
+LEFT
+RIGHT
+old root arr:
+6 2 3
+7 5 1
+4 8 9
+new root arr:
+6 2 3
+7 1 9
+4 5 8
+UP
+old root arr:
+6 2 3
+7 1 9
+4 5 8
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+UP
+DOWN
+old root arr:
+6 2 3
+7 1 8
+4 5 9
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+LEFT
+old root arr:
+2 1 5
+7 3 9
+6 8 4
+new root arr:
+7 4 1
+2 3 9
+6 5 8
+DOWN
+LEFT
+old root arr:
+2 1 5
+7 3 4
+6 8 9
+new root arr:
+7 4 1
+2 3 9
+6 5 8
+LEFT
+old root arr:
+7 4 1
+2 3 9
+6 5 8
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+UP
+LEFT
+old root arr:
+2 4 3
+5 6 9
+7 8 1
+new root arr:
+6 2 3
+4 7 1
+5 9 8
+UP
+LEFT
+old root arr:
+6 2 3
+4 7 1
+5 9 8
+new root arr:
+6 2 3
+7 5 9
+4 8 1
+UP
+RIGHT
+old root arr:
+6 2 3
+4 7 1
+5 8 9
+new root arr:
+6 2 3
+7 5 9
+4 8 1
+UP
+old root arr:
+6 2 3
+7 5 9
+4 8 1
+new root arr:
+2 3 1
+7 5 4
+6 9 8
+UP
+LEFT
+old root arr:
+2 3 1
+7 5 4
+6 9 8
+new root arr:
+2 9 3
+7 4 1
+6 5 8
+UP
+RIGHT
+old root arr:
+2 3 1
+7 5 4
+6 8 9
+new root arr:
+2 9 3
+7 4 1
+6 5 8
+UP
+old root arr:
+2 9 3
+7 4 1
+6 5 8
+new root arr:
+2 1 3
+4 8 5
+6 9 7
+DOWN
+LEFT
+old root arr:
+2 1 3
+4 8 5
+6 9 7
+new root arr:
+2 9 3
+7 5 1
+6 8 4
+UP
+LEFT
+old root arr:
+2 9 3
+7 5 1
+6 8 4
+new root arr:
+3 2 7
+9 6 1
+4 5 8
+DOWN
+LEFT
+old root arr:
+3 2 7
+9 6 1
+4 5 8
+new root arr:
+7 2 1
+5 6 9
+3 8 4
+UP
+DOWN
+old root arr:
+3 2 7
+4 6 1
+9 5 8
+new root arr:
+7 2 1
+5 6 9
+3 8 4
+RIGHT
+old root arr:
+7 2 1
+5 6 9
+3 8 4
+new root arr:
+3 2 7
+4 6 1
+5 9 8
+UP
+LEFT
+old root arr:
+3 2 7
+4 6 1
+5 9 8
+new root arr:
+3 7 1
+6 4 8
+5 9 2
+UP
+RIGHT
+old root arr:
+3 2 7
+4 6 1
+5 8 9
+new root arr:
+3 7 1
+6 4 8
+5 9 2
+UP
+old root arr:
+3 7 1
+6 4 8
+5 9 2
+new root arr:
+4 3 1
+2 8 5
+6 9 7
+UP
+LEFT
+old root arr:
+4 3 1
+2 8 5
+6 9 7
+new root arr:
+4 9 1
+7 3 8
+2 6 5
+UP
+LEFT
+old root arr:
+4 9 1
+7 3 8
+2 6 5
+new root arr:
+2 4 3
+5 1 8
+7 9 6
+LEFT
+RIGHT
+old root arr:
+4 1 9
+7 3 8
+2 6 5
+new root arr:
+2 4 3
+5 1 8
+7 9 6
+DOWN
+old root arr:
+2 4 3
+5 1 8
+7 9 6
+new root arr:
+4 1 8
+7 3 9
+2 6 5
+UP
+LEFT
+old root arr:
+4 1 8
+7 3 9
+2 6 5
+new root arr:
+7 4 1
+9 3 5
+2 8 6
+DOWN
+LEFT
+old root arr:
+4 1 8
+7 3 5
+2 6 9
+new root arr:
+7 4 1
+9 3 5
+2 8 6
+LEFT
+old root arr:
+7 4 1
+9 3 5
+2 8 6
+new root arr:
+4 1 8
+7 3 5
+2 9 6
+UP
+DOWN
+old root arr:
+7 4 1
+2 3 5
+9 8 6
+new root arr:
+4 1 8
+7 3 5
+2 9 6
+RIGHT
+old root arr:
+4 1 8
+7 3 5
+2 9 6
+new root arr:
+7 4 1
+2 3 5
+8 9 6
+UP
+LEFT
+old root arr:
+7 4 1
+2 3 5
+8 9 6
+new root arr:
+3 9 1
+4 5 8
+2 7 6
+UP
+RIGHT
+old root arr:
+3 9 1
+4 5 8
+2 7 6
+new root arr:
+3 1 8
+6 7 5
+4 9 2
+DOWN
+LEFT
+old root arr:
+3 1 8
+6 7 5
+4 9 2
+new root arr:
+3 9 4
+2 1 7
+6 5 8
+UP
+LEFT
+old root arr:
+3 9 4
+2 1 7
+6 5 8
+new root arr:
+7 1 6
+3 4 9
+2 5 8
+LEFT
+RIGHT
+old root arr:
+3 4 9
+2 1 7
+6 5 8
+new root arr:
+7 1 6
+3 4 9
+2 5 8
+DOWN
+old root arr:
+7 1 6
+3 4 9
+2 5 8
+new root arr:
+3 4 7
+2 1 9
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 4 7
+2 1 9
+6 5 8
+new root arr:
+7 4 1
+3 5 9
+2 8 6
+DOWN
+LEFT
+old root arr:
+7 4 1
+3 5 9
+2 8 6
+new root arr:
+7 1 5
+3 4 9
+2 8 6
+UP
+LEFT
+old root arr:
+7 1 5
+3 4 9
+2 8 6
+new root arr:
+4 9 3
+7 5 1
+2 8 6
+DOWN
+LEFT
+old root arr:
+7 1 5
+3 4 6
+2 8 9
+new root arr:
+4 9 3
+7 5 1
+2 8 6
+LEFT
+old root arr:
+4 9 3
+7 5 1
+2 8 6
+new root arr:
+4 9 1
+7 3 6
+2 5 8
+DOWN
+LEFT
+old root arr:
+4 9 1
+7 3 6
+2 5 8
+new root arr:
+3 1 8
+7 5 6
+4 9 2
+LEFT
+RIGHT
+old root arr:
+4 1 9
+7 3 6
+2 5 8
+new root arr:
+3 1 8
+7 5 6
+4 9 2
+DOWN
+old root arr:
+3 1 8
+7 5 6
+4 9 2
+new root arr:
+4 1 6
+7 3 9
+2 5 8
+UP
+LEFT
+old root arr:
+4 1 6
+7 3 9
+2 5 8
+new root arr:
+4 3 1
+5 6 9
+7 2 8
+DOWN
+LEFT
+old root arr:
+4 3 1
+5 6 9
+7 2 8
+new root arr:
+2 3 1
+9 4 6
+7 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+9 4 6
+7 5 8
+new root arr:
+4 1 5
+7 3 9
+2 8 6
+UP
+DOWN
+old root arr:
+4 1 5
+7 3 9
+2 8 6
+new root arr:
+4 3 1
+9 7 6
+2 5 8
+DOWN
+LEFT
+old root arr:
+4 1 5
+7 3 6
+2 8 9
+new root arr:
+4 3 1
+9 7 6
+2 5 8
+LEFT
+old root arr:
+4 3 1
+9 7 6
+2 5 8
+new root arr:
+7 2 1
+9 6 3
+5 8 4
+UP
+DOWN
+old root arr:
+4 3 1
+2 7 6
+9 5 8
+new root arr:
+7 2 1
+9 6 3
+5 8 4
+RIGHT
+old root arr:
+7 2 1
+9 6 3
+5 8 4
+new root arr:
+4 3 1
+2 7 6
+5 9 8
+UP
+DOWN
+old root arr:
+7 2 1
+5 6 3
+9 8 4
+new root arr:
+4 3 1
+2 7 6
+5 9 8
+RIGHT
+old root arr:
+4 3 1
+2 7 6
+5 9 8
+new root arr:
+7 2 1
+5 6 3
+8 9 4
+UP
+RIGHT
+old root arr:
+4 3 1
+2 7 6
+5 8 9
+new root arr:
+7 2 1
+5 6 3
+8 9 4
+UP
+old root arr:
+7 2 1
+5 6 3
+8 9 4
+new root arr:
+7 1 4
+3 5 8
+2 9 6
+UP
+RIGHT
+old root arr:
+7 2 1
+5 6 3
+8 4 9
+new root arr:
+7 1 4
+3 5 8
+2 9 6
+UP
+old root arr:
+7 1 4
+3 5 8
+2 9 6
+new root arr:
+7 2 1
+6 3 5
+8 9 4
+UP
+LEFT
+old root arr:
+7 2 1
+6 3 5
+8 9 4
+new root arr:
+2 9 4
+7 1 3
+6 5 8
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 5
+8 4 9
+new root arr:
+2 9 4
+7 1 3
+6 5 8
+UP
+old root arr:
+2 9 4
+7 1 3
+6 5 8
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 4 9
+7 1 3
+6 5 8
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+DOWN
+old root arr:
+2 4 3
+7 1 9
+6 5 8
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+DOWN
+LEFT
+old root arr:
+2 4 3
+7 1 8
+6 5 9
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+old root arr:
+2 1 8
+4 3 9
+7 6 5
+new root arr:
+3 8 5
+4 1 9
+2 7 6
+DOWN
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 6 9
+new root arr:
+3 8 5
+4 1 9
+2 7 6
+LEFT
+old root arr:
+3 8 5
+4 1 9
+2 7 6
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+DOWN
+LEFT
+old root arr:
+3 8 5
+4 1 6
+2 7 9
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 9 6
+new root arr:
+2 1 4
+5 3 9
+7 6 8
+UP
+LEFT
+old root arr:
+2 1 4
+5 3 9
+7 6 8
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+DOWN
+LEFT
+old root arr:
+2 9 1
+5 3 6
+7 8 4
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+LEFT
+RIGHT
+old root arr:
+2 1 9
+5 3 6
+7 8 4
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+DOWN
+old root arr:
+2 3 1
+5 6 9
+7 8 4
+new root arr:
+2 1 6
+5 3 9
+7 8 4
+UP
+LEFT
+old root arr:
+2 1 6
+5 3 9
+7 8 4
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+DOWN
+LEFT
+old root arr:
+2 1 6
+5 3 4
+7 8 9
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+old root arr:
+2 1 8
+4 3 9
+7 6 5
+new root arr:
+2 7 3
+6 5 9
+4 8 1
+UP
+DOWN
+old root arr:
+2 1 8
+4 3 5
+7 6 9
+new root arr:
+2 7 3
+6 5 9
+4 8 1
+LEFT
+old root arr:
+2 7 3
+6 5 9
+4 8 1
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+UP
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 9 6
+new root arr:
+2 1 5
+4 3 9
+7 8 6
+UP
+LEFT
+old root arr:
+2 1 5
+4 3 9
+7 8 6
+new root arr:
+3 7 1
+6 5 2
+4 9 8
+DOWN
+LEFT
+old root arr:
+2 1 5
+4 3 6
+7 8 9
+new root arr:
+3 7 1
+6 5 2
+4 9 8
+LEFT
+old root arr:
+3 7 1
+6 5 2
+4 9 8
+new root arr:
+2 3 1
+7 5 6
+8 9 4
+UP
+LEFT
+old root arr:
+2 3 1
+7 5 6
+8 9 4
+new root arr:
+3 9 7
+4 8 1
+2 6 5
+UP
+RIGHT
+old root arr:
+2 3 1
+7 5 6
+8 4 9
+new root arr:
+3 9 7
+4 8 1
+2 6 5
+UP
+old root arr:
+3 9 7
+4 8 1
+2 6 5
+new root arr:
+3 1 4
+9 5 7
+2 6 8
+DOWN
+LEFT
+old root arr:
+3 1 4
+9 5 7
+2 6 8
+new root arr:
+7 1 4
+3 2 8
+6 9 5
+UP
+RIGHT
+old root arr:
+7 1 4
+3 2 8
+6 9 5
+new root arr:
+3 9 1
+2 5 4
+6 8 7
+UP
+LEFT
+old root arr:
+3 9 1
+2 5 4
+6 8 7
+new root arr:
+3 7 1
+6 2 9
+8 4 5
+DOWN
+LEFT
+old root arr:
+3 7 1
+6 2 9
+8 4 5
+new root arr:
+6 3 1
+4 7 8
+2 9 5
+UP
+LEFT
+old root arr:
+6 3 1
+4 7 8
+2 9 5
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+UP
+RIGHT
+old root arr:
+6 3 1
+4 7 8
+2 5 9
+new root arr:
+2 3 1
+9 6 4
+5 7 8
+UP
+old root arr:
+2 3 1
+9 6 4
+5 7 8
+new root arr:
+6 3 1
+4 7 9
+2 5 8
+UP
+RIGHT
+old root arr:
+6 3 1
+4 7 9
+2 5 8
+new root arr:
+2 3 1
+5 4 8
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+5 4 8
+7 9 6
+new root arr:
+3 1 6
+4 7 9
+2 5 8
+UP
+LEFT
+old root arr:
+3 1 6
+4 7 9
+2 5 8
+new root arr:
+2 1 4
+5 6 9
+7 8 3
+DOWN
+LEFT
+old root arr:
+2 1 4
+5 6 9
+7 8 3
+new root arr:
+2 1 4
+5 6 9
+7 8 3
+UP
+LEFT
+old root arr:
+2 1 4
+5 6 9
+7 8 3
+new root arr:
+2 3 1
+5 6 9
+7 8 4
+UP
+LEFT
+old root arr:
+2 3 1
+5 6 9
+7 8 4
+new root arr:
+3 7 1
+4 5 9
+2 8 6
+UP
+LEFT
+old root arr:
+3 7 1
+4 5 9
+2 8 6
+new root arr:
+2 3 1
+9 4 5
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 5
+7 8 6
+new root arr:
+2 3 1
+9 4 8
+7 6 5
+UP
+DOWN
+old root arr:
+2 3 1
+9 4 8
+7 6 5
+new root arr:
+3 1 6
+4 7 8
+2 9 5
+UP
+DOWN
+old root arr:
+3 1 6
+4 7 8
+2 9 5
+new root arr:
+3 7 1
+2 4 9
+5 8 6
+UP
+LEFT
+old root arr:
+3 7 1
+2 4 9
+5 8 6
+new root arr:
+2 4 3
+7 5 9
+6 8 1
+UP
+LEFT
+old root arr:
+2 4 3
+7 5 9
+6 8 1
+new root arr:
+2 1 4
+7 3 8
+6 9 5
+UP
+LEFT
+old root arr:
+2 1 4
+7 3 8
+6 9 5
+new root arr:
+4 3 1
+2 6 9
+5 7 8
+UP
+LEFT
+old root arr:
+4 3 1
+2 6 9
+5 7 8
+new root arr:
+2 1 4
+9 5 3
+7 6 8
+UP
+DOWN
+old root arr:
+2 1 4
+9 5 3
+7 6 8
+new root arr:
+2 1 3
+5 7 8
+4 9 6
+UP
+DOWN
+old root arr:
+2 1 3
+5 7 8
+4 9 6
+new root arr:
+2 3 1
+9 6 8
+4 7 5
+UP
+LEFT
+old root arr:
+2 3 1
+9 6 8
+4 7 5
+new root arr:
+6 2 3
+5 4 9
+7 8 1
+UP
+RIGHT
+old root arr:
+6 2 3
+5 4 9
+7 8 1
+new root arr:
+6 2 3
+4 7 1
+5 9 8
+UP
+LEFT
+old root arr:
+6 2 3
+4 7 1
+5 9 8
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+LEFT
+RIGHT
+old root arr:
+6 2 3
+4 7 1
+5 8 9
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+UP
+old root arr:
+2 4 3
+5 6 9
+7 8 1
+new root arr:
+2 3 1
+9 7 5
+6 8 4
+UP
+LEFT
+old root arr:
+2 3 1
+9 7 5
+6 8 4
+new root arr:
+2 7 3
+4 6 1
+5 9 8
+UP
+DOWN
+old root arr:
+2 3 1
+6 7 5
+9 8 4
+new root arr:
+2 7 3
+4 6 1
+5 9 8
+RIGHT
+old root arr:
+2 7 3
+4 6 1
+5 9 8
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+RIGHT
+old root arr:
+2 7 3
+4 6 1
+5 8 9
+new root arr:
+2 3 1
+6 7 5
+8 9 4
+UP
+old root arr:
+2 3 1
+6 7 5
+8 9 4
+new root arr:
+7 2 1
+9 6 4
+5 3 8
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 5
+8 4 9
+new root arr:
+7 2 1
+9 6 4
+5 3 8
+UP
+old root arr:
+7 2 1
+9 6 4
+5 3 8
+new root arr:
+2 4 3
+5 1 8
+7 9 6
+UP
+DOWN
+old root arr:
+7 2 1
+5 6 4
+9 3 8
+new root arr:
+2 4 3
+5 1 8
+7 9 6
+RIGHT
+old root arr:
+2 4 3
+5 1 8
+7 9 6
+new root arr:
+7 2 1
+5 6 4
+3 9 8
+UP
+LEFT
+old root arr:
+7 2 1
+5 6 4
+3 9 8
+new root arr:
+2 4 3
+9 5 1
+7 6 8
+UP
+RIGHT
+old root arr:
+7 2 1
+5 6 4
+3 8 9
+new root arr:
+2 4 3
+9 5 1
+7 6 8
+UP
+old root arr:
+2 4 3
+9 5 1
+7 6 8
+new root arr:
+4 3 1
+9 2 6
+5 7 8
+UP
+RIGHT
+old root arr:
+4 3 1
+9 2 6
+5 7 8
+new root arr:
+2 9 1
+4 5 3
+6 8 7
+UP
+DOWN
+old root arr:
+4 3 1
+5 2 6
+9 7 8
+new root arr:
+2 9 1
+4 5 3
+6 8 7
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 9 8
+new root arr:
+2 9 1
+4 5 3
+6 8 7
+UP
+RIGHT
+old root arr:
+4 3 1
+5 2 6
+7 8 9
+new root arr:
+2 9 1
+4 5 3
+6 8 7
+UP
+old root arr:
+2 9 1
+4 5 3
+6 8 7
+new root arr:
+4 3 1
+5 2 9
+7 8 6
+DOWN
+LEFT
+old root arr:
+4 3 1
+5 2 9
+7 8 6
+new root arr:
+2 3 1
+9 7 4
+6 5 8
+UP
+LEFT
+old root arr:
+2 3 1
+9 7 4
+6 5 8
+new root arr:
+2 1 4
+5 3 8
+7 9 6
+UP
+DOWN
+old root arr:
+2 3 1
+6 7 4
+9 5 8
+new root arr:
+2 1 4
+5 3 8
+7 9 6
+RIGHT
+old root arr:
+2 1 4
+5 3 8
+7 9 6
+new root arr:
+2 3 1
+6 7 4
+5 9 8
+UP
+LEFT
+old root arr:
+2 3 1
+6 7 4
+5 9 8
+new root arr:
+2 8 3
+7 4 9
+6 5 1
+UP
+RIGHT
+old root arr:
+2 3 1
+6 7 4
+5 8 9
+new root arr:
+2 8 3
+7 4 9
+6 5 1
+UP
+old root arr:
+2 8 3
+7 4 9
+6 5 1
+new root arr:
+2 8 3
+7 1 5
+6 9 4
+UP
+LEFT
+old root arr:
+2 8 3
+7 1 5
+6 9 4
+new root arr:
+7 2 3
+9 5 1
+6 8 4
+UP
+LEFT
+old root arr:
+7 2 3
+9 5 1
+6 8 4
+new root arr:
+2 1 4
+6 7 3
+5 9 8
+DOWN
+RIGHT
+old root arr:
+7 2 3
+6 5 1
+9 8 4
+new root arr:
+2 1 4
+6 7 3
+5 9 8
+RIGHT
+old root arr:
+2 1 4
+6 7 3
+5 9 8
+new root arr:
+7 2 3
+6 5 1
+8 9 4
+LEFT
+RIGHT
+old root arr:
+2 1 4
+6 7 3
+5 8 9
+new root arr:
+7 2 3
+6 5 1
+8 9 4
+UP
+old root arr:
+7 2 3
+6 5 1
+8 9 4
+new root arr:
+2 9 3
+5 4 1
+7 6 8
+UP
+RIGHT
+old root arr:
+7 2 3
+6 5 1
+8 4 9
+new root arr:
+2 9 3
+5 4 1
+7 6 8
+UP
+old root arr:
+2 9 3
+5 4 1
+7 6 8
+new root arr:
+2 8 3
+9 4 1
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 8 3
+9 4 1
+7 6 5
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+UP
+RIGHT
+old root arr:
+2 8 3
+4 9 1
+7 6 5
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+UP
+DOWN
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 9 5
+new root arr:
+2 8 3
+4 1 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 5 9
+new root arr:
+2 8 3
+4 1 9
+7 6 5
+UP
+old root arr:
+2 8 3
+4 1 9
+7 6 5
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+UP
+DOWN
+old root arr:
+2 8 3
+4 1 5
+7 6 9
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+LEFT
+old root arr:
+2 8 3
+4 1 5
+7 9 6
+new root arr:
+2 9 1
+5 3 6
+7 8 4
+UP
+LEFT
+old root arr:
+2 9 1
+5 3 6
+7 8 4
+new root arr:
+2 9 3
+4 8 1
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+5 3 6
+7 8 4
+new root arr:
+2 9 3
+4 8 1
+7 6 5
+DOWN
+old root arr:
+2 9 3
+4 8 1
+7 6 5
+new root arr:
+2 8 3
+4 6 9
+7 5 1
+LEFT
+RIGHT
+old root arr:
+2 8 3
+4 6 9
+7 5 1
+new root arr:
+2 1 6
+5 3 9
+7 8 4
+UP
+LEFT
+old root arr:
+2 1 6
+5 3 9
+7 8 4
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+DOWN
+LEFT
+old root arr:
+2 1 6
+5 3 4
+7 8 9
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+LEFT
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+2 3 1
+6 7 9
+8 4 5
+UP
+LEFT
+old root arr:
+2 3 1
+6 7 9
+8 4 5
+new root arr:
+7 2 1
+9 3 8
+6 4 5
+UP
+LEFT
+old root arr:
+7 2 1
+9 3 8
+6 4 5
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+DOWN
+RIGHT
+old root arr:
+7 2 1
+6 3 8
+9 4 5
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+RIGHT
+old root arr:
+7 2 1
+6 3 8
+4 9 5
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 8
+4 5 9
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+UP
+old root arr:
+7 2 1
+6 3 9
+4 5 8
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+UP
+LEFT
+old root arr:
+7 2 1
+6 9 3
+4 5 8
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+UP
+DOWN
+LEFT
+old root arr:
+7 2 1
+6 5 3
+4 9 8
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+6 5 3
+4 8 9
+new root arr:
+7 9 3
+4 2 1
+6 5 8
+UP
+old root arr:
+7 9 3
+4 2 1
+6 5 8
+new root arr:
+7 2 1
+9 6 3
+4 5 8
+LEFT
+RIGHT
+old root arr:
+7 2 1
+9 6 3
+4 5 8
+new root arr:
+7 2 1
+6 5 9
+4 8 3
+UP
+DOWN
+old root arr:
+7 2 1
+4 6 3
+9 5 8
+new root arr:
+7 2 1
+6 5 9
+4 8 3
+RIGHT
+old root arr:
+7 2 1
+6 5 9
+4 8 3
+new root arr:
+7 2 1
+4 6 3
+5 9 8
+UP
+LEFT
+old root arr:
+7 2 1
+4 6 3
+5 9 8
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+UP
+RIGHT
+old root arr:
+7 2 1
+4 6 3
+5 8 9
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+UP
+old root arr:
+2 9 3
+4 5 1
+7 8 6
+new root arr:
+2 9 3
+7 5 1
+6 8 4
+DOWN
+LEFT
+old root arr:
+2 9 3
+7 5 1
+6 8 4
+new root arr:
+2 3 1
+9 6 5
+8 7 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 6 5
+8 7 4
+new root arr:
+2 1 8
+6 7 3
+4 9 5
+UP
+DOWN
+old root arr:
+2 1 8
+6 7 3
+4 9 5
+new root arr:
+2 9 1
+6 3 7
+4 5 8
+LEFT
+RIGHT
+old root arr:
+2 1 8
+6 7 3
+4 5 9
+new root arr:
+2 9 1
+6 3 7
+4 5 8
+UP
+old root arr:
+2 9 1
+6 3 7
+4 5 8
+new root arr:
+2 3 1
+9 5 6
+4 7 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+6 3 7
+4 5 8
+new root arr:
+2 3 1
+9 5 6
+4 7 8
+DOWN
+old root arr:
+2 3 1
+9 5 6
+4 7 8
+new root arr:
+2 1 7
+6 3 9
+4 5 8
+UP
+RIGHT
+old root arr:
+2 1 7
+6 3 9
+4 5 8
+new root arr:
+2 1 3
+9 4 5
+6 8 7
+DOWN
+LEFT
+old root arr:
+2 1 3
+9 4 5
+6 8 7
+new root arr:
+3 1 8
+2 5 4
+6 9 7
+UP
+DOWN
+old root arr:
+2 1 3
+6 4 5
+9 8 7
+new root arr:
+3 1 8
+2 5 4
+6 9 7
+RIGHT
+old root arr:
+3 1 8
+2 5 4
+6 9 7
+new root arr:
+2 1 3
+6 4 5
+8 9 7
+UP
+LEFT
+old root arr:
+2 1 3
+6 4 5
+8 9 7
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+UP
+RIGHT
+old root arr:
+2 1 3
+6 4 5
+8 7 9
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+UP
+old root arr:
+2 3 1
+4 6 9
+7 5 8
+new root arr:
+2 9 1
+7 3 5
+6 8 4
+UP
+DOWN
+old root arr:
+2 9 1
+7 3 5
+6 8 4
+new root arr:
+2 3 1
+4 6 9
+8 7 5
+LEFT
+RIGHT
+old root arr:
+2 1 9
+7 3 5
+6 8 4
+new root arr:
+2 3 1
+4 6 9
+8 7 5
+DOWN
+old root arr:
+2 3 1
+4 6 9
+8 7 5
+new root arr:
+2 1 5
+7 3 9
+6 8 4
+UP
+LEFT
+old root arr:
+2 1 5
+7 3 9
+6 8 4
+new root arr:
+3 7 1
+9 5 6
+4 2 8
+DOWN
+LEFT
+old root arr:
+2 1 5
+7 3 4
+6 8 9
+new root arr:
+3 7 1
+9 5 6
+4 2 8
+LEFT
+old root arr:
+3 7 1
+9 5 6
+4 2 8
+new root arr:
+2 4 3
+9 6 1
+5 7 8
+UP
+RIGHT
+old root arr:
+2 4 3
+9 6 1
+5 7 8
+new root arr:
+2 9 3
+6 5 1
+4 8 7
+UP
+DOWN
+old root arr:
+2 4 3
+5 6 1
+9 7 8
+new root arr:
+3 9 1
+6 7 5
+4 8 2
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 9 8
+new root arr:
+3 7 1
+9 6 5
+4 8 2
+UP
+RIGHT
+old root arr:
+2 4 3
+5 6 1
+7 8 9
+new root arr:
+3 7 1
+9 6 5
+4 8 2
+UP
+old root arr:
+3 7 1
+9 6 5
+4 8 2
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+UP
+DOWN
+old root arr:
+3 7 1
+4 6 5
+9 8 2
+new root arr:
+4 2 3
+9 6 1
+7 5 8
+RIGHT
+old root arr:
+4 2 3
+9 6 1
+7 5 8
+new root arr:
+3 7 1
+4 6 5
+8 9 2
+DOWN
+RIGHT
+old root arr:
+3 7 1
+4 6 5
+8 9 2
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+UP
+RIGHT
+old root arr:
+3 7 1
+4 6 5
+8 2 9
+new root arr:
+2 4 3
+5 6 9
+7 8 1
+UP
+old root arr:
+2 4 3
+5 6 9
+7 8 1
+new root arr:
+3 1 8
+9 2 5
+6 7 4
+UP
+LEFT
+old root arr:
+3 1 8
+9 2 5
+6 7 4
+new root arr:
+2 3 1
+9 5 8
+7 4 6
+UP
+DOWN
+old root arr:
+3 1 8
+6 2 5
+9 7 4
+new root arr:
+2 3 1
+9 5 8
+7 4 6
+RIGHT
+old root arr:
+3 1 8
+6 2 5
+7 9 4
+new root arr:
+3 9 1
+4 5 6
+7 2 8
+UP
+RIGHT
+old root arr:
+3 1 8
+6 2 5
+7 4 9
+new root arr:
+3 9 1
+4 5 6
+7 2 8
+UP
+old root arr:
+3 9 1
+4 5 6
+7 2 8
+new root arr:
+2 4 3
+6 7 1
+5 9 8
+DOWN
+RIGHT
+old root arr:
+3 1 9
+4 5 6
+7 2 8
+new root arr:
+3 1 8
+6 2 9
+7 4 5
+DOWN
+old root arr:
+3 1 8
+6 2 9
+7 4 5
+new root arr:
+3 1 6
+4 5 9
+7 2 8
+UP
+LEFT
+old root arr:
+3 1 6
+4 5 9
+7 2 8
+new root arr:
+2 4 3
+6 7 1
+5 9 8
+DOWN
+LEFT
+old root arr:
+2 4 3
+6 7 1
+5 9 8
+new root arr:
+2 9 3
+6 5 1
+4 8 7
+LEFT
+RIGHT
+old root arr:
+2 4 3
+6 7 1
+5 8 9
+new root arr:
+2 9 3
+6 5 1
+4 8 7
+UP
+old root arr:
+2 9 3
+6 5 1
+4 8 7
+new root arr:
+2 3 1
+5 8 6
+7 9 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+5 8 6
+7 9 4
+new root arr:
+2 9 1
+4 3 8
+7 6 5
+UP
+LEFT
+old root arr:
+2 9 1
+4 3 8
+7 6 5
+new root arr:
+4 9 1
+7 3 5
+2 8 6
+LEFT
+RIGHT
+old root arr:
+2 1 9
+4 3 8
+7 6 5
+new root arr:
+4 9 1
+7 3 5
+2 8 6
+DOWN
+old root arr:
+4 9 1
+7 3 5
+2 8 6
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+4 1 9
+7 3 5
+2 8 6
+new root arr:
+2 1 8
+4 3 9
+7 6 5
+DOWN
+old root arr:
+2 1 8
+4 3 9
+7 6 5
+new root arr:
+4 1 5
+7 3 9
+2 8 6
+DOWN
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 6 9
+new root arr:
+4 1 5
+7 3 9
+2 8 6
+LEFT
+old root arr:
+4 1 5
+7 3 9
+2 8 6
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+DOWN
+LEFT
+old root arr:
+4 1 5
+7 3 6
+2 8 9
+new root arr:
+2 1 8
+4 3 5
+7 9 6
+LEFT
+old root arr:
+2 1 8
+4 3 5
+7 9 6
+new root arr:
+2 6 3
+4 5 9
+7 8 1
+UP
+LEFT
+old root arr:
+2 6 3
+4 5 9
+7 8 1
+new root arr:
+3 1 4
+9 2 5
+6 8 7
+UP
+LEFT
+old root arr:
+3 1 4
+9 2 5
+6 8 7
+new root arr:
+4 2 3
+9 6 1
+7 5 8
+UP
+DOWN
+old root arr:
+3 1 4
+6 2 5
+9 8 7
+new root arr:
+4 2 3
+9 6 1
+7 5 8
+RIGHT
+old root arr:
+4 2 3
+9 6 1
+7 5 8
+new root arr:
+3 1 4
+6 2 5
+8 9 7
+DOWN
+RIGHT
+old root arr:
+3 1 4
+6 2 5
+8 9 7
+new root arr:
+2 1 3
+9 5 6
+4 8 7
+UP
+RIGHT
+old root arr:
+3 1 4
+6 2 5
+8 7 9
+new root arr:
+2 3 1
+4 8 6
+5 9 7
+UP
+old root arr:
+2 3 1
+4 8 6
+5 9 7
+new root arr:
+2 1 3
+9 5 6
+4 8 7
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 8 6
+5 7 9
+new root arr:
+3 9 1
+6 7 2
+5 8 4
+UP
+old root arr:
+3 9 1
+6 7 2
+5 8 4
+new root arr:
+2 1 3
+9 5 6
+4 8 7
+LEFT
+RIGHT
+old root arr:
+3 1 9
+6 7 2
+5 8 4
+new root arr:
+6 2 3
+9 8 1
+4 7 5
+DOWN
+old root arr:
+3 1 2
+6 7 9
+5 8 4
+new root arr:
+7 9 2
+3 4 1
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 1 2
+6 7 4
+5 8 9
+new root arr:
+7 9 2
+3 4 1
+6 5 8
+LEFT
+old root arr:
+7 9 2
+3 4 1
+6 5 8
+new root arr:
+3 1 2
+6 7 4
+5 9 8
+DOWN
+LEFT
+old root arr:
+3 1 2
+6 7 4
+5 9 8
+new root arr:
+3 1 4
+2 8 5
+6 9 7
+UP
+LEFT
+old root arr:
+3 1 4
+2 8 5
+6 9 7
+new root arr:
+3 9 1
+8 7 5
+4 2 6
+UP
+LEFT
+old root arr:
+3 9 1
+8 7 5
+4 2 6
+new root arr:
+2 9 3
+6 7 1
+5 8 4
+LEFT
+RIGHT
+old root arr:
+3 1 9
+8 7 5
+4 2 6
+new root arr:
+2 3 1
+4 8 5
+7 9 6
+DOWN
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+3 1 5
+8 7 9
+4 2 6
+LEFT
+RIGHT
+old root arr:
+3 1 5
+8 7 9
+4 2 6
+new root arr:
+2 9 3
+6 7 1
+5 8 4
+DOWN
+LEFT
+old root arr:
+3 1 5
+8 7 6
+4 2 9
+new root arr:
+2 9 3
+6 7 1
+5 8 4
+LEFT
+old root arr:
+2 9 3
+6 7 1
+5 8 4
+new root arr:
+2 3 1
+9 6 5
+8 7 4
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 6 5
+8 7 4
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+UP
+DOWN
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+7 2 1
+9 6 5
+4 8 3
+UP
+LEFT
+old root arr:
+7 2 1
+9 6 5
+4 8 3
+new root arr:
+2 3 1
+6 7 9
+8 4 5
+UP
+DOWN
+old root arr:
+7 2 1
+4 6 5
+9 8 3
+new root arr:
+2 3 1
+6 7 9
+8 4 5
+RIGHT
+old root arr:
+2 3 1
+6 7 9
+8 4 5
+new root arr:
+7 2 1
+9 3 5
+6 8 4
+UP
+LEFT
+old root arr:
+7 2 1
+9 3 5
+6 8 4
+new root arr:
+7 1 8
+3 2 5
+6 9 4
+UP
+DOWN
+old root arr:
+7 2 1
+6 3 5
+9 8 4
+new root arr:
+7 1 8
+3 2 5
+6 9 4
+RIGHT
+old root arr:
+7 1 8
+3 2 5
+6 9 4
+new root arr:
+7 2 1
+6 3 5
+8 9 4
+UP
+LEFT
+old root arr:
+7 2 1
+6 3 5
+8 9 4
+new root arr:
+7 2 1
+9 6 8
+4 3 5
+UP
+RIGHT
+old root arr:
+7 2 1
+6 3 5
+8 4 9
+new root arr:
+7 2 1
+9 6 8
+4 3 5
+UP
+old root arr:
+7 2 1
+9 6 8
+4 3 5
+new root arr:
+7 2 1
+4 6 9
+5 8 3
+UP
+DOWN
+old root arr:
+7 2 1
+4 6 8
+9 3 5
+new root arr:
+3 1 5
+2 7 4
+6 9 8
+RIGHT
+old root arr:
+3 1 5
+2 7 4
+6 9 8
+new root arr:
+7 2 1
+4 6 8
+3 9 5
+UP
+LEFT
+old root arr:
+7 2 1
+4 6 8
+3 9 5
+new root arr:
+7 2 1
+4 6 9
+5 8 3
+UP
+RIGHT
+old root arr:
+7 2 1
+4 6 8
+3 5 9
+new root arr:
+4 2 3
+1 8 5
+6 9 7
+UP
+old root arr:
+4 2 3
+1 8 5
+6 9 7
+new root arr:
+7 2 1
+4 6 9
+3 5 8
+LEFT
+RIGHT
+old root arr:
+4 2 3
+1 8 5
+6 7 9
+new root arr:
+7 2 1
+4 6 9
+3 5 8
+UP
+old root arr:
+7 2 1
+4 6 9
+3 5 8
+new root arr:
+7 2 1
+4 6 9
+5 8 3
+UP
+LEFT
+old root arr:
+7 2 1
+4 6 9
+5 8 3
+new root arr:
+2 7 1
+9 4 3
+6 5 8
+UP
+LEFT
+old root arr:
+2 7 1
+9 4 3
+6 5 8
+new root arr:
+2 1 6
+4 5 9
+7 8 3
+UP
+DOWN
+old root arr:
+2 7 1
+6 4 3
+9 5 8
+new root arr:
+2 3 7
+9 6 1
+5 4 8
+RIGHT
+old root arr:
+2 3 7
+9 6 1
+5 4 8
+new root arr:
+2 7 1
+6 4 3
+5 9 8
+UP
+DOWN
+old root arr:
+2 3 7
+5 6 1
+9 4 8
+new root arr:
+2 9 1
+6 3 5
+4 8 7
+RIGHT
+old root arr:
+2 3 7
+5 6 1
+4 9 8
+new root arr:
+3 5 1
+2 4 8
+7 9 6
+UP
+RIGHT
+old root arr:
+2 3 7
+5 6 1
+4 8 9
+new root arr:
+2 3 1
+9 8 5
+7 6 4
+UP
+old root arr:
+2 3 1
+9 8 5
+7 6 4
+new root arr:
+2 3 7
+5 6 9
+4 8 1
+UP
+RIGHT
+old root arr:
+2 3 7
+5 6 9
+4 8 1
+new root arr:
+3 5 1
+2 4 8
+7 9 6
+UP
+LEFT
+old root arr:
+3 5 1
+2 4 8
+7 9 6
+new root arr:
+2 9 1
+6 3 5
+4 8 7
+UP
+LEFT
+old root arr:
+2 9 1
+6 3 5
+4 8 7
+new root arr:
+2 3 1
+9 5 6
+4 7 8
+LEFT
+RIGHT
+old root arr:
+2 1 9
+6 3 5
+4 8 7
+new root arr:
+2 3 1
+9 5 6
+4 7 8
+DOWN
+old root arr:
+2 3 1
+9 5 6
+4 7 8
+new root arr:
+2 9 1
+7 3 8
+6 4 5
+UP
+RIGHT
+old root arr:
+2 9 1
+7 3 8
+6 4 5
+new root arr:
+3 9 4
+2 1 7
+6 5 8
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 9 8
+6 4 5
+new root arr:
+2 1 9
+7 3 8
+6 4 5
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 4 8
+6 9 5
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 4 8
+6 5 9
+new root arr:
+2 3 1
+7 8 9
+6 4 5
+UP
+old root arr:
+2 3 1
+7 8 9
+6 4 5
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+7 8 5
+6 4 9
+new root arr:
+2 3 1
+7 4 9
+6 5 8
+LEFT
+old root arr:
+2 3 1
+7 4 9
+6 5 8
+new root arr:
+2 1 9
+7 3 8
+6 4 5
+UP
+LEFT
+old root arr:
+2 1 9
+7 3 8
+6 4 5
+new root arr:
+2 3 1
+7 4 8
+9 6 5
+DOWN
+old root arr:
+2 3 1
+7 4 8
+9 6 5
+new root arr:
+2 3 1
+7 8 5
+6 9 4
+UP
+old root arr:
+2 3 1
+7 8 5
+6 9 4
+new root arr:
+2 3 1
+9 4 8
+7 6 5
+UP
+LEFT
+old root arr:
+2 3 1
+9 4 8
+7 6 5
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+UP
+RIGHT
+old root arr:
+2 3 1
+4 9 8
+7 6 5
+new root arr:
+3 5 1
+9 2 4
+7 6 8
+UP
+DOWN
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 9 5
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 6 8
+7 5 9
+new root arr:
+2 3 1
+4 8 9
+7 6 5
+UP
+old root arr:
+2 3 1
+4 8 9
+7 6 5
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 8 5
+7 6 9
+new root arr:
+2 3 1
+4 6 9
+7 5 8
+LEFT
+old root arr:
+2 3 1
+4 6 9
+7 5 8
+new root arr:
+2 3 1
+4 8 5
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+2 3 1
+4 9 6
+7 5 8
+UP
+LEFT
+old root arr:
+2 3 1
+4 9 6
+7 5 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+2 3 1
+4 9 5
+7 8 6
+UP
+old root arr:
+2 3 1
+4 9 5
+7 8 6
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+RIGHT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+3 7 1
+4 6 9
+5 8 2
+UP
+DOWN
+old root arr:
+2 3 1
+4 5 6
+7 8 9
+new root arr:
+3 9 1
+4 7 5
+2 8 6
+LEFT
+old root arr:
+3 9 1
+4 7 5
+2 8 6
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+LEFT
+RIGHT
+old root arr:
+3 1 9
+4 7 5
+2 8 6
+new root arr:
+3 9 1
+5 7 6
+4 2 8
+DOWN
+old root arr:
+3 9 1
+5 7 6
+4 2 8
+new root arr:
+3 1 5
+4 7 9
+2 8 6
+LEFT
+RIGHT
+old root arr:
+3 1 9
+5 7 6
+4 2 8
+new root arr:
+3 1 5
+4 7 9
+2 8 6
+DOWN
+old root arr:
+3 1 5
+4 7 9
+2 8 6
+new root arr:
+3 1 6
+5 7 9
+4 2 8
+DOWN
+LEFT
+old root arr:
+3 1 5
+4 7 6
+2 8 9
+new root arr:
+3 1 6
+5 7 9
+4 2 8
+LEFT
+old root arr:
+3 1 6
+5 7 9
+4 2 8
+new root arr:
+2 3 1
+4 5 6
+7 9 8
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 5 6
+7 9 8
+new root arr:
+2 8 3
+6 7 1
+4 9 5
+UP
+LEFT
+old root arr:
+2 8 3
+6 7 1
+4 9 5
+new root arr:
+2 8 3
+9 6 1
+4 7 5
+LEFT
+RIGHT
+old root arr:
+2 8 3
+6 7 1
+4 5 9
+new root arr:
+3 7 1
+9 6 4
+5 2 8
+UP
+old root arr:
+3 7 1
+9 6 4
+5 2 8
+new root arr:
+2 8 3
+9 6 1
+4 7 5
+UP
+RIGHT
+old root arr:
+2 8 3
+9 6 1
+4 7 5
+new root arr:
+4 2 7
+9 3 1
+6 5 8
+UP
+DOWN
+old root arr:
+2 8 3
+4 6 1
+9 7 5
+new root arr:
+4 2 7
+9 3 1
+6 5 8
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 9 5
+new root arr:
+2 3 1
+6 5 4
+8 9 7
+UP
+RIGHT
+old root arr:
+2 8 3
+4 6 1
+7 5 9
+new root arr:
+4 2 1
+9 7 3
+6 5 8
+UP
+old root arr:
+4 2 1
+9 7 3
+6 5 8
+new root arr:
+2 8 3
+4 6 9
+7 5 1
+DOWN
+RIGHT
+old root arr:
+4 2 1
+6 7 3
+9 5 8
+new root arr:
+4 2 1
+7 9 3
+6 5 8
+RIGHT
+old root arr:
+4 2 1
+7 9 3
+6 5 8
+new root arr:
+4 2 1
+6 7 3
+5 9 8
+UP
+DOWN
+RIGHT
+old root arr:
+4 2 1
+7 5 3
+6 9 8
+new root arr:
+4 2 1
+6 7 3
+5 9 8
+LEFT
+RIGHT
+old root arr:
+4 2 1
+7 5 3
+6 8 9
+new root arr:
+4 2 1
+7 5 3
+9 6 8
+UP
+old root arr:
+4 2 1
+7 5 3
+9 6 8
+new root arr:
+4 2 1
+7 5 9
+6 8 3
+UP
+old root arr:
+4 2 1
+7 5 9
+6 8 3
+new root arr:
+4 2 1
+9 5 3
+7 6 8
+UP
+LEFT
+old root arr:
+4 2 1
+9 5 3
+7 6 8
+new root arr:
+2 3 1
+7 4 6
+5 9 8
+UP
+RIGHT
+old root arr:
+2 3 1
+7 4 6
+5 9 8
+new root arr:
+4 2 1
+6 7 3
+5 9 8
+UP
+RIGHT
+old root arr:
+2 3 1
+7 4 6
+5 8 9
+new root arr:
+4 2 1
+6 7 3
+5 9 8
+UP
+old root arr:
+4 2 1
+6 7 3
+5 9 8
+new root arr:
+2 1 5
+4 3 6
+7 9 8
+UP
+RIGHT
+old root arr:
+4 2 1
+6 7 3
+5 8 9
+new root arr:
+2 1 5
+4 3 6
+7 9 8
+UP
+old root arr:
+2 1 5
+4 3 6
+7 9 8
+new root arr:
+2 3 1
+6 5 7
+4 9 8
+UP
+LEFT
+old root arr:
+2 3 1
+6 5 7
+4 9 8
+new root arr:
+3 7 1
+6 8 5
+4 9 2
+UP
+LEFT
+old root arr:
+3 7 1
+6 8 5
+4 9 2
+new root arr:
+2 3 1
+8 6 9
+7 4 5
+UP
+LEFT
+old root arr:
+2 3 1
+8 6 9
+7 4 5
+new root arr:
+3 4 7
+6 2 9
+5 8 1
+UP
+LEFT
+old root arr:
+3 4 7
+6 2 9
+5 8 1
+new root arr:
+3 9 1
+2 6 8
+4 7 5
+UP
+LEFT
+old root arr:
+3 9 1
+2 6 8
+4 7 5
+new root arr:
+2 1 8
+6 3 5
+4 9 7
+DOWN
+RIGHT
+old root arr:
+3 1 9
+2 6 8
+4 7 5
+new root arr:
+2 1 8
+6 3 5
+4 9 7
+DOWN
+old root arr:
+2 1 8
+6 3 5
+4 9 7
+new root arr:
+2 1 3
+4 7 8
+6 9 5
+UP
+LEFT
+old root arr:
+2 1 3
+4 7 8
+6 9 5
+new root arr:
+4 2 1
+9 3 6
+7 5 8
+UP
+LEFT
+old root arr:
+4 2 1
+9 3 6
+7 5 8
+new root arr:
+4 2 1
+9 3 5
+7 8 6
+DOWN
+RIGHT
+old root arr:
+4 2 1
+9 3 5
+7 8 6
+new root arr:
+2 3 1
+7 4 5
+8 9 6
+DOWN
+RIGHT
+old root arr:
+2 3 1
+7 4 5
+8 9 6
+new root arr:
+3 9 1
+6 7 8
+4 2 5
+UP
+RIGHT
+old root arr:
+3 9 1
+6 7 8
+4 2 5
+new root arr:
+2 1 3
+4 8 9
+6 7 5
+LEFT
+RIGHT
+old root arr:
+3 1 9
+6 7 8
+4 2 5
+new root arr:
+2 1 3
+4 8 9
+6 7 5
+DOWN
+old root arr:
+2 1 3
+4 8 9
+6 7 5
+new root arr:
+2 3 1
+4 8 5
+7 9 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 8 5
+7 9 6
+new root arr:
+2 3 1
+7 5 6
+8 9 4
+LEFT
+RIGHT
+old root arr:
+2 3 1
+7 5 6
+8 9 4
+new root arr:
+2 9 3
+6 4 7
+5 8 1
+UP
+RIGHT
+old root arr:
+2 3 1
+7 5 6
+8 4 9
+new root arr:
+2 9 3
+6 4 7
+5 8 1
+UP
+old root arr:
+2 9 3
+6 4 7
+5 8 1
+new root arr:
+4 2 3
+9 8 1
+7 6 5
+DOWN
+LEFT
+old root arr:
+4 2 3
+9 8 1
+7 6 5
+new root arr:
+7 2 3
+6 4 9
+5 8 1
+DOWN
+RIGHT
+old root arr:
+7 2 3
+6 4 9
+5 8 1
+new root arr:
+4 2 3
+9 5 1
+7 8 6
+UP
+LEFT
+old root arr:
+4 2 3
+9 5 1
+7 8 6
+new root arr:
+2 8 3
+6 1 5
+4 9 7
+DOWN
+RIGHT
+old root arr:
+2 8 3
+6 1 5
+4 9 7
+new root arr:
+3 1 8
+6 7 9
+4 2 5
+UP
+LEFT
+old root arr:
+3 1 8
+6 7 9
+4 2 5
+new root arr:
+3 1 8
+2 6 9
+4 7 5
+DOWN
+LEFT
+old root arr:
+3 1 8
+6 7 5
+4 2 9
+new root arr:
+3 1 8
+2 6 9
+4 7 5
+LEFT
+old root arr:
+3 1 8
+2 6 9
+4 7 5
+new root arr:
+2 8 3
+4 6 9
+7 5 1
+DOWN
+LEFT
+old root arr:
+3 1 8
+2 6 5
+4 7 9
+new root arr:
+2 8 3
+4 6 9
+7 5 1
+LEFT
+old root arr:
+2 8 3
+4 6 9
+7 5 1
+new root arr:
+2 1 6
+4 5 9
+7 8 3
+UP
+LEFT
+old root arr:
+2 1 6
+4 5 9
+7 8 3
+new root arr:
+2 8 3
+4 6 9
+7 5 1
+UP
+LEFT
+old root arr:
+2 8 3
+4 6 9
+7 5 1
+new root arr:
+2 3 1
+6 5 4
+8 9 7
+UP
+LEFT
+old root arr:
+2 3 1
+6 5 4
+8 9 7
+new root arr:
+2 1 8
+4 6 9
+7 5 3
+UP
+LEFT
+old root arr:
+2 1 8
+4 6 9
+7 5 3
+new root arr:
+4 2 7
+9 3 1
+6 5 8
+UP
+LEFT
+old root arr:
+4 2 7
+9 3 1
+6 5 8
+new root arr:
+3 1 2
+6 7 8
+4 9 5
+DOWN
+RIGHT
+old root arr:
+4 2 7
+6 3 1
+9 5 8
+new root arr:
+3 1 2
+6 7 8
+4 9 5
+RIGHT
+old root arr:
+3 1 2
+6 7 8
+4 9 5
+new root arr:
+3 7 1
+5 2 9
+4 8 6
+UP
+LEFT
+old root arr:
+3 7 1
+5 2 9
+4 8 6
+new root arr:
+4 2 1
+7 3 9
+6 5 8
+UP
+LEFT
+old root arr:
+4 2 1
+7 3 9
+6 5 8
+new root arr:
+2 6 3
+4 5 9
+7 8 1
+UP
+DOWN
+old root arr:
+2 6 3
+4 5 9
+7 8 1
+new root arr:
+2 3 1
+9 6 5
+4 8 7
+UP
+LEFT
+old root arr:
+2 3 1
+9 6 5
+4 8 7
+new root arr:
+4 2 7
+6 3 1
+5 9 8
+UP
+DOWN
+old root arr:
+2 3 1
+4 6 5
+9 8 7
+new root arr:
+4 2 7
+6 3 1
+5 9 8
+RIGHT
+old root arr:
+4 2 7
+6 3 1
+5 9 8
+new root arr:
+4 2 1
+9 3 8
+7 6 5
+UP
+RIGHT
+old root arr:
+4 2 7
+6 3 1
+5 8 9
+new root arr:
+4 2 1
+9 3 8
+7 6 5
+UP
+old root arr:
+4 2 1
+9 3 8
+7 6 5
+new root arr:
+3 7 1
+4 6 9
+5 8 2
+DOWN
+RIGHT
+old root arr:
+3 7 1
+4 6 9
+5 8 2
+new root arr:
+2 3 1
+4 5 9
+7 8 6
+UP
+LEFT
+old root arr:
+2 3 1
+4 5 9
+7 8 6
+new root arr:
+2 9 3
+7 5 1
+6 8 4
+UP
+LEFT
+old root arr:
+2 9 3
+7 5 1
+6 8 4
+new root arr:
+2 3 1
+4 6 5
+8 9 7
+DOWN
+LEFT
+old root arr:
+2 3 1
+4 6 5
+8 9 7
+new root arr:
+6 2 1
+9 3 4
+5 7 8
+UP
+RIGHT
+old root arr:
+2 3 1
+4 6 5
+8 7 9
+new root arr:
+6 2 1
+9 3 4
+5 7 8
+UP
+old root arr:
+6 2 1
+9 3 4
+5 7 8
+new root arr:
+3 4 7
+2 1 8
+6 9 5
+DOWN
+RIGHT
+old root arr:
+6 2 1
+5 3 4
+9 7 8
+new root arr:
+3 4 7
+2 1 8
+6 9 5
+RIGHT
+old root arr:
+6 2 1
+5 3 4
+7 9 8
+new root arr:
+3 4 7
+2 1 8
+6 9 5
+UP
+RIGHT
+old root arr:
+6 2 1
+5 3 4
+7 8 9
+new root arr:
+3 4 7
+2 1 8
+6 9 5
+UP
+old root arr:
+3 4 7
+2 1 8
+6 9 5
+new root arr:
+2 7 1
+4 3 8
+6 9 5
+UP
+LEFT
+old root arr:
+2 7 1
+4 3 8
+6 9 5
+new root arr:
+2 5 3
+4 8 1
+7 9 6
+UP
+LEFT
+old root arr:
+2 5 3
+4 8 1
+7 9 6
+new root arr:
+6 2 1
+5 3 9
+7 8 4
+LEFT
+RIGHT
+old root arr:
+6 2 1
+5 3 9
+7 8 4
+new root arr:
+3 7 1
+4 8 5
+2 9 6
+UP
+LEFT
+old root arr:
+3 7 1
+4 8 5
+2 9 6
+new root arr:
+2 3 1
+9 8 5
+7 6 4
+LEFT
+RIGHT
+old root arr:
+2 3 1
+9 8 5
+7 6 4
+new root arr:
+2 9 3
+5 1 7
+4 6 8
+UP
+RIGHT
+old root arr:
+2 9 3
+5 1 7
+4 6 8
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+DOWN
+LEFT
+old root arr:
+2 1 3
+5 9 7
+4 6 8
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+2 1 3
+5 6 7
+4 9 8
+new root arr:
+2 1 3
+5 7 9
+4 6 8
+LEFT
+RIGHT
+old root arr:
+2 1 3
+5 6 7
+4 8 9
+new root arr:
+2 1 3
+5 7 9
+4 6 8
+UP
+old root arr:
+2 1 3
+5 7 9
+4 6 8
+new root arr:
+2 1 3
+5 6 9
+4 8 7
+UP
+DOWN
+old root arr:
+2 1 3
+5 6 9
+4 8 7
+new root arr:
+2 1 3
+5 7 8
+4 6 9
+UP
+LEFT
+old root arr:
+2 1 3
+5 7 8
+4 6 9
+new root arr:
+2 1 3
+5 9 6
+4 8 7
+LEFT
+old root arr:
+2 1 3
+5 9 6
+4 8 7
+new root arr:
+2 3 1
+9 5 4
+7 6 8
+UP
+DOWN
+LEFT
+old root arr:
+2 3 1
+9 5 4
+7 6 8
+new root arr:
+3 1 8
+4 5 9
+2 7 6
+UP
+RIGHT
+old root arr:
+3 1 8
+4 5 9
+2 7 6
+new root arr:
+2 3 7
+5 1 8
+4 9 6
+UP
+LEFT
+old root arr:
+2 3 7
+5 1 8
+4 9 6
+new root arr:
+2 1 3
+9 5 7
+4 6 8
+UP
+LEFT
+old root arr:
+2 1 3
+9 5 7
+4 6 8
+new root arr:
+2 1 3
+5 7 8
+4 9 6
+UP
+DOWN
+old root arr:
+2 1 3
+4 5 7
+9 6 8
+new root arr:
+2 1 3
+5 7 8
+4 9 6
+RIGHT
+old root arr:
+2 1 3
+5 7 8
+4 9 6
+new root arr:
+2 1 3
+5 8 6
+4 9 7
+UP
+LEFT
+old root arr:
+2 1 3
+5 8 6
+4 9 7
+new root arr:
+2 1 3
+9 5 6
+4 8 7
+LEFT
+RIGHT
+old root arr:
+2 1 3
+5 8 6
+4 7 9
+new root arr:
+2 1 3
+9 5 6
+4 8 7
+UP
+old root arr:
+2 1 3
+9 5 6
+4 8 7
+new root arr:
+2 1 3
+4 5 7
+6 9 8
+UP
+DOWN
+old root arr:
+2 1 3
+4 5 6
+9 8 7
+new root arr:
+2 1 3
+4 5 7
+6 9 8
+RIGHT
+old root arr:
+2 1 3
+4 5 7
+6 9 8
+new root arr:
+3 5 1
+9 2 4
+7 6 8
+UP
+RIGHT
+old root arr:
+2 1 3
+4 5 7
+6 8 9
+new root arr:
+3 5 1
+9 2 4
+7 6 8
+UP
+old root arr:
+3 5 1
+9 2 4
+7 6 8
+new root arr:
+3 1 4
+9 2 8
+6 7 5
+UP
+DOWN
+old root arr:
+3 1 4
+9 2 8
+6 7 5
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+UP
+DOWN
+old root arr:
+3 1 4
+6 2 8
+9 7 5
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+RIGHT
+old root arr:
+3 1 4
+6 2 8
+7 9 5
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+UP
+RIGHT
+old root arr:
+3 1 4
+6 2 8
+7 5 9
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+UP
+old root arr:
+3 1 4
+6 2 9
+7 5 8
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+UP
+LEFT
+old root arr:
+3 1 9
+6 2 4
+7 5 8
+new root arr:
+2 1 3
+4 5 6
+8 9 7
+LEFT
+old root arr:
+2 1 3
+4 5 6
+8 9 7
+new root arr:
+2 1 3
+4 5 9
+6 8 7
+UP
+RIGHT
+old root arr:
+2 1 3
+4 5 6
+8 7 9
+new root arr:
+2 1 3
+4 5 9
+6 8 7
+UP
+old root arr:
+2 1 3
+4 5 9
+6 8 7
+new root arr:
+2 3 1
+9 8 5
+4 7 6
+UP
+LEFT
+old root arr:
+2 3 1
+9 8 5
+4 7 6
+new root arr:
+2 9 3
+4 5 1
+7 8 6
+UP
+RIGHT
+old root arr:
+2 9 3
+4 5 1
+7 8 6
+new root arr:
+2 5 3
+4 1 6
+7 9 8
+DOWN
+LEFT
+old root arr:
+2 5 3
+4 1 6
+7 9 8
+new root arr:
+2 1 8
+7 3 5
+6 9 4
+UP
+LEFT
+old root arr:
+2 1 8
+7 3 5
+6 9 4
+new root arr:
+3 9 7
+2 5 1
+6 8 4
+UP
+LEFT
+old root arr:
+3 9 7
+2 5 1
+6 8 4
+new root arr:
+3 9 7
+4 6 1
+2 5 8
+DOWN
+LEFT
+old root arr:
+3 9 7
+4 6 1
+2 5 8
+new root arr:
+2 3 1
+6 8 5
+4 9 7
+DOWN
+LEFT
+old root arr:
+2 3 1
+6 8 5
+4 9 7
+new root arr:
+2 1 5
+4 8 3
+7 9 6
+LEFT
+RIGHT
+old root arr:
+2 3 1
+6 8 5
+4 7 9
+new root arr:
+2 1 5
+4 8 3
+7 9 6
+UP
+old root arr:
+2 1 5
+4 8 3
+7 9 6
+new root arr:
+3 7 1
+5 6 9
+4 2 8
+LEFT
+RIGHT
+old root arr:
+3 7 1
+5 6 9
+4 2 8
+new root arr:
+7 2 1
+3 5 9
+6 8 4
+UP
+DOWN
+old root arr:
+7 2 1
+3 5 9
+6 8 4
+new root arr:
+3 1 4
+2 5 8
+7 9 6
+UP
+LEFT
+old root arr:
+3 1 4
+2 5 8
+7 9 6
+new root arr:
+2 1 8
+7 3 9
+6 4 5
+UP
+LEFT
+old root arr:
+2 1 8
+7 3 9
+6 4 5
+new root arr:
+3 9 4
+2 1 7
+6 5 8
+DOWN
+LEFT
+old root arr:
+2 1 8
+7 3 5
+6 4 9
+new root arr:
+3 9 4
+2 1 7
+6 5 8
+LEFT
+old root arr:
+3 9 4
+2 1 7
+6 5 8
+new root arr:
+2 1 4
+9 7 3
+6 5 8
+DOWN
+LEFT
+old root arr:
+3 1 4
+2 9 7
+6 5 8
+new root arr:
+2 1 4
+9 7 3
+6 5 8
+DOWN
+LEFT
+RIGHT
+old root arr:
+3 1 4
+2 5 7
+6 9 8
+new root arr:
+3 1 4
+2 7 9
+6 5 8
+LEFT
+RIGHT
+old root arr:
+3 1 4
+2 5 7
+6 8 9
+new root arr:
+3 1 4
+2 7 9
+6 5 8
+UP
+old root arr:
+3 1 4
+2 7 9
+6 5 8
+new root arr:
+3 1 4
+2 5 9
+6 8 7
+UP
+DOWN
+old root arr:
+3 1 4
+2 5 9
+6 8 7
+new root arr:
+3 1 4
+2 5 7
+9 6 8
+UP
+LEFT
+old root arr:
+3 1 4
+2 5 7
+9 6 8
+new root arr:
+3 1 9
+2 7 4
+6 5 8
+UP
+old root arr:
+3 1 9
+2 7 4
+6 5 8
+new root arr:
+3 1 4
+2 7 8
+6 5 9
+LEFT
+old root arr:
+3 1 4
+2 7 8
+6 5 9
+new root arr:
+3 1 9
+2 5 4
+6 8 7
+LEFT
+old root arr:
+3 1 9
+2 5 4
+6 8 7
+new root arr:
+2 1 4
+9 7 3
+6 5 8
+LEFT
+old root arr:
+2 1 4
+9 7 3
+6 5 8
+new root arr:
+2 3 1
+7 4 6
+5 9 8
+UP
+DOWN
+old root arr:
+2 1 4
+6 7 3
+9 5 8
+new root arr:
+2 3 1
+7 4 6
+5 9 8
+RIGHT
+old root arr:
+2 3 1
+7 4 6
+5 9 8
+new root arr:
+3 4 7
+9 5 1
+2 6 8
+UP
+RIGHT
+old root arr:
+2 3 1
+7 4 6
+5 8 9
+new root arr:
+3 4 7
+9 5 1
+2 6 8
+UP
+old root arr:
+3 4 7
+9 5 1
+2 6 8
+new root arr:
+3 1 4
+9 2 7
+6 5 8
+UP
+RIGHT
+old root arr:
+3 1 4
+9 2 7
+6 5 8
+new root arr:
+2 1 4
+6 7 3
+5 9 8
+UP
+DOWN
+old root arr:
+3 1 4
+6 2 7
+9 5 8
+new root arr:
+2 1 4
+6 7 3
+5 9 8
+RIGHT
+old root arr:
+2 1 4
+6 7 3
+5 9 8
+new root arr:
+2 7 1
+6 4 3
+5 9 8
+UP
+RIGHT
+old root arr:
+2 1 4
+6 7 3
+5 8 9
+new root arr:
+2 7 1
+6 4 3
+5 9 8
+UP
+old root arr:
+2 7 1
+6 4 3
+5 9 8
+new root arr:
+2 1 6
+4 5 9
+7 8 3
+UP
+RIGHT
+old root arr:
+2 7 1
+6 4 3
+5 8 9
+new root arr:
+2 1 6
+4 5 9
+7 8 3
+UP
+old root arr:
+2 1 6
+4 5 9
+7 8 3
+new root arr:
+3 1 4
+6 2 7
+5 9 8
+UP
+LEFT
+old root arr:
+3 1 4
+6 2 7
+5 9 8
+new root arr:
+7 2 1
+9 4 8
+3 6 5
+UP
+RIGHT
+old root arr:
+3 1 4
+6 2 7
+5 8 9
+new root arr:
+7 2
