@@ -1,32 +1,43 @@
 #include "npuzzle.h"
 
-
-int	hash(int *arr, int size)
+uint32_t	hash(int **arr)
 {
-	int	i;
-	int	j;
-	int	sum;
-	int	count;
-	static int	*fact;
+	uint32_t	res = OFFSET_BASIS_32;
 
-	if (!fact)
+	for(int i = 0; i < table_size; i++)
 	{
-		fact = malloc(size * sizeof(int));
-		i = 0;
-		fact[0] = 1;
-		while (++i < size)
-			fact[i] = i * fact[i - 1];
+		for(int j = 0; j < table_size; j++)
+		{
+			res ^= (unsigned int)arr[i][j];
+			res *= FNV_PRIME_32;
+		}
 	}
-	i = -1;
-	sum = 0;
-	while (++i < size)
+	res %= HASH_SIZE_3;
+	return (res);
+}
+
+int	check_double(t_heap *traverse, int **arr)
+{
+	t_heap	*temp;
+	int		counter;
+
+	if (!traverse)
+		return (1);
+	temp = traverse;
+	while (temp)
 	{
-		j = i;
-		count = 0;
-		while (++j < size)
-			if (arr[i] > arr[j])
-				count++;
-		sum += count * fact[size - i - 1];
+		counter = 0;
+		for (int i = 0; i < table_size; i++)
+		{
+			for (int j = 0; j < table_size; j++)
+			{
+				if (arr[i][j] == temp->arr[i][j])
+					counter++;
+			}
+		}
+		if (counter == table_size * table_size)
+			return (0);
+		temp = temp->next;
 	}
-	return (sum);
+	return (1);
 }

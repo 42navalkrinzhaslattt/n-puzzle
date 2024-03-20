@@ -36,44 +36,49 @@ void	print_heap(t_heap **heap, int heap_size)
 	}
 }
 
-void	exit_search(t_queue	**heap, t_queue *root, int heap_size)
+void	exit_search(t_queue	**heap, t_heap **hashmap)
 {
-	t_heap *temp;
+//	t_heap *temp;
+//	t_heap *next;
 	t_heap *end;
+	char	res[100];
+	int		pos = 0;
 
 	end = heap[0];
-	print_arr(end->arr);
-	printf("SOLUTION!!!!!!!!!!\n");
 	while (end->depth >= 0)
 	{
 		if (end->prev_oper & UP)
-			printf("UP\n");
+			res[pos++] = 'u';
 		else if (end->prev_oper & DOWN)
-			printf("DOWN\n");
+			res[pos++] = 'd';
 		else if (end->prev_oper & RIGHT)
-			printf("RIGHT\n");
+			res[pos++] = 'r';
 		else if (end->prev_oper & LEFT)
-			printf("LEFT\n");
+			res[pos++] = 'l';
 		if (end->depth == 0)
 			break ;
 		end = end->prev;
 	}
-	printf("SOLUTION ENDS\n");
-	exit(0);
-	while (root)
-	{
-		temp = root->next;
-		free_arr(root->arr);
-		free(root);
-		root = temp;
-	}
-	for (int i = 0; i < heap_size; i++)
-	{
-		free_arr(heap[i]->arr);
-		free(heap[i]);
-	}
+	while (--pos >= 0)
+		putchar(res[pos]);
+	putchar('\n');
+	free(hashmap);
 	free(heap);
 	exit(0);
+//	for (int i = 0; i < HASH_SIZE_3; i++)
+//	{
+//		temp = hashmap[i];
+//		while (temp)
+//		{
+//			next = temp->next;
+//			free_arr(temp->arr);
+//			free(temp);
+//			temp = next;
+//		}
+//	}
+//	free(hashmap);
+//	free(heap);
+//	exit(0);
 }
 
 t_heap	*copy_state(t_heap *old, int operation)
@@ -200,112 +205,117 @@ void	delete_root(t_heap **heap, int heap_size)
 	}
 }
 
+int		insert_hashmap(t_heap *temp, t_heap **hashmap)
+{
+	int	hash_index;
+	int	counter;
+	t_heap	*ptr;
+
+	hash_index = hash(temp->arr);
+	ptr = hashmap[hash_index];
+	if (!ptr)
+	{
+		hashmap[hash_index] = temp;
+		return (1);
+	}
+	while (ptr)
+	{
+//		if (temp == ptr)
+//		{
+//			print_arr(temp->arr);
+//			printf("pidor\n");
+//			exit(0);
+//		}
+		counter = 0;
+		if (temp != ptr)
+		{
+			for (int i = 0; i < table_size; i++)
+			{
+				for (int j = 0; j < table_size; j++)
+				{
+					if (temp->arr[i][j] == ptr->arr[i][j])
+						counter++;
+				}
+				if (counter == table_size * table_size)
+					return (0);
+			}
+		}
+		if (!ptr->next)
+		{
+			ptr->next = temp;
+			break ;
+		}
+		ptr = ptr->next;
+	}
+	return (1);
+}
+
+void	generate_next_state(t_heap *temp, t_heap **heap, t_heap **hashmap, int *heap_size, int heap_limit, int operation)
+{
+	t_heap *next_state;
+
+	if (*heap_size == heap_limit - 1)
+	{
+		printf("HEAP SIZE IS NOT ENOUGH\n");
+		exit (0);
+	}
+	next_state = copy_state(temp, operation);
+	change_state(next_state, operation);
+	if (next_state->heuristic == 0)
+	{
+		heap[*heap_size] = heap[0];
+		heap[0] = next_state;
+		exit_search(heap, hashmap);
+	}
+	if (insert_hashmap(next_state, hashmap))
+	{
+		insert_node(heap, next_state, *heap_size);
+		++(*heap_size);
+	}
+	else
+	{
+		free_arr(next_state->arr);
+		free(next_state);
+	}
+}
+
 void	search_path(t_heap *root)
 {
 	t_heap	**heap;
-	t_heap	*traverse = NULL;
-	t_heap	*next_state;
+	t_heap	**hashmap = NULL;
+	t_heap	*temp;
 	int		heap_size = 0;
 	int		heap_limit = 0;
+	int		i = 0;
 
 	if (table_size == 3)
-		heap_limit = HEAP_LIMIT_3;
-	else
-		heap_limit = HEAP_LIMIT_4;
-	heap = malloc(heap_limit * sizeof(t_heap*));
-	if (!heap)
 	{
-		printf("Not enough memory\n");
-		exit(0);
+		heap_limit = HEAP_LIMIT_3;
+		hashmap = calloc(HASH_SIZE_3, sizeof(t_heap*));
 	}
+	else
+	{
+		heap_limit = HEAP_LIMIT_4;
+		hashmap = calloc(HASH_SIZE_4, sizeof(t_heap*));
+	}
+	heap = malloc(heap_limit * sizeof(t_heap*));
 	heap[0] = root;
 	++heap_size;
+	insert_hashmap(heap[0], hashmap);
 	while (heap[0]->heuristic != 0)
 	{
-		if ((get_inversion_arr(heap[0]->arr) + get_manhattan_distance(heap[0]->arr, heap[0]->empty_y, heap[0]->empty_x)) % 2 == 1)//can be optimized to O(n log n);
-			exit((write(2, INV_INPUT_MSG, 21), INV_INPUT_FLAG));
-		if (!traverse)
-			traverse = root;
-		else
-		{
-			traverse->next = heap[0];
-			traverse = traverse->next;// start is in the root
-		}
+		i++;
+		temp = heap[0];
 		delete_root(heap, heap_size);
 		--heap_size;
-		if (!(traverse->prev_oper & DOWN) && traverse->empty_y != 0)
-		{
-			if (heap_size == heap_limit - 1)
-			{
-				printf("HEAP SIZE IS NOT ENOUGH\n");
-				exit (0);
-			}
-			next_state = copy_state(traverse, UP);
-			change_state(next_state, UP);
-			if (next_state->heuristic == 0)
-			{
-				heap[heap_size] = heap[0];
-				heap[0] = next_state;
-				break ;
-			}
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(traverse->prev_oper & UP) && (traverse->empty_y != table_size - 1))
-		{
-			if (heap_size == heap_limit - 1)
-			{
-				printf("HEAP SIZE IS NOT ENOUGH\n");
-				exit (0);
-			}
-			next_state = copy_state(traverse, DOWN);
-			change_state(next_state, DOWN);
-			if (next_state->heuristic == 0)
-			{
-				heap[heap_size] = heap[0];
-				heap[0] = next_state;
-				break ;
-			}
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(traverse->prev_oper & RIGHT) && traverse->empty_x != 0)
-		{
-			if (heap_size == heap_limit - 1)
-			{
-				printf("HEAP SIZE IS NOT ENOUGH\n");
-				exit (0);
-			}
-			next_state = copy_state(traverse, LEFT);
-			change_state(next_state, LEFT);
-			if (next_state->heuristic == 0)
-			{
-				heap[heap_size] = heap[0];
-				heap[0] = next_state;
-				break ;
-			}
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		if (!(traverse->prev_oper & LEFT) && (traverse->empty_x != table_size - 1))
-		{
-			if (heap_size == heap_limit - 1)
-			{
-				printf("HEAP SIZE IS NOT ENOUGH\n");
-				exit (0);
-			}
-			next_state = copy_state(traverse, RIGHT);
-			change_state(next_state, RIGHT);
-			if (next_state->heuristic == 0)
-			{
-				heap[heap_size] = heap[0];
-				heap[0] = next_state;
-				break ;
-			}
-			insert_node(heap, next_state, heap_size);
-			++heap_size;
-		}
-		free_arr(traverse->arr);
+		if (!(temp->prev_oper & DOWN) && temp->empty_y != 0)
+			generate_next_state(temp, heap, hashmap, &heap_size, heap_limit, UP);
+		if (!(temp->prev_oper & UP) && (temp->empty_y != table_size - 1))
+			generate_next_state(temp, heap, hashmap, &heap_size, heap_limit, DOWN);
+		if (!(temp->prev_oper & RIGHT) && temp->empty_x != 0)
+			generate_next_state(temp, heap, hashmap, &heap_size, heap_limit, LEFT);
+		if (!(temp->prev_oper & LEFT) && (temp->empty_x != table_size - 1))
+			generate_next_state(temp, heap, hashmap, &heap_size, heap_limit, RIGHT);
 	}
-	exit_search(heap, root, heap_size);
+	exit_search(heap, hashmap);
 }
