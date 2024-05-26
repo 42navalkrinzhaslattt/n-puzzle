@@ -22,13 +22,14 @@
 # define OFFSET_BASIS_32  2166136261
 # define FNV_PRIME_32  16777619
 
-#include <unistd.h>
-#include <fcntl.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <stdint.h>
-#include <stddef.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include <stdlib.h>
+# include <string.h>
+# include <stdio.h>
+# include <stdint.h>
+# include <stddef.h>
+# include <ncurses.h>
 
 extern int		table_size;
 
@@ -57,6 +58,7 @@ void	print_arr(int **arr);
 void	parse_input(char *filename, t_queue *root);
 
 //heap.c
+void	print_grid(int **grid, int size, WINDOW *win);
 void	free_arr(int **arr);
 void	print_heap(t_heap **heap, int heap_size);
 void	exit_search(t_queue	**heap, t_heap **hashmap);

@@ -36,50 +36,7 @@ void	print_heap(t_heap **heap, int heap_size)
 	}
 }
 
-void	exit_search(t_queue	**heap, t_heap **hashmap)
-{
-//	t_heap *temp;
-//	t_heap *next;
-	t_heap *end;
-	char	res[100];
-	int		pos = 0;
 
-	end = heap[0];
-	while (end->depth >= 0)
-	{
-		if (end->prev_oper & UP)
-			res[pos++] = 'u';
-		else if (end->prev_oper & DOWN)
-			res[pos++] = 'd';
-		else if (end->prev_oper & RIGHT)
-			res[pos++] = 'r';
-		else if (end->prev_oper & LEFT)
-			res[pos++] = 'l';
-		if (end->depth == 0)
-			break ;
-		end = end->prev;
-	}
-	while (--pos >= 0)
-		putchar(res[pos]);
-	putchar('\n');
-	free(hashmap);
-	free(heap);
-	exit(0);
-//	for (int i = 0; i < HASH_SIZE_3; i++)
-//	{
-//		temp = hashmap[i];
-//		while (temp)
-//		{
-//			next = temp->next;
-//			free_arr(temp->arr);
-//			free(temp);
-//			temp = next;
-//		}
-//	}
-//	free(hashmap);
-//	free(heap);
-//	exit(0);
-}
 
 t_heap	*copy_state(t_heap *old, int operation)
 {
@@ -136,6 +93,168 @@ void	change_state(t_heap *new, int operation)
 	new->empty_x = x_swap;
 	new->empty_y = y_swap;
 	new->heuristic += get_manhattan_distance(arr, y_empty, x_empty) + get_manhattan_distance(arr, y_swap, x_swap) - old_distance;
+}
+
+void print_grid(int **grid, int size, WINDOW *win)
+{
+	int lin = 0, col = 0;
+	static int	save[2];
+
+	if (COLS < 42 || LINES < 30)
+	{
+		mvwprintw(win, 0, 0, "WINDOW IS TOO SMOL:(");
+		wrefresh(win);
+		return ;
+	}
+	for (int i = 0; i < size; i++)
+	{
+		lin = 4 * i + LINES / 2 - 4 * size / 2;
+		for (int j = 0; j < size; j++)
+		{
+			col = 6 * j + COLS / 2 - 4 * size / 2;
+			if (j == 0)
+				mvwprintw(win, lin, col - 3, "|");
+			for (int k = 0; k < size - 1; k++)
+			{
+				mvwprintw(win, lin - 2, col - 1 + k, "-");
+			}
+//                      init_pair(1, COLOR_RED, COLOR_BLACK);
+//                      wattron(win, COLOR_PAIR(1));
+			// mvwprintw(win, 5 * i + LINES / 2 - 5 * size / 2, 5 * j + COLS / 2 - 5 * size / 2, "%i", grid[i][j]);
+//			wattron(win, COLOR_PAIR(1));
+			mvwprintw(win, 4 * i + LINES / 2 - 4 * size / 2, 6 * j + COLS / 2 - 4 * size / 2, "%i", grid[i][j]);
+			if (grid[i][j] == 9)
+			{
+				mvwprintw(win, 4 * i + LINES / 2 - 4 * size / 2 - 1, 6 * j + COLS / 2 - 4 * size / 2, "-");
+				mvwprintw(win, 4 * i + LINES / 2 - 4 * size / 2 + 1, 6 * j + COLS / 2 - 4 * size / 2, "-");
+				mvwprintw(win, 4 * i + LINES / 2 - 4 * size / 2, 6 * j + COLS / 2 - 4 * size / 2 - 1, "|");
+				mvwprintw(win, 4 * i + LINES / 2 - 4 * size / 2, 6 * j + COLS / 2 - 4 * size / 2 + 1, "|");
+				if (save[0])
+				{
+					mvwprintw(win, save[0] - 1, save[1], " ");
+					mvwprintw(win, save[0] + 1, save[1], " ");
+					mvwprintw(win, save[0], save[1] - 1, " ");
+					mvwprintw(win, save[0], save[1] + 1, " ");
+				}
+				save[0] = 4 * i + LINES / 2 - 4 * size / 2;
+				save[1] = 6 * j + COLS / 2 - 4 * size / 2;
+			}
+//                      wattroff(win, COLOR_PAIR(1));
+			// if (j < size - 1)
+//			wattroff(win, COLOR_PAIR(1));
+			mvwprintw(win, lin, col + 3, "|");
+		}
+	}
+	for (int l = 0; l < size; l++) {
+		col = 6 * l + COLS / 2 - 4 * size / 2;
+		for (int k = 0; k < size - 1; k++)
+		{
+			mvwprintw(win, lin + 2, col - 1 + k, "-");
+		}
+	}
+	wrefresh(win);
+}
+
+int	**costyl(int **arr, int flag)
+{
+	int	**new = malloc(table_size * sizeof(int*));
+
+	for (int i = 0; i < table_size; i++)
+		new[i] = malloc(table_size * sizeof(int));
+	for (int i = 0; i < table_size; i++)
+	{
+		for (int j = 0; j < table_size; j++)
+		{
+			new[i][j] = arr[i][j];
+		}
+	}
+	if (flag == 'u')
+	{
+		new[table_size - 1][table_size - 1] = new[table_size - 2][table_size - 1];
+		new[table_size - 2][table_size - 1] = table_size * table_size;
+	}
+	else if (flag == 'l')
+	{
+		new[table_size - 1][table_size - 1] = new[table_size - 1][table_size - 2];
+		new[table_size - 1][table_size - 2] = table_size * table_size;
+	}
+	return (new);
+}
+
+void	exit_search(t_queue	**heap, t_heap **hashmap)
+{
+//	t_heap *temp;
+//	t_heap *next;
+	t_heap *end;
+	t_heap *save[10000];
+	char	res[100];
+	int		pos = 0;
+	WINDOW	*win;
+
+	initscr();
+	win = newwin(100, 100, 0, 0);
+	cbreak();
+	noecho();
+	curs_set(0);
+	set_escdelay(0);
+	keypad(win, TRUE);
+	end = heap[0];
+	while (end->depth >= 0)
+	{
+		if (end->prev_oper & UP)
+			res[pos++] = 'u';
+		else if (end->prev_oper & DOWN)
+			res[pos++] = 'd';
+		else if (end->prev_oper & RIGHT)
+			res[pos++] = 'r';
+		else if (end->prev_oper & LEFT)
+			res[pos++] = 'l';
+		save[pos - 1] = end;
+		if (end->depth == 0)
+			break ;
+		end = end->prev;
+	}
+	int	save_pos = pos;
+	--pos;
+	print_grid(save[pos]->arr, table_size, win);
+//	print_arr(save[pos]->arr);
+	usleep(1000000);
+//	print_arr(costyl(save[pos]->arr, res[pos]));
+	print_grid(costyl(save[pos]->arr, res[pos]), table_size, win);
+	usleep(1000000);
+
+	while (--pos >= 0)
+	{
+//		print_arr(save[pos]->arr);
+//		putchar(res[pos]);
+		print_grid(save[pos]->arr, table_size, win);
+//		putchar('\n');
+		usleep(1000000);
+	}
+	delwin(win);
+	endwin();
+	while (--save_pos >= 0)
+	{
+		putchar(res[save_pos]);
+	}
+//	putchar('\n');
+	free(hashmap);
+	free(heap);
+	exit(0);
+//	for (int i = 0; i < HASH_SIZE_3; i++)
+//	{
+//		temp = hashmap[i];
+//		while (temp)
+//		{
+//			next = temp->next;
+//			free_arr(temp->arr);
+//			free(temp);
+//			temp = next;
+//		}
+//	}
+//	free(hashmap);
+//	free(heap);
+//	exit(0);
 }
 
 int	check_heap(t_heap **heap, int heap_size)

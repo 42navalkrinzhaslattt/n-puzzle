@@ -20,7 +20,7 @@ RM	= rm -f
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -O3 -g -o $(NAME)
+	$(CC) $(CFLAGS) -lncurses $(OBJ) -O3 -g -o $(NAME)
 
 clean:
 	$(RM) $(OBJ)
